@@ -53,16 +53,16 @@ var projection = d3.geoMercator()
   .translate([width / 2, height / 2]);
 
 var data = d3.map();
+var data2 = d3.map();
 
 d3.queue()
   .defer(d3.json, "uk_la.geojson")
   .defer(d3.csv, "data.csv", function(d) {
-  		data.set(d.name, +d.rate_day); 
+  		data.set(d.name, [+d.rate_day, d.lockdown, d.cases_day, d.rate_week, d.trend]); 
   	})
   .await(ready);
 
 function ready(error, topo) {
-//	console.log(topo.features);
   $('.loading').hide();
   $('.legend').show();
   svg.append("g")
@@ -73,21 +73,48 @@ function ready(error, topo) {
       .attr("d", d3.geoPath()
         .projection(projection)
       )
-      .attr("stroke", "black")
+      .attr("stroke", function(d) {
+      	//"black"
+      	d.lockdown = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[1];
+      	if (d.lockdown == "Restricted" || d.lockdown == "Partly Restricted" || d.lockdown == "Significantly Restricted") {
+      		return "black";
+      	}
+      	else if (d.lockdown == "Area of Concern") {
+      		return "blue";
+      	}
+      	else {
+      		return "grey";
+      	}
+      })
       .attr("fill", function (d) {
         //d.total = data.get(d.properties.lad18nm) || "unavailable";
-        d.total = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm);
+        d.total = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[0];
         if (d.total < 1) { return "green";}
         else if (d.total < 10) {return "yellow";}
         else if (d.total < 25) {return "orange";}
         else if (d.total >= 25) {return "red";}
-        else {return "grey";}
+        else {return "silver";}
       })
-      .on("mouseover", function(d) {    
+      .on("mouseover", function(d) { 
+      		d.cases = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[2];
+      		d.trend = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[4];
+      		d.weekly = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[3];
+      		var mouseover_txt = d.properties.lad18nm + "<br/>";
+      		if (d.total == "unavailable") {
+      			mouseover_txt += "No Data Available";
+      		}   
+      		else {
+      			mouseover_txt = mouseover_txt + "Daily case rate per 100k: " + d.total + "<br/>" + "Weekly case rate per 100k: " + d.weekly ;
+      			if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
+      			else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
+      			else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
+      			mouseover_txt = mouseover_txt + "<br/>" + d.cases + " new cases "
+      		}
             div.transition()    
                 .duration(200)    
                 .style("opacity", .9);    
-            div .html(d.properties.lad18nm + "<br/>"  + d.total + " daily case rate per 100k")  
+            div .html(/*d.properties.lad18nm + "<br/>"  + d.total + " daily case rate per 100k" + "<br/>" + d.lockdown */
+            	mouseover_txt)  
                 .style("left", (d3.event.pageX) + "px")   
                 .style("top", (d3.event.pageY - 28) + "px");  
             })          
@@ -109,16 +136,20 @@ function ready(error, topo) {
 	svg.append("circle").attr("cx",275).attr("cy",150).attr("r", 6).style("fill", "yellow").attr("class", "legend")
 	svg.append("circle").attr("cx",275).attr("cy",170).attr("r", 6).style("fill", "orange").attr("class", "legend")
 	svg.append("circle").attr("cx",275).attr("cy",190).attr("r", 6).style("fill", "red").attr("class", "legend")
+	svg.append("rect").attr("x",275).attr("y",210).attr("width", 10).attr("height", 2).style("fill", "black").attr("class", "legend")
+	svg.append("rect").attr("x",275).attr("y",230).attr("width", 10).attr("height", 2).style("fill", "blue").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 130).text("On Track for Containment (<1 daily case per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 150).text("Community Spread (1-9 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 170).text("Accelerated Spread (10-24 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 190).text("Tipping Point (25+ daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+	svg.append("text").attr("x", 295).attr("y", 210).text("Severely Restricted, Restricted, or Partially Restricted").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+	svg.append("text").attr("x", 295).attr("y", 230).text("Area of Concern").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 
 
 </script>
 <body>
-	<div style="position:absolute;top:0px;"><strong>UK COVID-19 Risk Levels by Local Authority</strong> (Data updated 9 Sept 2020, provided by PHE)<br />
-	Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Key Metrics for COVID Supression </a> framework. Risk levels calculated based on daily cases per 100,000 population (7 day rolling average). Hover over an area for details.
+	<div style="position:absolute;top:0px;"><strong>UK COVID-19 Risk Levels by Local Authority</strong> (Data updated 9 Sept 2020, provided by PHE)<br /> </div>
+	<div style="position:absolute;top:20px;font-size:12px"> Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Key Metrics for COVID Supression </a> framework. Risk levels calculated based on daily cases per 100,000 population (7 day rolling average). Hover over an area for details.
 	</div>
 	<div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
 
