@@ -15,8 +15,8 @@
   }
   div.loading {   
   position: absolute;  
-  left: 200px;
-  top: 150px;         
+  left: 45%;
+  top: 30%;         
   text-align: center;           
   width: 125px;                  
   height: 50px;                 
@@ -26,13 +26,16 @@
   border-radius: 8px;  
   pointer-events: none;
 }
+.legend {
+	display:none;
+}
 </style>
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<svg id="dataviz" width="500" height="600"></svg>
+<div style="position:absolute; top:30px;"><svg id="dataviz" width="800" height="600"></svg></div>
 <script>
 
 var div = d3.select("body").append("div") 
@@ -40,8 +43,8 @@ var div = d3.select("body").append("div")
   .style("opacity", 0);
 
 var svg = d3.select("svg"),
-  width = +svg.attr("width"),
-  height = +svg.attr("height");
+  width = 500,
+  height = 600;
 
 var path = d3.geoPath();
 var projection = d3.geoMercator()
@@ -50,9 +53,6 @@ var projection = d3.geoMercator()
   .translate([width / 2, height / 2]);
 
 var data = d3.map();
-var colorScale = d3.scaleThreshold()
-  .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
-  .range(d3.schemeBlues[7]);
 
 d3.queue()
   .defer(d3.json, "uk_la.geojson")
@@ -64,6 +64,7 @@ d3.queue()
 function ready(error, topo) {
 //	console.log(topo.features);
   $('.loading').hide();
+  $('.legend').show();
   svg.append("g")
     .selectAll("path")
     .data(topo.features)
@@ -95,8 +96,21 @@ function ready(error, topo) {
                 .style("opacity", 0); 
         });
     }
+    svg.append("circle").attr("cx",275).attr("cy",130).attr("r", 6).style("fill", "green").attr("class", "legend")
+	svg.append("circle").attr("cx",275).attr("cy",150).attr("r", 6).style("fill", "yellow").attr("class", "legend")
+	svg.append("circle").attr("cx",275).attr("cy",170).attr("r", 6).style("fill", "orange").attr("class", "legend")
+	svg.append("circle").attr("cx",275).attr("cy",190).attr("r", 6).style("fill", "red").attr("class", "legend")
+	svg.append("text").attr("x", 295).attr("y", 130).text("On Track for Containment (<1 daily case per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+	svg.append("text").attr("x", 295).attr("y", 150).text("Community Spread (1-9 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+	svg.append("text").attr("x", 295).attr("y", 170).text("Accelerated Spread (10-24 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+	svg.append("text").attr("x", 295).attr("y", 190).text("Tipping Point (25+ daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+
 
 </script>
 <body>
+	<div style="position:absolute;top:0px;"><strong>UK COVID-19 Risk Levels by Local Authority</strong><br />
+	Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/">Key Metrics for COVID Supression </a> framework. Risk levels calculated based on daily cases per 100,000 population (7 day rolling average). Hover over an area for details. 
+	</div>
 	<div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
+
 </body>

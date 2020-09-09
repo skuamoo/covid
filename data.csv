@@ -38,6 +38,38 @@ West Lancashire,113949,8,37,4.64,32.47
 Wigan,326088,15,95,4.16,29.13
 Wirral,323235,20,173,7.65,53.52
 Wyre,111223,2,17,2.18,15.28
+Barking and Dagenham,211998,8,63,4.25,29.72
+Barnet,392140,16,100,3.64,25.5
+Bexley,247258,5,27,1.56,10.92
+Brent,330795,5,59,2.55,17.84
+Bromley,331096,13,51,2.2,15.4
+Camden,262226,8,36,1.96,13.73
+Croydon,385346,12,70,2.6,18.17
+Ealing,341982,9,71,2.97,20.76
+Enfield,333869,11,66,2.82,19.77
+Greenwich,286186,6,36,1.8,12.58
+Hackney and City of London,288371,12,56,2.77,19.42
+Hammersmith and Fulham,185426,9,49,3.78,26.43
+Haringey,270624,15,64,3.38,23.65
+Harrow,250149,9,68,3.88,27.18
+Havering,257810,17,75,4.16,29.09
+Hillingdon,304824,13,58,2.72,19.03
+Hounslow,270782,5,73,3.85,26.96
+Islington,239142,14,48,2.87,20.07
+Kensington and Chelsea,156197,11,53,4.85,33.93
+Kingston upon Thames,175470,6,24,1.95,13.68
+Lambeth,325917,11,71,3.11,21.78
+Lewisham,303536,6,47,2.21,15.48
+Merton,206186,4,27,1.87,13.09
+Newham,352005,19,106,4.3,30.11
+Redbridge,303858,14,93,4.37,30.61
+Richmond upon Thames,196904,7,35,2.54,17.78
+Southwark,317256,12,60,2.7,18.91
+Sutton,204525,5,24,1.68,11.73
+Tower Hamlets,317705,21,74,3.33,23.29
+Waltham Forest,276700,4,45,2.32,16.26
+Wandsworth,326474,14,63,2.76,19.3
+Westminster,255324,6,51,2.85,19.97
 County Durham,526980,18,141,3.82,26.76
 Darlington,106566,3,13,1.74,12.2
 Gateshead,202508,9,103,7.27,50.86
@@ -90,7 +122,6 @@ South Kesteven,141853,2,15,1.51,10.57
 South Northamptonshire,92515,1,10,1.54,10.81
 Wellingborough,79478,3,14,2.52,17.61
 West Lindsey,94869,3,14,2.11,14.76
-East of England,,,,,
 Babergh,91401,0,7,1.09,7.66
 Basildon,185862,5,28,2.15,15.06
 Bedford,171623,10,29,2.41,16.9
@@ -203,6 +234,7 @@ Woking,101167,1,18,2.54,17.79
 Wokingham,167979,0,18,1.53,10.72
 Worthing,110025,4,28,3.64,25.45
 Wycombe,174641,3,27,2.21,15.46
+Yorkshire and The Humber,,,,,
 Barnsley,245199,5,69,4.02,28.14
 Bradford,537173,64,396,10.53,73.72
 Calderdale,210082,9,81,5.51,38.56
@@ -258,7 +290,7 @@ Bath and North East Somerset,192106,4,26,1.93,13.53
 "Bournemouth, Christchurch and Poole",395784,12,54,1.95,13.64
 "Bristol, City of",463405,5,72,2.22,15.54
 Cheltenham,117090,1,11,1.34,9.39
-Cornwall and Isles of Scilly,568210,5,22,0.55,3.87
+Cornwall,568210,5,22,0.55,3.87
 Cotswold,89022,0,4,0.64,4.49
 Dorset,426516,9,37,1.24,8.67
 East Devon,144317,1,17,1.68,11.78
@@ -271,7 +303,7 @@ North Devon,96110,2,7,1.04,7.28
 North Somerset,213919,17,54,3.61,25.24
 Plymouth,263100,6,28,1.52,10.64
 Sedgemoor,122791,3,5,0.58,4.07
-Somerset West and Taunton,153866,4,8,0.74,5.2
+West Somerset,153866,4,8,0.74,5.2
 South Gloucestershire,282644,2,31,1.57,10.97
 South Hams,86221,0,7,1.16,8.12
 South Somerset,167861,0,14,1.19,8.34
@@ -283,7 +315,7 @@ Torbay,135780,3,10,1.05,7.36
 Torridge,68143,0,3,0.63,4.4
 West Devon,55528,0,1,0.26,1.8
 Wiltshire,498064,12,74,2.12,14.86
-Anglesey,70046,0,1,0.2,1.43
+Isle of Anglesey,70046,0,1,0.2,1.43
 Blaenau Gwent,69858,3,8,1.64,11.45
 Bridgend,147044,8,31,3.01,21.08
 Caerphilly,181080,44,153,12.07,84.49
@@ -308,10 +340,10 @@ Wrexham,135955,6,27,2.84,19.86
 Aberdeen City,227560,1,1,0.06,0.44
 Aberdeenshire,261470,4,4,0.22,1.53
 Angus,116040,1,1,0.12,0.86
-Argyll & Bute,86260,0,0,0,0
+Argyll and Bute,86260,0,0,0,0
 City of Edinburgh,518500,10,10,0.28,1.93
 Clackmannanshire,51400,1,1,0.28,1.95
-Dumfries & Galloway,148790,4,4,0.38,2.69
+Dumfries and Galloway,148790,4,4,0.38,2.69
 Dundee City,148750,2,2,0.19,1.34
 East Ayrshire,121840,1,1,0.12,0.82
 East Dunbartonshire,108330,7,7,0.92,6.46
@@ -328,7 +360,7 @@ Na h-Eileanan Siar,26830,0,0,0,0
 North Ayrshire,135280,5,5,0.53,3.7
 North Lanarkshire,340180,16,16,0.67,4.7
 Orkney Islands,22190,0,0,0,0
-Perth & Kinross,151290,1,1,0.09,0.66
+Perth and Kinross,151290,1,1,0.09,0.66
 Renfrewshire,177790,9,9,0.72,5.06
 Scottish Borders,115270,2,2,0.25,1.74
 Shetland Islands,22990,0,0,0,0
