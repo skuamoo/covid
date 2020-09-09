@@ -108,7 +108,7 @@ function ready(error, topo) {
       			if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
       			else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
       			else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
-      			mouseover_txt = mouseover_txt + "<br/>" + d.cases + " new cases" + "<br/>" + d.lockdown;
+      			mouseover_txt = mouseover_txt + "<br/>" + d.cases + " new cases today" + "<br/>" + d.lockdown;
       		}
             div.transition()    
                 .duration(200)    
