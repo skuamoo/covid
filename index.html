@@ -70,7 +70,7 @@ function ready(error, topo) {
             div.transition()    
                 .duration(200)    
                 .style("opacity", .9);    
-            div .html(d.properties.lad18nm + "<br/>"  + d.total + " cases/day")  
+            div .html(d.properties.lad18nm + "<br/>"  + d.total + " daily case rate per 100k")  
                 .style("left", (d3.event.pageX) + "px")   
                 .style("top", (d3.event.pageY - 28) + "px");  
             })          
