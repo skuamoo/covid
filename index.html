@@ -110,7 +110,7 @@ function ready(error, topo) {
             if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
             else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
             else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
-            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past 7 days:" + d.cases_week + "<br/><i>" + d.lockdown + "</i>";
+            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "</i>";
       		}
             div.transition()    
                 .duration(200)    
@@ -139,7 +139,7 @@ function ready(error, topo) {
       			if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
       			else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
       			else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
-      			mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past 7 days:" + d.cases_week + "<br/><i>" + d.lockdown + "</i>";
+      			mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "</i>";
       		}   
             div.transition()    
                 .duration(200)    
