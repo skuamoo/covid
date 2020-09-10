@@ -1,381 +1,382 @@
-name,pop,cases_day,cases_week,rate_day,rate_week,trend,deaths_day,deaths_week,death_rate,death_trend,lockdown
+name,pop,cases_day,cases_week,rate_day,rate_week,trend,deaths_day,"New Deaths
+Last 7 Days",Death Rate,Trend2,lockdown
 North West,,,,,,,,,,,
 Allerdale,"97,527",1,10,1.46,10.25,➖,,,-1.03,▼,No Action Required
-Barrow-in-Furness,"67,137",5,18,3.83,26.81,▲,,,-8.94,▼,No Action Required
-Blackburn with Darwen,"148,942",15,103,9.88,69.15,▲,,,0.67,▲,Restricted
-Blackpool,"139,305",3,28,2.87,20.10,▲,,,-17.23,▼,No Action Required
-Bolton,"285,372",47,386,19.32,135.26,▲,,,-12.26,▼,Significantly Restricted
-Burnley,"88,527",12,63,10.17,71.16,▲,,,-10.17,▼,Enhanced Support
-Bury,"190,108",16,120,9.02,63.12,▲,,,-14.73,▼,Restricted
-Carlisle,"108,387",1,12,1.58,11.07,▼,,,-12.92,▼,No Action Required
-Cheshire East,"380,790",10,84,3.15,22.06,▲,,,-16.54,▼,No Action Required
-Cheshire West and Chester,"340,502",8,60,2.52,17.62,▲,,,-15.57,▼,No Action Required
-Chorley,"116,821",4,25,3.06,21.40,▲,,,-16.26,▼,No Action Required
-Copeland,"68,424",0,2,0.42,2.92,➖,,,-16.08,▼,No Action Required
-Eden,"52,881",0,7,1.89,13.24,▲,,,-9.46,▼,No Action Required
-Fylde,"79,770",1,11,1.97,13.79,▲,,,-22.56,▼,No Action Required
-Halton,"128,432",4,39,4.34,30.37,▲,,,-5.45,▼,No Action Required
-Hyndburn,"80,815",2,47,8.31,58.16,▲,,,-7.42,▼,Enhanced Support
-Knowsley,"149,571",14,64,6.11,42.79,▲,,,-20.73,▼,No Action Required
-Lancaster,"144,246",1,19,1.88,13.17,▲,,,-9.71,▼,No Action Required
-Liverpool,"380,790",43,259,9.72,68.02,▲,,,-11.55,▼,No Action Required
-Manchester,"547,627",39,357,9.31,65.19,▲,,,-7.85,▼,Restricted
-Oldham,"235,623",17,137,8.31,58.14,▼,,,-14.01,▼,Restricted
-Pendle,"91,405",9,50,7.81,54.70,➖,,,-10.94,▼,Restricted
-Preston,"141,818",12,106,10.68,74.74,▲,,,-14.10,▼,Restricted
-Ribble Valley,"60,057",1,10,2.38,16.65,➖,,,-5.00,▼,No Action Required
-Rochdale,"220,001",11,134,8.70,60.91,▲,,,-12.27,▼,Restricted
-Rossendale,"70,895",1,27,5.44,38.08,▼,,,-2.82,▼,Enhanced Support
-Salford,"254,408",37,196,11.01,77.04,▲,,,-7.08,▼,Restricted
-Sefton,"275,396",11,92,4.77,33.41,▲,,,-13.07,▼,No Action Required
-South Lakeland,"104,532",3,14,1.91,13.39,▲,,,-17.22,▼,No Action Required
-South Ribble,"110,527",6,37,4.78,33.48,▲,,,-7.24,▼,No Action Required
-St. Helens,"180,049",19,75,5.95,41.66,▲,,,-14.44,▼,No Action Required
-Stockport,"291,775",16,82,4.01,28.10,▲,,,-15.08,▼,Enhanced Support
-Tameside,"225,197",20,160,10.15,71.05,▲,,,-4.00,▼,Restricted
-Trafford,"236,370",8,72,4.35,30.46,▲,,,-12.69,▼,Restricted
-Warrington,"209,547",23,108,7.36,51.54,▲,,,-12.41,▼,No Action Required
-West Lancashire,"113,949",7,42,5.27,36.86,▲,,,-11.41,▼,No Action Required
-Wigan,"326,088",12,103,4.51,31.59,▲,,,-13.49,▼,No Action Required
-Wirral,"323,235",32,183,8.09,56.62,▲,,,-17.63,▼,No Action Required
-Wyre,"111,223",6,21,2.70,18.88,▲,,,-7.19,▼,No Action Required
+Barrow-in-Furness,"67,137",1,16,3.40,23.83,▲,,,-8.94,▼,No Action Required
+Blackburn with Darwen,"148,942",25,98,9.40,65.80,▲,,,0.67,▲,Restricted
+Blackpool,"139,305",6,33,3.38,23.69,▲,,,-17.23,▼,No Action Required
+Bolton,"285,372",95,439,21.98,153.83,▲,,,-12.26,▼,Significantly Restricted
+Burnley,"88,527",15,68,10.97,76.81,▲,,,-10.17,▼,Enhanced Support
+Bury,"190,108",19,127,9.54,66.80,▲,,,-14.73,▼,Restricted
+Carlisle,"108,387",1,13,1.71,11.99,▲,,,-12.92,▼,No Action Required
+Cheshire East,"380,790",12,89,3.34,23.37,▲,,,-16.54,▼,No Action Required
+Cheshire West and Chester,"340,502",9,63,2.64,18.50,▲,,,-15.57,▼,No Action Required
+Chorley,"116,821",6,26,3.18,22.26,▲,,,-16.26,▼,No Action Required
+Copeland,"68,424",0,1,0.21,1.46,▼,,,-16.08,▼,No Action Required
+Eden,"52,881",0,5,1.35,9.46,▼,,,-9.46,▼,No Action Required
+Fylde,"79,770",2,12,2.15,15.04,▲,,,-22.56,▼,No Action Required
+Halton,"128,432",11,47,5.23,36.60,▲,,,-5.45,▼,No Action Required
+Hyndburn,"80,815",14,55,9.72,68.06,▲,,,-7.42,▼,Enhanced Support
+Knowsley,"149,571",17,81,7.74,54.15,▲,,,-20.73,▼,No Action Required
+Lancaster,"144,246",4,23,2.28,15.94,▲,,,-9.71,▼,No Action Required
+Liverpool,"380,790",58,299,11.22,78.52,▲,,,-11.55,▼,No Action Required
+Manchester,"547,627",58,373,9.73,68.11,▲,,,-7.85,▼,Restricted
+Oldham,"235,623",50,157,9.52,66.63,▲,,,-14.01,▼,Restricted
+Pendle,"91,405",7,51,7.97,55.80,▼,,,-10.94,▼,Restricted
+Preston,"141,818",23,116,11.68,81.79,▲,,,-14.10,▼,Restricted
+Ribble Valley,"60,057",0,9,2.14,14.99,➖,,,-5.00,▼,No Action Required
+Rochdale,"220,001",34,152,9.87,69.09,▲,,,-11.82,▼,Restricted
+Rossendale,"70,895",6,25,5.04,35.26,▼,,,-2.82,▼,Enhanced Support
+Salford,"254,408",31,211,11.85,82.94,▲,,,-6.29,▼,Restricted
+Sefton,"275,396",20,103,5.34,37.40,▲,,,-13.07,▼,No Action Required
+South Lakeland,"104,532",4,18,2.46,17.22,▲,,,-17.22,▼,No Action Required
+South Ribble,"110,527",14,46,5.95,41.62,▲,,,-7.24,▼,No Action Required
+St. Helens,"180,049",32,104,8.25,57.76,▲,,,-14.44,▼,No Action Required
+Stockport,"291,775",15,93,4.55,31.87,▲,,,-15.08,▼,Enhanced Support
+Tameside,"225,197",38,183,11.61,81.26,▲,,,-1.78,▼,Restricted
+Trafford,"236,370",19,83,5.02,35.11,▲,,,-12.27,▼,Restricted
+Warrington,"209,547",25,123,8.39,58.70,▲,,,-12.41,▼,No Action Required
+West Lancashire,"113,949",2,39,4.89,34.23,▲,,,-11.41,▼,No Action Required
+Wigan,"326,088",19,114,4.99,34.96,▲,,,-13.49,▼,No Action Required
+Wirral,"323,235",41,205,9.06,63.42,▲,,,-17.63,▼,No Action Required
+Wyre,"111,223",7,26,3.34,23.38,▲,,,-7.19,▼,No Action Required
 Greater London,,,,,,,,,,,
-Barking and Dagenham,"211,998",3,60,4.04,28.30,▲,,,-10.38,▼,No Action Required
-Barnet,"392,140",10,103,3.75,26.27,▲,,,-6.89,▼,No Action Required
-Bexley,"247,258",5,27,1.56,10.92,▼,,,-12.13,▼,No Action Required
-Brent,"330,795",15,63,2.72,19.05,▲,,,-9.07,▼,No Action Required
-Bromley,"331,096",7,56,2.42,16.91,▲,,,-11.48,▼,No Action Required
-Camden,"262,226",6,38,2.07,14.49,▲,,,-6.86,▼,No Action Required
-Croydon,"385,346",8,61,2.26,15.83,▲,,,-10.12,▼,No Action Required
-Ealing,"341,982",11,76,3.17,22.22,▲,,,-6.73,▼,No Action Required
-Enfield,"333,869",17,80,3.42,23.96,▲,,,-9.58,▼,No Action Required
-Greenwich,"286,186",2,35,1.75,12.23,▲,,,-6.64,▼,No Action Required
-Hackney and City of London,"288,371",8,61,3.02,21.15,▲,,,-3.12,▼,No Action Required
-Hammersmith and Fulham,"185,426",11,55,4.24,29.66,▲,,,-5.39,▼,No Action Required
-Haringey,"270,624",11,67,3.54,24.76,▲,,,-7.02,▼,No Action Required
-Harrow,"250,149",8,72,4.11,28.78,▲,,,-9.99,▼,No Action Required
-Havering,"257,810",16,84,4.65,32.58,▲,,,-7.76,▼,No Action Required
-Hillingdon,"304,824",10,62,2.91,20.34,▲,,,-6.89,▼,No Action Required
-Hounslow,"270,782",25,88,4.64,32.50,▲,,,-10.34,▼,No Action Required
-Islington,"239,142",10,53,3.17,22.16,▲,,,-5.44,▼,No Action Required
-Kensington and Chelsea,"156,197",6,58,5.30,37.13,▲,,,-6.40,▼,No Action Required
-Kingston upon Thames,"175,470",3,22,1.79,12.54,➖,,,-6.84,▼,No Action Required
-Lambeth,"325,917",14,82,3.59,25.16,▲,,,-11.35,▼,No Action Required
-Lewisham,"303,536",6,49,2.31,16.14,▲,,,-11.20,▼,No Action Required
-Merton,"206,186",5,26,1.80,12.61,▲,,,-9.21,▼,No Action Required
-Newham,"352,005",15,112,4.55,31.82,▲,,,-4.55,▼,No Action Required
-Redbridge,"303,858",11,97,4.56,31.92,▲,,,-5.92,▼,No Action Required
-Richmond upon Thames,"196,904",6,33,2.39,16.76,▲,,,-9.65,▼,No Action Required
-Southwark,"317,256",12,70,3.15,22.06,▲,,,-13.24,▼,No Action Required
-Sutton,"204,525",2,24,1.68,11.73,▲,,,-9.78,▼,No Action Required
-Tower Hamlets,"317,705",16,86,3.87,27.07,▲,,,-2.52,▼,No Action Required
-Waltham Forest,"276,700",8,42,2.17,15.18,▲,,,-11.56,▼,No Action Required
-Wandsworth,"326,474",17,71,3.11,21.75,▲,,,-8.27,▼,No Action Required
-Westminster,"255,324",11,55,3.08,21.54,▲,,,-7.44,▼,No Action Required
+Barking and Dagenham,"211,998",10,62,4.18,29.25,▲,,,-10.38,▼,No Action Required
+Barnet,"392,140",14,99,3.61,25.25,▲,,,-6.89,▼,No Action Required
+Bexley,"247,258",6,27,1.56,10.92,▲,,,-12.13,▼,No Action Required
+Brent,"330,795",5,62,2.68,18.74,▲,,,-9.07,▼,No Action Required
+Bromley,"331,096",4,54,2.33,16.31,▲,,,-11.48,▼,No Action Required
+Camden,"262,226",8,43,2.34,16.40,▲,,,-6.86,▼,No Action Required
+Croydon,"385,346",5,60,2.22,15.57,▼,,,-10.12,▼,No Action Required
+Ealing,"341,982",22,90,3.76,26.32,▲,,,-6.73,▼,No Action Required
+Enfield,"333,869",17,89,3.81,26.66,▲,,,-9.58,▼,No Action Required
+Greenwich,"286,186",4,35,1.75,12.23,➖,,,-6.64,▼,No Action Required
+Hackney and City of London,"288,371",10,66,3.27,22.89,▲,,,-3.12,▼,No Action Required
+Hammersmith and Fulham,"185,426",10,60,4.62,32.36,▲,,,-5.39,▼,No Action Required
+Haringey,"270,624",15,74,3.91,27.34,▲,,,-7.02,▼,No Action Required
+Harrow,"250,149",9,74,4.23,29.58,▲,,,-9.99,▼,No Action Required
+Havering,"257,810",8,86,4.77,33.36,▲,,,-7.76,▼,No Action Required
+Hillingdon,"304,824",12,69,3.23,22.64,▲,,,-6.89,▼,No Action Required
+Hounslow,"270,782",5,79,4.17,29.17,▲,,,-10.34,▼,No Action Required
+Islington,"239,142",7,59,3.52,24.67,▲,,,-5.44,▼,No Action Required
+Kensington and Chelsea,"156,197",3,49,4.48,31.37,➖,,,-6.40,▼,No Action Required
+Kingston upon Thames,"175,470",3,22,1.79,12.54,▼,,,-6.84,▼,No Action Required
+Lambeth,"325,917",13,93,4.08,28.53,▲,,,-11.35,▼,No Action Required
+Lewisham,"303,536",6,50,2.35,16.47,▲,,,-11.20,▼,No Action Required
+Merton,"206,186",3,23,1.59,11.15,▼,,,-9.21,▼,No Action Required
+Newham,"352,005",16,119,4.83,33.81,▲,,,-4.26,▼,No Action Required
+Redbridge,"303,858",30,114,5.36,37.52,▲,,,-5.92,▼,No Action Required
+Richmond upon Thames,"196,904",7,40,2.90,20.31,▲,,,-9.65,▼,No Action Required
+Southwark,"317,256",7,67,3.02,21.12,▲,,,-13.24,▼,No Action Required
+Sutton,"204,525",6,27,1.89,13.20,▲,,,-9.78,▼,No Action Required
+Tower Hamlets,"317,705",8,84,3.78,26.44,▲,,,-2.52,▼,No Action Required
+Waltham Forest,"276,700",6,44,2.27,15.90,▼,,,-11.56,▼,No Action Required
+Wandsworth,"326,474",17,80,3.50,24.50,▲,,,-8.27,▼,No Action Required
+Westminster,"255,324",8,56,3.13,21.93,▲,,,-7.44,▼,No Action Required
 North East,,,,,,,,,,,
-County Durham,"526,980",35,165,4.47,31.31,▲,,,-11.58,▼,No Action Required
-Darlington,"106,566",6,19,2.55,17.83,▲,,,-15.95,▼,No Action Required
-Gateshead,"202,508",24,114,8.04,56.29,▲,,,-16.79,▼,No Action Required
-Hartlepool,"93,242",11,48,7.35,51.48,▲,,,-7.51,▼,No Action Required
-Middlesbrough,"140,545",15,58,5.90,41.27,▼,,,-19.21,▼,Area of Concern
-Newcastle upon Tyne,"300,196",28,147,7.00,48.97,▲,,,-11.99,▼,No Action Required
-North Tyneside,"205,985",11,70,4.85,33.98,▲,,,-8.74,▼,No Action Required
-Northumberland,"320,274",8,64,2.85,19.98,▼,,,-8.74,▼,No Action Required
-Redcar and Cleveland,"136,718",10,34,3.55,24.87,▲,,,-11.70,▼,No Action Required
-South Tyneside,"150,265",16,78,7.42,51.91,▲,,,-9.98,▼,Area of Concern
-Stockton-on-Tees,"197,213",8,46,3.33,23.33,▼,,,-11.66,▼,No Action Required
-Sunderland,"277,417",44,209,10.76,75.34,▲,,,-13.34,▼,No Action Required
+County Durham,"526,980",39,200,5.42,37.95,▲,,,-11.58,▼,No Action Required
+Darlington,"106,566",3,20,2.68,18.77,▲,,,-15.95,▼,No Action Required
+Gateshead,"202,508",17,120,8.47,59.26,▲,,,-16.79,▼,No Action Required
+Hartlepool,"93,242",7,51,7.81,54.70,▲,,,-7.51,▼,No Action Required
+Middlesbrough,"140,545",11,64,6.51,45.54,▼,,,-19.21,▼,Area of Concern
+Newcastle upon Tyne,"300,196",36,175,8.33,58.30,▲,,,-11.99,▼,No Action Required
+North Tyneside,"205,985",23,85,5.90,41.27,▲,,,-8.74,▼,No Action Required
+Northumberland,"320,274",6,62,2.77,19.36,▼,,,-8.74,▼,No Action Required
+Redcar and Cleveland,"136,718",7,37,3.87,27.06,▲,,,-11.70,▼,No Action Required
+South Tyneside,"150,265",10,85,8.08,56.57,▲,,,-9.98,▼,Area of Concern
+Stockton-on-Tees,"197,213",12,44,3.19,22.31,▼,,,-11.66,▼,No Action Required
+Sunderland,"277,417",32,239,12.31,86.15,▲,,,-13.34,▼,No Action Required
 East Midlands,,,,,,,,,,,
-Amber Valley,"126,678",3,15,1.69,11.84,▲,,,-11.05,▼,No Action Required
-Ashfield,"127,151",2,28,3.15,22.02,▲,,,-14.16,▼,No Action Required
-Bassetlaw,"116,839",2,15,1.83,12.84,▲,,,-7.70,▼,No Action Required
-Blaby,"100,421",8,54,7.68,53.77,▲,,,-6.97,▼,No Action Required
-Bolsover,"79,530",0,12,2.16,15.09,➖,,,-6.29,▼,No Action Required
-Boston,"69,366",0,2,0.41,2.88,▲,,,-14.42,▼,No Action Required
-Broxtowe,"113,272",7,44,5.55,38.84,▲,,,-13.24,▼,No Action Required
-Charnwood,"182,643",13,41,3.21,22.45,▲,,,-8.21,▼,No Action Required
-Chesterfield,"104,628",2,14,1.91,13.38,▲,,,-6.69,▼,No Action Required
-Corby,"70,827",7,39,7.87,55.06,▲,,,-16.94,▼,Area of Concern
-Daventry,"84,484",1,11,1.86,13.02,▲,,,-8.29,▼,No Action Required
-Derby,"257,174",3,42,2.33,16.33,▲,,,-12.05,▼,No Action Required
-Derbyshire Dales,"71,977",0,6,1.19,8.34,▲,,,-13.89,▼,No Action Required
-East Lindsey,"140,741",1,11,1.12,7.82,▲,,,-4.97,▼,No Action Required
-East Northamptonshire,"93,906",0,20,3.04,21.30,▲,,,-11.71,▼,No Action Required
-Erewash,"115,490",2,14,1.73,12.12,▲,,,-8.66,▼,No Action Required
-Gedling,"117,786",3,16,1.94,13.58,▲,,,-14.43,▼,No Action Required
-Harborough,"92,499",1,19,2.93,20.54,▲,,,-12.97,▼,No Action Required
-High Peak,"92,221",3,23,3.56,24.94,▲,,,-11.93,▼,No Action Required
-Hinckley and Bosworth,"112,423",6,16,2.03,14.23,▲,,,-9.78,▼,No Action Required
-Kettering,"101,266",8,33,4.66,32.59,▲,,,-15.80,▼,Area of Concern
-Leicester,"355,218",34,202,8.12,56.87,▲,,,-8.45,▼,Restricted
-Lincoln,"99,039",2,34,4.90,34.33,▲,,,-4.04,▼,No Action Required
-Mansfield,"108,841",2,26,3.41,23.89,▲,,,0.00,➖,No Action Required
-Melton,"51,100",2,15,4.19,29.35,▲,,,3.91,▲,No Action Required
-Newark and Sherwood,"121,566",8,18,2.12,14.81,▲,,,-4.11,▼,No Action Required
-North East Derbyshire,"101,125",3,18,2.54,17.80,▲,,,-20.77,▼,No Action Required
-North Kesteven,"115,985",4,25,3.08,21.55,▲,,,-3.45,▼,No Action Required
-North West Leicestershire,"102,126",0,13,1.82,12.73,▼,,,-7.83,▼,No Action Required
-Northampton,"225,146",8,70,4.44,31.09,▲,,,-15.10,▼,Enhanced Support
-Nottingham,"331,069",20,96,4.14,29.00,▲,,,-6.95,▼,No Action Required
-Oadby and Wigston,"57,056",2,30,7.51,52.58,▲,,,-10.52,▼,Area of Concern
-Rushcliffe,"117,671",5,26,3.16,22.10,▲,,,-5.10,▼,No Action Required
-Rutland,"39,697",3,4,1.44,10.08,▲,,,-5.04,▼,No Action Required
-South Derbyshire,"104,493",5,20,2.73,19.14,▲,,,-10.53,▼,No Action Required
+Amber Valley,"126,678",3,18,2.03,14.21,▲,,,-11.05,▼,No Action Required
+Ashfield,"127,151",7,32,3.60,25.17,▲,,,-14.16,▼,No Action Required
+Bassetlaw,"116,839",3,17,2.08,14.55,▲,,,-7.70,▼,No Action Required
+Blaby,"100,421",5,55,7.82,54.77,▲,,,-6.97,▼,No Action Required
+Bolsover,"79,530",5,15,2.69,18.86,▲,,,-6.29,▼,No Action Required
+Boston,"69,366",0,2,0.41,2.88,▼,,,-14.42,▼,No Action Required
+Broxtowe,"113,272",4,38,4.79,33.55,▼,,,-13.24,▼,No Action Required
+Charnwood,"182,643",5,44,3.44,24.09,▲,,,-8.21,▼,No Action Required
+Chesterfield,"104,628",4,18,2.46,17.20,▲,,,-6.69,▼,No Action Required
+Corby,"70,827",4,39,7.87,55.06,▲,,,-16.94,▼,Area of Concern
+Daventry,"84,484",2,11,1.86,13.02,▲,,,-8.29,▼,No Action Required
+Derby,"257,174",4,44,2.44,17.11,▲,,,-12.05,▼,No Action Required
+Derbyshire Dales,"71,977",0,5,0.99,6.95,▼,,,-13.89,▼,No Action Required
+East Lindsey,"140,741",3,14,1.42,9.95,▲,,,-4.97,▼,No Action Required
+East Northamptonshire,"93,906",1,17,2.59,18.10,➖,,,-11.71,▼,No Action Required
+Erewash,"115,490",3,17,2.10,14.72,▲,,,-8.66,▼,No Action Required
+Gedling,"117,786",3,18,2.18,15.28,▲,,,-14.43,▼,No Action Required
+Harborough,"92,499",1,18,2.78,19.46,▲,,,-12.97,▼,No Action Required
+High Peak,"92,221",2,22,3.41,23.86,▲,,,-11.93,▼,No Action Required
+Hinckley and Bosworth,"112,423",1,17,2.16,15.12,▲,,,-9.78,▼,No Action Required
+Kettering,"101,266",5,34,4.80,33.57,▲,,,-15.80,▼,Area of Concern
+Leicester,"355,218",37,220,8.85,61.93,▲,,,-8.16,▼,Restricted
+Lincoln,"99,039",4,36,5.19,36.35,▼,,,-4.04,▼,No Action Required
+Mansfield,"108,841",6,31,4.07,28.48,▲,,,0.00,➖,No Action Required
+Melton,"51,100",1,14,3.91,27.40,➖,,,3.91,▲,No Action Required
+Newark and Sherwood,"121,566",5,21,2.47,17.27,▲,,,-4.11,▼,No Action Required
+North East Derbyshire,"101,125",3,17,2.40,16.81,▲,,,-20.77,▼,No Action Required
+North Kesteven,"115,985",5,29,3.57,25.00,▲,,,-3.45,▼,No Action Required
+North West Leicestershire,"102,126",2,14,1.96,13.71,▼,,,-7.83,▼,No Action Required
+Northampton,"225,146",22,86,5.46,38.20,▲,,,-15.10,▼,Enhanced Support
+Nottingham,"331,069",9,99,4.27,29.90,▲,,,-6.95,▼,No Action Required
+Oadby and Wigston,"57,056",5,35,8.76,61.34,▲,,,-10.52,▼,Area of Concern
+Rushcliffe,"117,671",2,25,3.04,21.25,▲,,,-5.10,▼,No Action Required
+Rutland,"39,697",0,4,1.44,10.08,▲,,,-5.04,▼,No Action Required
+South Derbyshire,"104,493",3,22,3.01,21.05,▲,,,-10.53,▼,No Action Required
 South Holland,"93,980",0,3,0.46,3.19,▲,,,-15.96,▼,No Action Required
-South Kesteven,"141,853",3,18,1.81,12.69,▲,,,-8.46,▼,No Action Required
-South Northamptonshire,"92,515",2,11,1.70,11.89,▲,,,-12.97,▼,No Action Required
-Wellingborough,"79,478",3,17,3.06,21.39,▲,,,-10.07,▼,No Action Required
-West Lindsey,"94,869",2,12,1.81,12.65,▲,,,-4.22,▼,No Action Required
+South Kesteven,"141,853",3,19,1.91,13.39,▲,,,-8.46,▼,No Action Required
+South Northamptonshire,"92,515",1,10,1.54,10.81,▼,,,-12.97,▼,No Action Required
+Wellingborough,"79,478",3,19,3.42,23.91,▲,,,-10.07,▼,No Action Required
+West Lindsey,"94,869",3,15,2.26,15.81,▲,,,-4.22,▼,No Action Required
 East of England,,,,,,,,,,,
-Babergh,"91,401",1,7,1.09,7.66,▲,,,-4.38,▼,No Action Required
-Basildon,"185,862",5,30,2.31,16.14,▲,,,-9.68,▼,No Action Required
-Bedford,"171,623",11,38,3.16,22.14,▲,,,-11.65,▼,No Action Required
-Braintree,"151,561",0,9,0.85,5.94,▲,,,-9.24,▼,No Action Required
-Breckland,"139,329",0,13,1.33,9.33,▼,,,-7.89,▼,Enhanced Support
-Brentwood,"76,550",2,12,2.24,15.68,▲,,,-13.06,▼,No Action Required
-Broadland,"129,464",1,5,0.55,3.86,▲,,,-13.90,▼,Enhanced Support
-Broxbourne,"96,876",1,14,2.06,14.45,▼,,,-6.19,▼,No Action Required
-Cambridge,"125,758",2,19,2.16,15.11,▲,,,-6.36,▼,No Action Required
-Castle Point,"90,070",1,8,1.27,8.88,▼,,,-5.55,▼,No Action Required
-Central Bedfordshire,"283,606",2,25,1.26,8.82,➖,,,-6.35,▼,No Action Required
-Chelmsford,"177,079",4,18,1.45,10.16,▲,,,-10.16,▼,No Action Required
-Colchester,"192,523",4,7,0.52,3.64,▼,,,-8.83,▼,No Action Required
-Dacorum,"154,280",2,18,1.67,11.67,▼,,,-6.48,▼,No Action Required
+Babergh,"91,401",2,9,1.41,9.85,▲,,,-4.38,▼,No Action Required
+Basildon,"185,862",8,32,2.46,17.22,▲,,,-9.68,▼,No Action Required
+Bedford,"171,623",6,36,3.00,20.98,▲,,,-11.65,▼,No Action Required
+Braintree,"151,561",5,10,0.94,6.60,▲,,,-9.24,▼,No Action Required
+Breckland,"139,329",8,16,1.64,11.48,▼,,,-7.89,▼,Enhanced Support
+Brentwood,"76,550",2,15,2.80,19.60,▲,,,-13.06,▼,No Action Required
+Broadland,"129,464",5,9,0.99,6.95,▲,,,-13.90,▼,Enhanced Support
+Broxbourne,"96,876",2,13,1.92,13.42,▼,,,-6.19,▼,No Action Required
+Cambridge,"125,758",1,19,2.16,15.11,▲,,,-6.36,▼,No Action Required
+Castle Point,"90,070",3,8,1.27,8.88,▼,,,-5.55,▼,No Action Required
+Central Bedfordshire,"283,606",4,24,1.21,8.46,▼,,,-6.35,▼,No Action Required
+Chelmsford,"177,079",2,19,1.53,10.73,▲,,,-10.16,▼,No Action Required
+Colchester,"192,523",2,10,0.74,5.19,▲,,,-8.83,▼,No Action Required
+Dacorum,"154,280",4,20,1.85,12.96,➖,,,-6.48,▼,No Action Required
 East Cambridgeshire,"89,362",0,1,0.16,1.12,➖,,,-7.83,▼,No Action Required
-East Hertfordshire,"148,105",1,10,0.96,6.75,➖,,,-9.45,▼,No Action Required
-East Suffolk,"248,249",2,14,0.81,5.64,▼,,,-8.86,▼,No Action Required
-Epping Forest,"131,137",1,18,1.96,13.73,▼,,,-12.20,▼,No Action Required
-Fenland,"101,491",2,3,0.42,2.96,▼,,,-8.87,▼,No Action Required
-Great Yarmouth,"99,370",0,16,2.30,16.10,▼,,,-6.04,▼,Enhanced Support
-Harlow,"86,594",0,3,0.49,3.46,▼,,,-8.08,▼,No Action Required
-Hertsmere,"104,205",9,58,7.95,55.66,▼,,,-11.52,▼,No Action Required
-Huntingdonshire,"177,352",0,6,0.48,3.38,▼,,,-12.97,▼,No Action Required
-Ipswich,"137,532",1,12,1.25,8.73,▲,,,-9.45,▼,No Action Required
-King's Lynn and West Norfolk,"151,811",1,5,0.47,3.29,▲,,,-7.90,▼,Enhanced Support
-Luton,"214,109",10,56,3.74,26.15,▲,,,-12.14,▼,Area of Concern
-Maldon,"64,425",0,4,0.89,6.21,▲,,,-6.21,▼,No Action Required
-Mid Suffolk,"102,493",3,6,0.84,5.85,▼,,,-4.88,▼,No Action Required
-North Hertfordshire,"133,214",5,23,2.47,17.27,▲,,,-9.76,▼,No Action Required
-North Norfolk,"104,552",0,2,0.27,1.91,➖,,,-5.74,▼,Enhanced Support
-Norwich,"141,137",1,15,1.52,10.63,▼,,,-2.83,▼,Enhanced Support
-Peterborough,"201,041",15,60,4.26,29.84,▲,,,-9.45,▼,Area of Concern
-Rochford,"86,981",0,5,0.82,5.75,▲,,,-6.90,▼,No Action Required
-South Cambridgeshire,"157,519",0,14,1.27,8.89,▲,,,-3.81,▼,No Action Required
-South Norfolk,"138,017",1,7,0.72,5.07,▼,,,-5.07,▼,Enhanced Support
-Southend-On-Sea,"182,463",2,19,1.49,10.41,▲,,,-12.61,▼,No Action Required
-St Albans,"147,373",1,27,2.62,18.32,▲,,,-6.79,▼,No Action Required
-Stevenage,"87,754",2,15,2.44,17.09,➖,,,-11.40,▼,No Action Required
-Tendring,"145,803",0,3,0.29,2.06,➖,,,-18.52,▼,No Action Required
-Three Rivers,"93,045",2,17,2.61,18.27,➖,,,-3.22,▼,No Action Required
-Thurrock,"172,525",1,18,1.49,10.43,▲,,,-8.69,▼,No Action Required
-Uttlesford,"89,179",1,20,3.20,22.43,▲,,,-11.21,▼,No Action Required
-Watford,"96,767",5,28,4.13,28.94,▲,,,-8.27,▼,No Action Required
-Welwyn Hatfield,"122,746",6,24,2.79,19.55,▲,,,-8.15,▼,No Action Required
-West Suffolk,"178,881",5,27,2.16,15.09,▲,,,-3.91,▼,No Action Required
+East Hertfordshire,"148,105",4,14,1.35,9.45,▲,,,-9.45,▼,No Action Required
+East Suffolk,"248,249",4,18,1.04,7.25,▲,,,-8.86,▼,No Action Required
+Epping Forest,"131,137",0,15,1.63,11.44,▼,,,-12.20,▼,No Action Required
+Fenland,"101,491",2,6,0.84,5.91,▲,,,-8.87,▼,No Action Required
+Great Yarmouth,"99,370",0,15,2.16,15.10,▼,,,-6.04,▼,Enhanced Support
+Harlow,"86,594",2,5,0.82,5.77,▲,,,-8.08,▼,No Action Required
+Hertsmere,"104,205",0,52,7.13,49.90,▼,,,-11.52,▼,No Action Required
+Huntingdonshire,"177,352",8,13,1.05,7.33,▲,,,-12.97,▼,No Action Required
+Ipswich,"137,532",0,8,0.83,5.82,▼,,,-9.45,▼,No Action Required
+King's Lynn and West Norfolk,"151,811",4,8,0.75,5.27,▲,,,-7.90,▼,Enhanced Support
+Luton,"214,109",9,52,3.47,24.29,▲,,,-12.14,▼,Area of Concern
+Maldon,"64,425",2,5,1.11,7.76,▲,,,-6.21,▼,No Action Required
+Mid Suffolk,"102,493",2,8,1.12,7.81,▼,,,-4.88,▼,No Action Required
+North Hertfordshire,"133,214",4,25,2.68,18.77,▲,,,-9.76,▼,No Action Required
+North Norfolk,"104,552",2,4,0.55,3.83,▲,,,-5.74,▼,Enhanced Support
+Norwich,"141,137",1,13,1.32,9.21,▼,,,-2.83,▼,Enhanced Support
+Peterborough,"201,041",9,60,4.26,29.84,▲,,,-9.45,▼,Area of Concern
+Rochford,"86,981",2,6,0.99,6.90,▲,,,-6.90,▼,No Action Required
+South Cambridgeshire,"157,519",8,21,1.90,13.33,▲,,,-3.17,▼,No Action Required
+South Norfolk,"138,017",2,8,0.83,5.80,▼,,,-5.07,▼,Enhanced Support
+Southend-On-Sea,"182,463",8,25,1.96,13.70,▲,,,-12.61,▼,No Action Required
+St Albans,"147,373",9,32,3.10,21.71,▲,,,-6.79,▼,No Action Required
+Stevenage,"87,754",6,20,3.26,22.79,▲,,,-11.40,▼,No Action Required
+Tendring,"145,803",1,4,0.39,2.74,▲,,,-18.52,▼,No Action Required
+Three Rivers,"93,045",3,20,3.07,21.49,▲,,,-3.22,▼,No Action Required
+Thurrock,"172,525",1,16,1.32,9.27,▼,,,-8.69,▼,No Action Required
+Uttlesford,"89,179",3,20,3.20,22.43,▲,,,-11.21,▼,No Action Required
+Watford,"96,767",1,26,3.84,26.87,▲,,,-8.27,▼,No Action Required
+Welwyn Hatfield,"122,746",10,33,3.84,26.88,▲,,,-8.15,▼,No Action Required
+West Suffolk,"178,881",3,29,2.32,16.21,▲,,,-3.91,▼,No Action Required
 South East,,,,,,,,,,,
-Adur,"63,869",-2,7,1.57,10.96,▼,,,-6.26,▼,No Action Required
-Arun,"159,827",3,22,1.97,13.76,▲,,,-7.51,▼,No Action Required
-Ashford,"129,281",1,5,0.55,3.87,➖,,,-14.70,▼,No Action Required
-Aylesbury Vale,"199,448",2,14,1.00,7.02,▼,,,-7.02,▼,No Action Required
-Basingstoke and Deane,"175,729",3,11,0.89,6.26,➖,,,-9.67,▼,No Action Required
+Adur,"63,869",3,10,2.24,15.66,▼,,,-6.26,▼,No Action Required
+Arun,"159,827",5,24,2.15,15.02,▲,,,-7.51,▼,No Action Required
+Ashford,"129,281",1,6,0.66,4.64,▲,,,-14.70,▼,No Action Required
+Aylesbury Vale,"199,448",3,17,1.22,8.52,▲,,,-7.02,▼,No Action Required
+Basingstoke and Deane,"175,729",2,11,0.89,6.26,➖,,,-9.67,▼,No Action Required
 Bracknell Forest,"121,676",4,23,2.70,18.90,▲,,,-5.75,▼,No Action Required
-Brighton and Hove,"290,395",6,35,1.72,12.05,▲,,,-6.54,▼,No Action Required
-Canterbury,"164,553",1,11,0.95,6.68,▲,,,-9.12,▼,No Action Required
-Cherwell,"149,161",1,14,1.34,9.39,▲,,,-5.36,▼,No Action Required
-Chichester,"120,750",2,18,2.13,14.91,▲,,,-3.31,▼,No Action Required
-Chiltern,"95,927",5,23,3.43,23.98,➖,,,-9.38,▼,No Action Required
-Crawley,"112,448",4,9,1.14,8.00,▲,,,-12.45,▼,No Action Required
-Dartford,"109,709",3,5,0.65,4.56,▲,,,-14.58,▼,No Action Required
-Dover,"116,969",4,13,1.59,11.11,▲,,,-9.40,▼,No Action Required
-East Hampshire,"120,681",3,13,1.54,10.77,▼,,,-11.60,▼,No Action Required
-Eastbourne,"103,160",4,11,1.52,10.66,▲,,,-8.72,▼,No Action Required
-Eastleigh,"131,819",0,8,0.87,6.07,▲,,,-6.07,▼,No Action Required
-Elmbridge,"136,626",5,31,3.24,22.69,▲,,,-10.25,▼,No Action Required
-Epsom and Ewell,"79,928",3,14,2.50,17.52,▲,,,-8.76,▼,No Action Required
-Fareham,"116,339",4,12,1.47,10.31,▲,,,-12.89,▼,No Action Required
-Folkestone and Hythe,"112,578",2,11,1.40,9.77,▲,,,-10.66,▼,No Action Required
-Gosport,"85,283",2,5,0.84,5.86,▲,,,-12.90,▼,No Action Required
-Gravesham,"106,385",5,12,1.61,11.28,▼,,,-3.76,▼,No Action Required
-Guildford,"147,889",2,17,1.64,11.50,▲,,,-6.09,▼,No Action Required
-Hart,"96,293",1,7,1.04,7.27,➖,,,-7.27,▼,No Action Required
-Hastings,"92,855",2,11,1.69,11.85,▼,,,0.00,➖,No Action Required
-Havant,"125,813",0,3,0.34,2.38,▲,,,-12.72,▼,No Action Required
-Horsham,"142,217",4,16,1.61,11.25,▲,,,-10.55,▼,No Action Required
-Isle of Wight,"141,538",1,8,0.81,5.65,▲,,,-9.89,▼,No Action Required
-Lewes,"102,744",2,10,1.39,9.73,▲,,,-11.68,▼,No Action Required
-Maidstone,"169,955",1,15,1.26,8.83,▲,,,-7.65,▼,No Action Required
-Medway,"277,855",2,17,0.87,6.12,▲,,,-11.16,▼,No Action Required
-Mid Sussex,"149,716",2,18,1.72,12.02,▲,,,-11.35,▼,No Action Required
-Milton Keynes,"268,607",9,42,2.23,15.64,▲,,,-5.96,▼,No Action Required
-Mole Valley,"87,253",1,6,0.98,6.88,▼,,,-11.46,▼,No Action Required
-New Forest,"179,753",7,38,3.02,21.14,▲,,,-3.34,▼,No Action Required
-Oxford,"154,327",2,37,3.43,23.98,▲,,,-3.24,▼,No Action Required
-Portsmouth,"215,133",10,24,1.59,11.16,▲,,,-4.18,▼,No Action Required
-Reading,"163,203",5,31,2.71,18.99,▲,,,-9.80,▼,No Action Required
-Reigate and Banstead,"147,757",4,24,2.32,16.24,▼,,,-14.21,▼,No Action Required
-Rother,"95,656",4,8,1.19,8.36,▲,,,-4.18,▼,No Action Required
-Runnymede,"88,000",1,13,2.11,14.77,▲,,,-9.09,▼,No Action Required
-Rushmoor,"95,142",5,13,1.95,13.66,▲,,,-6.31,▼,No Action Required
-Sevenoaks,"120,293",5,17,2.02,14.13,▲,,,-4.99,▼,No Action Required
-Slough,"149,112",5,31,2.97,20.79,▲,,,-5.37,▼,No Action Required
-South Bucks,"70,043",2,11,2.24,15.70,▲,,,-17.13,▼,No Action Required
-South Oxfordshire,"140,504",2,18,1.83,12.81,▲,,,-9.96,▼,No Action Required
-Southampton,"252,796",6,16,0.90,6.33,▲,,,-7.91,▼,No Action Required
-Spelthorne,"99,334",4,34,4.89,34.23,▲,,,-8.05,▼,No Action Required
-Surrey Heath,"88,874",2,15,2.41,16.88,▲,,,-13.50,▼,No Action Required
-Swale,"148,519",6,28,2.69,18.85,▲,,,-15.49,▼,No Action Required
-Tandridge,"87,496",2,10,1.63,11.43,▲,,,-9.14,▼,No Action Required
-Test Valley,"125,169",6,30,3.42,23.97,▲,,,-7.19,▼,No Action Required
-Thanet,"141,819",3,5,0.50,3.53,▲,,,-7.76,▼,No Action Required
-Tonbridge and Malling,"130,508",0,6,0.66,4.60,▼,,,-4.60,▼,No Action Required
-Tunbridge Wells,"118,054",5,20,2.42,16.94,▲,,,-5.93,▼,No Action Required
-Vale of White Horse,"133,732",1,19,2.03,14.21,▲,,,-7.48,▼,No Action Required
-Waverley,"125,610",6,21,2.39,16.72,▼,,,-11.94,▼,No Action Required
-Wealden,"160,175",7,21,1.87,13.11,▲,,,-6.24,▼,No Action Required
-West Berkshire,"158,527",1,13,1.17,8.20,▼,,,-6.94,▼,No Action Required
-West Oxfordshire,"109,800",2,15,1.95,13.66,▼,,,-15.48,▼,No Action Required
-Winchester,"124,295",3,8,0.92,6.44,▲,,,-5.63,▼,No Action Required
-Windsor and Maidenhead,"150,906",10,32,3.03,21.21,▲,,,-7.95,▼,No Action Required
-Woking,"101,167",1,18,2.54,17.79,▲,,,-4.94,▼,No Action Required
-Wokingham,"167,979",2,15,1.28,8.93,▼,,,-11.91,▼,No Action Required
-Worthing,"110,025",8,35,4.54,31.81,▲,,,-11.82,▼,No Action Required
-Wycombe,"174,641",3,26,2.13,14.89,▼,,,-6.30,▼,No Action Required
+Brighton and Hove,"290,395",5,39,1.92,13.43,▲,,,-6.54,▼,No Action Required
+Canterbury,"164,553",2,11,0.95,6.68,▲,,,-9.12,▼,No Action Required
+Cherwell,"149,161",2,15,1.44,10.06,▲,,,-5.36,▼,No Action Required
+Chichester,"120,750",1,18,2.13,14.91,▲,,,-3.31,▼,No Action Required
+Chiltern,"95,927",0,18,2.68,18.76,▼,,,-9.38,▼,No Action Required
+Crawley,"112,448",3,12,1.52,10.67,▲,,,-12.45,▼,No Action Required
+Dartford,"109,709",4,9,1.17,8.20,▲,,,-14.58,▼,No Action Required
+Dover,"116,969",1,13,1.59,11.11,▲,,,-9.40,▼,No Action Required
+East Hampshire,"120,681",0,12,1.42,9.94,▼,,,-11.60,▼,No Action Required
+Eastbourne,"103,160",14,24,3.32,23.26,▲,,,-8.72,▼,No Action Required
+Eastleigh,"131,819",2,10,1.08,7.59,➖,,,-6.07,▼,No Action Required
+Elmbridge,"136,626",2,28,2.93,20.49,▲,,,-10.25,▼,No Action Required
+Epsom and Ewell,"79,928",4,16,2.86,20.02,▲,,,-8.76,▼,No Action Required
+Fareham,"116,339",2,12,1.47,10.31,▲,,,-12.89,▼,No Action Required
+Folkestone and Hythe,"112,578",0,10,1.27,8.88,▲,,,-10.66,▼,No Action Required
+Gosport,"85,283",2,7,1.17,8.21,▲,,,-12.90,▼,No Action Required
+Gravesham,"106,385",1,11,1.48,10.34,▼,,,-3.76,▼,No Action Required
+Guildford,"147,889",5,22,2.13,14.88,▲,,,-6.09,▼,No Action Required
+Hart,"96,293",0,6,0.89,6.23,▼,,,-7.27,▼,No Action Required
+Hastings,"92,855",0,11,1.69,11.85,➖,,,0.00,➖,No Action Required
+Havant,"125,813",1,4,0.45,3.18,▲,,,-12.72,▼,No Action Required
+Horsham,"142,217",6,22,2.21,15.47,▲,,,-10.55,▼,No Action Required
+Isle of Wight,"141,538",0,8,0.81,5.65,▲,,,-9.89,▼,No Action Required
+Lewes,"102,744",1,11,1.53,10.71,▲,,,-11.68,▼,No Action Required
+Maidstone,"169,955",1,14,1.18,8.24,▲,,,-7.65,▼,No Action Required
+Medway,"277,855",5,22,1.13,7.92,▲,,,-11.16,▼,No Action Required
+Mid Sussex,"149,716",3,20,1.91,13.36,▲,,,-11.35,▼,No Action Required
+Milton Keynes,"268,607",8,46,2.45,17.13,▲,,,-5.96,▼,No Action Required
+Mole Valley,"87,253",5,11,1.80,12.61,▲,,,-11.46,▼,No Action Required
+New Forest,"179,753",6,42,3.34,23.37,▲,,,-3.34,▼,No Action Required
+Oxford,"154,327",5,39,3.61,25.27,▲,,,-3.24,▼,No Action Required
+Portsmouth,"215,133",6,26,1.73,12.09,▲,,,-4.18,▼,No Action Required
+Reading,"163,203",9,36,3.15,22.06,▲,,,-9.80,▼,No Action Required
+Reigate and Banstead,"147,757",4,22,2.13,14.89,▼,,,-14.21,▼,No Action Required
+Rother,"95,656",2,10,1.49,10.45,▲,,,-4.18,▼,No Action Required
+Runnymede,"88,000",3,16,2.60,18.18,▲,,,-9.09,▼,No Action Required
+Rushmoor,"95,142",2,14,2.10,14.71,▲,,,-6.31,▼,No Action Required
+Sevenoaks,"120,293",1,17,2.02,14.13,▲,,,-4.99,▼,No Action Required
+Slough,"149,112",8,37,3.54,24.81,▲,,,-5.37,▼,No Action Required
+South Bucks,"70,043",4,15,3.06,21.42,▲,,,-17.13,▼,No Action Required
+South Oxfordshire,"140,504",0,18,1.83,12.81,▲,,,-9.96,▼,No Action Required
+Southampton,"252,796",0,16,0.90,6.33,▲,,,-7.91,▼,No Action Required
+Spelthorne,"99,334",14,41,5.90,41.27,▲,,,-8.05,▼,No Action Required
+Surrey Heath,"88,874",1,13,2.09,14.63,▼,,,-13.50,▼,No Action Required
+Swale,"148,519",5,32,3.08,21.55,▲,,,-15.49,▼,No Action Required
+Tandridge,"87,496",2,11,1.80,12.57,➖,,,-9.14,▼,No Action Required
+Test Valley,"125,169",1,31,3.54,24.77,▲,,,-7.19,▼,No Action Required
+Thanet,"141,819",0,5,0.50,3.53,▲,,,-7.76,▼,No Action Required
+Tonbridge and Malling,"130,508",3,8,0.88,6.13,▲,,,-4.60,▼,No Action Required
+Tunbridge Wells,"118,054",0,20,2.42,16.94,▲,,,-5.93,▼,No Action Required
+Vale of White Horse,"133,732",0,17,1.82,12.71,▼,,,-7.48,▼,No Action Required
+Waverley,"125,610",2,22,2.50,17.51,▲,,,-11.94,▼,No Action Required
+Wealden,"160,175",2,22,1.96,13.73,▲,,,-6.24,▼,No Action Required
+West Berkshire,"158,527",3,12,1.08,7.57,▲,,,-6.94,▼,No Action Required
+West Oxfordshire,"109,800",1,16,2.08,14.57,▼,,,-15.48,▼,No Action Required
+Winchester,"124,295",0,8,0.92,6.44,▲,,,-5.63,▼,No Action Required
+Windsor and Maidenhead,"150,906",3,32,3.03,21.21,▲,,,-7.95,▼,No Action Required
+Woking,"101,167",5,23,3.25,22.73,▲,,,-4.94,▼,No Action Required
+Wokingham,"167,979",0,14,1.19,8.33,▼,,,-11.91,▼,No Action Required
+Worthing,"110,025",6,40,5.19,36.36,▲,,,-11.82,▼,No Action Required
+Wycombe,"174,641",3,23,1.88,13.17,▼,,,-6.30,▼,No Action Required
 Yorkshire and The Humber,,,,,,,,,,,
 Barnsley,"245,199",10,76,4.43,31.00,▲,,,-14.68,▼,No Action Required
-Bradford,"537,173",64,403,10.72,75.02,▲,,,-9.31,▼,Partly Restricted
-Calderdale,"210,082",21,89,6.05,42.36,▲,,,-1.90,▼,Partly Restricted
-Craven,"56,832",2,13,3.27,22.87,▲,,,-17.60,▼,No Action Required
-Doncaster,"310,542",5,31,1.43,9.98,▲,,,-10.30,▼,No Action Required
-East Riding of Yorkshire,"339,614",13,42,1.77,12.37,▲,,,-9.72,▼,No Action Required
-Hambleton,"91,134",1,8,1.25,8.78,▼,,,-10.97,▼,No Action Required
-Harrogate,"160,533",11,51,4.54,31.77,▲,,,-6.85,▼,No Action Required
-"Kingston upon Hull, City of","260,645",8,25,1.37,9.59,▲,,,-8.44,▼,No Action Required
-Kirklees,"438,727",16,173,5.63,39.43,▲,,,-5.24,▼,Partly Restricted
-Leeds,"789,194",69,481,8.71,60.95,▲,,,-9.38,▼,Area of Concern
-North East Lincolnshire,"159,821",1,11,0.98,6.88,▲,,,-1.25,▼,No Action Required
-North Lincolnshire,"172,005",5,20,1.66,11.63,▲,,,-10.46,▼,No Action Required
+Bradford,"537,173",76,410,10.90,76.33,▲,,,-9.12,▼,Partly Restricted
+Calderdale,"210,082",20,102,6.94,48.55,▲,,,-1.90,▼,Partly Restricted
+Craven,"56,832",4,17,4.27,29.91,▲,,,-17.60,▼,No Action Required
+Doncaster,"310,542",11,42,1.93,13.52,▲,,,-10.30,▼,No Action Required
+East Riding of Yorkshire,"339,614",1,40,1.68,11.78,▲,,,-9.72,▼,No Action Required
+Hambleton,"91,134",3,9,1.41,9.88,▲,,,-10.97,▼,No Action Required
+Harrogate,"160,533",14,61,5.43,38.00,▲,,,-6.85,▼,No Action Required
+"Kingston upon Hull, City of","260,645",4,29,1.59,11.13,▲,,,-8.44,▼,No Action Required
+Kirklees,"438,727",28,173,5.63,39.43,▲,,,-5.24,▼,Partly Restricted
+Leeds,"789,194",76,502,9.09,63.61,▲,,,-9.38,▼,Area of Concern
+North East Lincolnshire,"159,821",2,13,1.16,8.13,▲,,,-1.25,▼,No Action Required
+North Lincolnshire,"172,005",5,23,1.91,13.37,▲,,,-10.46,▼,No Action Required
 Richmondshire,"53,244",1,4,1.07,7.51,▲,,,-7.51,▼,No Action Required
-Rotherham,"264,671",9,63,3.40,23.80,▲,,,-8.69,▼,No Action Required
-Ryedale,"54,920",1,7,1.82,12.75,▲,,,-5.46,▼,No Action Required
-Scarborough,"108,736",4,35,4.60,32.19,▲,,,-7.36,▼,No Action Required
-Selby,"89,106",8,45,7.21,50.50,▲,,,-6.73,▼,No Action Required
-Sheffield,"582,506",31,208,5.10,35.71,▲,,,-11.33,▼,No Action Required
-Wakefield,"345,038",13,84,3.48,24.35,▲,,,-9.56,▼,No Action Required
-York,"209,893",1,25,1.70,11.91,▼,,,-6.19,▼,No Action Required
+Rotherham,"264,671",23,77,4.16,29.09,▲,,,-8.69,▼,No Action Required
+Ryedale,"54,920",1,6,1.56,10.92,▲,,,-5.46,▼,No Action Required
+Scarborough,"108,736",5,39,5.12,35.87,▲,,,-7.36,▼,No Action Required
+Selby,"89,106",5,43,6.89,48.26,▲,,,-6.73,▼,No Action Required
+Sheffield,"582,506",33,206,5.05,35.36,▲,,,-11.33,▼,No Action Required
+Wakefield,"345,038",13,90,3.73,26.08,▲,,,-9.27,▼,No Action Required
+York,"209,893",8,32,2.18,15.25,▲,,,-6.19,▼,No Action Required
 West Midlands,,,,,,,,,,,
-Birmingham,"1,141,374",145,884,11.06,77.45,▲,,,-10.43,▼,Enhanced Support
-Bromsgrove,"98,662",4,26,3.76,26.35,▲,,,-3.04,▼,No Action Required
-Cannock Chase,"100,109",2,11,1.57,10.99,▲,,,-9.99,▼,No Action Required
-Coventry,"366,785",21,96,3.74,26.17,▲,,,-7.09,▼,No Action Required
-Dudley,"320,626",13,66,2.94,20.58,▲,,,-10.60,▼,No Action Required
-East Staffordshire,"118,574",3,36,4.34,30.36,▲,,,-14.34,▼,No Action Required
-"Herefordshire, County of","192,107",3,21,1.56,10.93,▲,,,-4.68,▼,No Action Required
-Lichfield,"103,965",3,14,1.92,13.47,▲,,,-20.20,▼,No Action Required
-Malvern Hills,"78,113",3,21,3.84,26.88,▲,,,-8.96,▼,No Action Required
-Newcastle-under-Lyme,"129,490",5,28,3.09,21.62,▲,,,-13.13,▼,No Action Required
-North Warwickshire,"64,850",2,10,2.20,15.42,▲,,,-27.76,▼,No Action Required
-Nuneaton and Bedworth,"128,902",2,15,1.66,11.64,▲,,,-17.07,▼,No Action Required
+Birmingham,"1,141,374",131,941,11.78,82.44,▲,,,-10.34,▼,Enhanced Support
+Bromsgrove,"98,662",5,30,4.34,30.41,▲,,,-3.04,▼,No Action Required
+Cannock Chase,"100,109",6,17,2.43,16.98,▲,,,-9.99,▼,No Action Required
+Coventry,"366,785",22,111,4.32,30.26,▲,,,-7.09,▼,No Action Required
+Dudley,"320,626",15,76,3.39,23.70,▲,,,-10.60,▼,No Action Required
+East Staffordshire,"118,574",3,31,3.73,26.14,▼,,,-13.49,▼,No Action Required
+"Herefordshire, County of","192,107",8,28,2.08,14.58,▲,,,-4.68,▼,No Action Required
+Lichfield,"103,965",2,16,2.20,15.39,▲,,,-20.20,▼,No Action Required
+Malvern Hills,"78,113",8,26,4.76,33.29,▲,,,-8.96,▼,No Action Required
+Newcastle-under-Lyme,"129,490",4,30,3.31,23.17,▲,,,-13.13,▼,No Action Required
+North Warwickshire,"64,850",1,9,1.98,13.88,➖,,,-27.76,▼,No Action Required
+Nuneaton and Bedworth,"128,902",5,16,1.77,12.41,▲,,,-17.07,▼,No Action Required
 Redditch,"84,989",0,7,1.18,8.24,▼,,,-9.41,▼,No Action Required
-Rugby,"107,194",4,27,3.60,25.19,▲,,,-13.06,▼,No Action Required
-Sandwell,"327,378",29,124,5.41,37.88,▲,,,-15.27,▼,Enhanced Support
-Shropshire,"320,274",5,33,1.47,10.30,➖,,,-8.74,▼,No Action Required
-Solihull,"214,909",20,134,8.91,62.35,▲,,,-14.42,▼,No Action Required
-South Staffordshire,"112,126",2,26,3.31,23.19,▲,,,-20.51,▼,No Action Required
-Stafford,"135,880",3,25,2.63,18.40,▲,,,-5.89,▼,No Action Required
-Staffordshire Moorlands,"98,397",1,18,2.61,18.29,▲,,,-9.15,▼,No Action Required
-Stoke-on-Trent,"255,833",6,70,3.91,27.36,▲,,,-7.82,▼,Area of Concern
-Stratford-on-Avon,"127,580",3,20,2.24,15.68,▲,,,-18.03,▼,No Action Required
-Tamworth,"76,678",5,13,2.42,16.95,▼,,,-16.95,▼,No Action Required
-Telford and Wrekin,"177,799",2,21,1.69,11.81,▲,,,-7.87,▼,No Action Required
-Walsall,"283,378",10,64,3.23,22.58,▲,,,-17.64,▼,No Action Required
-Warwick,"142,484",3,17,1.70,11.93,▲,,,-10.53,▼,No Action Required
-Wolverhampton,"262,008",22,98,5.34,37.40,▲,,,-14.89,▼,No Action Required
-Worcester,"101,891",2,13,1.82,12.76,▲,,,-7.85,▼,No Action Required
-Wychavon,"127,340",4,29,3.25,22.77,▲,,,-10.21,▼,No Action Required
-Wyre Forest,"101,062",1,9,1.27,8.91,▲,,,-13.85,▼,No Action Required
+Rugby,"107,194",6,32,4.26,29.85,▲,,,-13.06,▼,No Action Required
+Sandwell,"327,378",30,145,6.33,44.29,▲,,,-15.58,▼,Enhanced Support
+Shropshire,"320,274",4,31,1.38,9.68,▼,,,-8.74,▼,No Action Required
+Solihull,"214,909",19,145,9.64,67.47,▲,,,-14.42,▼,No Action Required
+South Staffordshire,"112,126",5,30,3.82,26.76,▲,,,-20.51,▼,No Action Required
+Stafford,"135,880",5,30,3.15,22.08,▲,,,-5.89,▼,No Action Required
+Staffordshire Moorlands,"98,397",2,18,2.61,18.29,▲,,,-9.15,▼,No Action Required
+Stoke-on-Trent,"255,833",12,71,3.96,27.75,▲,,,-7.82,▼,Area of Concern
+Stratford-on-Avon,"127,580",2,20,2.24,15.68,▲,,,-18.03,▼,No Action Required
+Tamworth,"76,678",3,16,2.98,20.87,▲,,,-16.95,▼,No Action Required
+Telford and Wrekin,"177,799",7,28,2.25,15.75,▲,,,-7.87,▼,No Action Required
+Walsall,"283,378",14,74,3.73,26.11,▲,,,-17.64,▼,No Action Required
+Warwick,"142,484",3,19,1.90,13.33,▲,,,-10.53,▼,No Action Required
+Wolverhampton,"262,008",27,121,6.60,46.18,▲,,,-14.89,▼,No Action Required
+Worcester,"101,891",2,11,1.54,10.80,➖,,,-7.85,▼,No Action Required
+Wychavon,"127,340",2,30,3.37,23.56,▲,,,-10.21,▼,No Action Required
+Wyre Forest,"101,062",0,8,1.13,7.92,▼,,,-13.85,▼,No Action Required
 South West,,,,,,,,,,,
-Bath and North East Somerset,"192,106",6,31,2.31,16.14,▲,,,-3.12,▼,No Action Required
-"Bournemouth, Christchurch and Poole","395,784",18,66,2.38,16.68,▲,,,-6.06,▼,No Action Required
-"Bristol, City of","463,405",16,81,2.50,17.48,▲,,,-3.02,▼,No Action Required
-Cheltenham,"117,090",3,12,1.46,10.25,▲,,,-6.83,▼,No Action Required
-Cornwall,"568,210",7,23,0.58,4.05,▲,,,-2.64,▼,No Action Required
-Cotswold,"89,022",3,7,1.12,7.86,▲,,,-4.49,▼,No Action Required
-Dorset,"426,516",5,40,1.34,9.38,▲,,,-4.69,▼,No Action Required
-East Devon,"144,317",1,18,1.78,12.47,▲,,,-3.46,▼,No Action Required
-Exeter,"130,428",2,12,1.31,9.20,▲,,,-5.37,▼,No Action Required
-Forest of Dean,"86,543",2,7,1.16,8.09,▲,,,-9.24,▼,No Action Required
-Gloucester,"129,285",4,14,1.55,10.83,▲,,,-7.73,▼,No Action Required
-Mendip,"114,881",2,12,1.49,10.45,▲,,,-3.48,▼,No Action Required
-Mid Devon,"81,695",2,5,0.87,6.12,➖,,,-2.45,▼,No Action Required
-North Devon,"96,110",1,8,1.19,8.32,▲,,,-1.04,▼,No Action Required
-North Somerset,"213,919",3,55,3.67,25.71,▲,,,-7.95,▼,No Action Required
-Plymouth,"263,100",11,35,1.90,13.30,▼,,,-6.46,▼,No Action Required
-Sedgemoor,"122,791",3,7,0.81,5.70,▲,,,-8.14,▼,No Action Required
-Somerset West and Taunton,"153,866",3,11,1.02,7.15,▲,,,-1.30,▼,No Action Required
-South Gloucestershire,"282,644",5,35,1.77,12.38,▲,,,-5.31,▼,No Action Required
-South Hams,"86,221",2,8,1.33,9.28,▼,,,-1.16,▼,No Action Required
-South Somerset,"167,861",2,15,1.28,8.94,▲,,,-4.77,▼,No Action Required
-Stroud,"119,019",1,7,0.84,5.88,▲,,,-10.08,▼,No Action Required
-Swindon,"221,996",5,33,2.12,14.87,▲,,,-6.76,▼,Enhanced Support
-Teignbridge,"132,844",1,8,0.86,6.02,▲,,,-3.01,▼,No Action Required
-Tewkesbury,"92,599",0,5,0.77,5.40,▼,,,-8.64,▼,No Action Required
-Torbay,"135,780",2,12,1.26,8.84,▲,,,-3.68,▼,No Action Required
-Torridge,"68,143",2,5,1.05,7.34,▲,,,-4.40,▼,No Action Required
-West Devon,"55,528",1,2,0.51,3.60,▲,,,-1.80,▼,No Action Required
-Wiltshire,"498,064",17,85,2.44,17.07,▲,,,-5.82,▼,No Action Required
+Bath and North East Somerset,"192,106",2,30,2.23,15.62,▲,,,-3.64,▼,No Action Required
+"Bournemouth, Christchurch and Poole","395,784",8,64,2.31,16.17,▲,,,-6.06,▼,No Action Required
+"Bristol, City of","463,405",14,80,2.47,17.26,▲,,,-3.02,▼,No Action Required
+Cheltenham,"117,090",1,12,1.46,10.25,➖,,,-6.83,▼,No Action Required
+Cornwall,"568,210",8,28,0.70,4.93,▲,,,-2.64,▼,No Action Required
+Cotswold,"89,022",0,5,0.80,5.62,▲,,,-4.49,▼,No Action Required
+Dorset,"426,516",3,41,1.37,9.61,▲,,,-4.69,▼,No Action Required
+East Devon,"144,317",0,17,1.68,11.78,➖,,,-3.46,▼,No Action Required
+Exeter,"130,428",5,16,1.75,12.27,▲,,,-5.37,▼,No Action Required
+Forest of Dean,"86,543",0,4,0.66,4.62,▼,,,-9.24,▼,No Action Required
+Gloucester,"129,285",0,12,1.33,9.28,▲,,,-7.73,▼,No Action Required
+Mendip,"114,881",3,15,1.87,13.06,▲,,,-3.48,▼,No Action Required
+Mid Devon,"81,695",1,6,1.05,7.34,▲,,,-2.45,▼,No Action Required
+North Devon,"96,110",1,9,1.34,9.36,▲,,,-1.04,▼,No Action Required
+North Somerset,"213,919",1,49,3.27,22.91,▲,,,-7.95,▼,No Action Required
+Plymouth,"263,100",4,34,1.85,12.92,▲,,,-6.46,▼,No Action Required
+Sedgemoor,"122,791",1,8,0.93,6.52,▲,,,-8.14,▼,No Action Required
+Somerset West and Taunton,"153,866",1,12,1.11,7.80,▲,,,-1.30,▼,No Action Required
+South Gloucestershire,"282,644",7,32,1.62,11.32,▲,,,-5.31,▼,No Action Required
+South Hams,"86,221",0,8,1.33,9.28,➖,,,-1.16,▼,No Action Required
+South Somerset,"167,861",0,12,1.02,7.15,▼,,,-4.77,▼,No Action Required
+Stroud,"119,019",2,8,0.96,6.72,▲,,,-10.08,▼,No Action Required
+Swindon,"221,996",6,37,2.38,16.67,▲,,,-6.76,▼,Enhanced Support
+Teignbridge,"132,844",0,6,0.65,4.52,▼,,,-3.01,▼,No Action Required
+Tewkesbury,"92,599",0,4,0.62,4.32,▼,,,-8.64,▼,No Action Required
+Torbay,"135,780",0,10,1.05,7.36,▲,,,-3.68,▼,No Action Required
+Torridge,"68,143",0,5,1.05,7.34,▲,,,-4.40,▼,No Action Required
+West Devon,"55,528",0,2,0.51,3.60,▲,,,-1.80,▼,No Action Required
+Wiltshire,"498,064",7,81,2.32,16.26,▲,,,-5.82,▼,No Action Required
 Wales / Cymru,,,,,,,,,,,
-Isle of Anglesey,"70,046",1,2,0.41,2.86,▲,,,,,No Action Required
+Isle of Anglesey,"70,046",4,6,1.22,8.57,▲,,,,,No Action Required
 Blaenau Gwent,"69,858",1,9,1.84,12.88,▲,,,,,No Action Required
-Bridgend,"147,044",7,35,3.40,23.80,▲,,,,,No Action Required
-Caerphilly,"181,080",33,174,13.73,96.09,▲,,,,,Restricted
-Cardiff,"366,890",13,74,2.88,20.17,▲,,,,,No Action Required
-Carmarthenshire,"188,760",4,21,1.59,11.13,▲,,,,,No Action Required
+Bridgend,"147,044",1,26,2.53,17.68,▲,,,,,No Action Required
+Caerphilly,"181,080",34,197,15.54,108.79,▲,,,,,Restricted
+Cardiff,"366,890",9,78,3.04,21.26,▲,,,,,No Action Required
+Carmarthenshire,"188,760",7,27,2.04,14.30,▲,,,,,No Action Required
 Ceredigion,"72,727",1,4,0.79,5.50,▲,,,,,No Action Required
-Conwy,"117,205",2,12,1.46,10.24,➖,,,,,No Action Required
-Denbighshire,"95,697",3,9,1.34,9.40,▲,,,,,No Action Required
-Flintshire,"156,105",7,18,1.65,11.53,▲,,,,,No Action Required
-Gwynedd,"124,549",2,11,1.26,8.83,➖,,,,,No Action Required
-Merthyr Tydfil,"60,326",12,33,7.81,54.70,▲,,,,,No Action Required
-Monmouthshire,"94,598",1,3,0.45,3.17,▲,,,,,No Action Required
-Neath Port Talbot,"143,305",8,29,2.89,20.24,▲,,,,,No Action Required
-Newport,"154,685",18,35,3.23,22.63,▲,,,,,No Action Required
-Pembrokeshire,"125,799",4,8,0.91,6.36,▲,,,,,No Action Required
-Powys,"132,450",7,32,3.45,24.16,▲,,,,,No Action Required
-Rhondda Cynon Taf,"241,279",20,114,6.75,47.25,▲,,,,,No Action Required
-Swansea,"246,985",8,35,2.02,14.17,▲,,,,,No Action Required
-Torfaen,"93,951",1,9,1.37,9.58,▲,,,,,No Action Required
-Vale of Glamorgan,"133,598",4,15,1.60,11.23,▲,,,,,No Action Required
-Wrexham,"135,955",7,32,3.36,23.54,▲,,,,,No Action Required
+Conwy,"117,205",4,14,1.71,11.94,▲,,,,,No Action Required
+Denbighshire,"95,697",2,11,1.64,11.49,▲,,,,,No Action Required
+Flintshire,"156,105",4,21,1.92,13.45,▲,,,,,No Action Required
+Gwynedd,"124,549",5,13,1.49,10.44,▲,,,,,No Action Required
+Merthyr Tydfil,"60,326",3,34,8.05,56.36,▲,,,,,No Action Required
+Monmouthshire,"94,598",0,3,0.45,3.17,▲,,,,,No Action Required
+Neath Port Talbot,"143,305",2,31,3.09,21.63,▲,,,,,No Action Required
+Newport,"154,685",6,40,3.69,25.86,▲,,,,,No Action Required
+Pembrokeshire,"125,799",0,8,0.91,6.36,➖,,,,,No Action Required
+Powys,"132,450",3,34,3.67,25.67,▲,,,,,No Action Required
+Rhondda Cynon Taf,"241,279",9,118,6.99,48.91,▲,,,,,No Action Required
+Swansea,"246,985",2,37,2.14,14.98,▲,,,,,No Action Required
+Torfaen,"93,951",0,9,1.37,9.58,▲,,,,,No Action Required
+Vale of Glamorgan,"133,598",0,12,1.28,8.98,➖,,,,,No Action Required
+Wrexham,"135,955",4,35,3.68,25.74,▲,,,,,No Action Required
 "Scotland (Only Population, New Cases and Lockdown Status are correct at this time)",,,,,,,,,,,
-Aberdeen City,"227,560",2,3,0.19,1.32,▲,,,,,No Action Required
-Aberdeenshire,"261,470",6,10,0.55,3.82,▲,,,,,No Action Required
-Angus,"116,040",1,2,0.25,1.72,▲,,,,,No Action Required
+Aberdeen City,"227,560",3,6,0.38,2.64,▲,,,,,No Action Required
+Aberdeenshire,"261,470",0,10,0.55,3.82,▲,,,,,No Action Required
+Angus,"116,040",2,4,0.49,3.45,▲,,,,,No Action Required
 Argyll and Bute,"86,260",0,0,0.00,0.00,➖,,,,,No Action Required
-City of Edinburgh,"518,500",16,26,0.72,5.01,▲,,,,,No Action Required
-Clackmannanshire,"51,400",2,3,0.83,5.84,▲,,,,,No Action Required
-Dumfries and Galloway,"148,790",1,5,0.48,3.36,▲,,,,,No Action Required
-Dundee City,"148,750",3,5,0.48,3.36,▲,,,,,No Action Required
-East Ayrshire,"121,840",3,4,0.47,3.28,▲,,,,,No Action Required
-East Dunbartonshire,"108,330",5,12,1.58,11.08,▲,,,,,Restricted
-East Lothian,"105,790",3,4,0.54,3.78,▲,,,,,No Action Required
-East Renfrewshire,"95,170",4,9,1.35,9.46,▲,,,,,Restricted
-Falkirk,"160,340",8,13,1.16,8.11,▲,,,,,No Action Required
-Fife,"371,910",7,9,0.35,2.42,▲,,,,,No Action Required
-Glasgow City,"626,410",43,103,2.35,16.44,▲,,,,,Restricted
-Highland,"235,540",3,7,0.42,2.97,▲,,,,,No Action Required
+City of Edinburgh,"518,500",9,35,0.96,6.75,▲,,,,,No Action Required
+Clackmannanshire,"51,400",0,3,0.83,5.84,▲,,,,,No Action Required
+Dumfries and Galloway,"148,790",3,8,0.77,5.38,▲,,,,,No Action Required
+Dundee City,"148,750",3,8,0.77,5.38,▲,,,,,No Action Required
+East Ayrshire,"121,840",2,6,0.70,4.92,▲,,,,,No Action Required
+East Dunbartonshire,"108,330",4,16,2.11,14.77,▲,,,,,Restricted
+East Lothian,"105,790",0,4,0.54,3.78,▲,,,,,No Action Required
+East Renfrewshire,"95,170",6,15,2.25,15.76,▲,,,,,Restricted
+Falkirk,"160,340",2,15,1.34,9.36,▲,,,,,No Action Required
+Fife,"371,910",5,14,0.54,3.76,▲,,,,,No Action Required
+Glasgow City,"626,410",34,137,3.12,21.87,▲,,,,,Restricted
+Highland,"235,540",3,10,0.61,4.25,▲,,,,,No Action Required
 Inverclyde,"78,150",0,1,0.18,1.28,▲,,,,,No Action Required
-Midlothian,"91,340",4,9,1.41,9.85,▲,,,,,No Action Required
-Moray,"95,520",0,0,0.00,0.00,➖,,,,,No Action Required
+Midlothian,"91,340",1,10,1.56,10.95,▲,,,,,No Action Required
+Moray,"95,520",2,2,0.30,2.09,▲,,,,,No Action Required
 Na h-Eileanan Siar,"26,830",0,0,0.00,0.00,➖,,,,,No Action Required
-North Ayrshire,"135,280",1,6,0.63,4.44,▲,,,,,No Action Required
-North Lanarkshire,"340,180",9,25,1.05,7.35,▲,,,,,No Action Required
+North Ayrshire,"135,280",4,10,1.06,7.39,▲,,,,,No Action Required
+North Lanarkshire,"340,180",25,50,2.10,14.70,▲,,,,,No Action Required
 Orkney Islands,"22,190",0,0,0.00,0.00,➖,,,,,No Action Required
-Perth and Kinross,"151,290",2,3,0.28,1.98,▲,,,,,No Action Required
-Renfrewshire,"177,790",10,19,1.53,10.69,▲,,,,,Restricted
-Scottish Borders,"115,270",3,5,0.62,4.34,▲,,,,,No Action Required
-Shetland Islands,"22,990",0,0,0.00,0.00,➖,,,,,No Action Required
-South Ayrshire,"112,550",5,7,0.89,6.22,▲,,,,,No Action Required
-South Lanarkshire,"319,020",11,25,1.12,7.84,▲,,,,,No Action Required
-Stirling,"94,330",0,2,0.30,2.12,▲,,,,,No Action Required
-West Dunbartonshire,"89,130",1,10,1.60,11.22,▲,,,,,Restricted
-West Lothian,"182,140",7,7,0.55,3.84,▲,,,,,No Action Required
+Perth and Kinross,"151,290",1,4,0.38,2.64,▲,,,,,No Action Required
+Renfrewshire,"177,790",13,32,2.57,18.00,▲,,,,,Restricted
+Scottish Borders,"115,270",4,9,1.12,7.81,▲,,,,,No Action Required
+Shetland Islands,"22,990",1,1,0.62,4.35,▲,,,,,No Action Required
+South Ayrshire,"112,550",2,9,1.14,8.00,▲,,,,,No Action Required
+South Lanarkshire,"319,020",21,46,2.06,14.42,▲,,,,,No Action Required
+Stirling,"94,330",1,3,0.45,3.18,▲,,,,,No Action Required
+West Dunbartonshire,"89,130",7,17,2.72,19.07,▲,,,,,Restricted
+West Lothian,"182,140",2,9,0.71,4.94,▲,,,,,No Action Required
