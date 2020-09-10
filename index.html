@@ -35,21 +35,22 @@
 <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<div style="position:absolute; top:30px;"><svg id="dataviz" width="800" height="600"></svg></div>
+<div style="position:absolute; top:35px;width:100%;height:100%"><svg id="dataviz" width="100%" height="100%"></svg></div>
 <script>
 
 var div = d3.select("body").append("div") 
   .attr("class", "tooltip")       
   .style("opacity", 0);
 
-var svg = d3.select("svg"),
+var svg = d3.select("svg");//,
   width = 500,
   height = 600;
 
 var path = d3.geoPath();
 var projection = d3.geoMercator()
-.center([-2, 55])                
-    .scale(2000) 
+.center([-2, 55.3])
+//.center([-3, 56])                 
+    .scale(2200) 
   .translate([width / 2, height / 2]);
 
 var data = d3.map();
@@ -58,7 +59,7 @@ var data2 = d3.map();
 d3.queue()
   .defer(d3.json, "uk_la.geojson")
   .defer(d3.csv, "data.csv", function(d) {
-  		data.set(d.name, [+d.rate_day, d.lockdown, d.cases_day, d.rate_week, d.trend]); 
+  		data.set(d.name, [+d.rate_day, d.lockdown, d.cases_day, d.rate_week, d.trend, d.cases_week]); 
   	})
   .await(ready);
 
@@ -99,16 +100,17 @@ function ready(error, topo) {
       		d.cases = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[2];
       		d.trend = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[4];
       		d.weekly = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[3];
-      		var mouseover_txt = d.properties.lad18nm + "<br/>";
+          d.cases_week = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[5];
+      		var mouseover_txt = "<strong><u>" + d.properties.lad18nm + "</strong></u><br/>";
       		if (d.total == "unavailable") {
       			mouseover_txt += "No Data Available";
       		}   
       		else {
       			mouseover_txt = mouseover_txt + "Daily cases per 100k: " + d.total + "<br/>" + "Weekly cases per 100k: " + d.weekly ;
-      			if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
-      			else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
-      			else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
-      			mouseover_txt = mouseover_txt + "<br/>" + d.cases + " new cases" + "<br/>" + d.lockdown;
+            if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
+            else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
+            else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
+            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past 7 days:" + d.cases_week + "<br/><i>" + d.lockdown + "</i>";
       		}
             div.transition()    
                 .duration(200)    
@@ -127,7 +129,8 @@ function ready(error, topo) {
         	d.cases = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[2];
       		d.trend = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[4];
       		d.weekly = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[3];
-      		var mouseover_txt = d.properties.lad18nm + "<br/>";
+          d.cases_week = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[5];
+      		var mouseover_txt = "<strong>" + d.properties.lad18nm + "</strong><br/>";
       		if (d.total == "unavailable") {
       			mouseover_txt += "No Data Available";
       		}   
@@ -136,7 +139,7 @@ function ready(error, topo) {
       			if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
       			else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
       			else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
-      			mouseover_txt = mouseover_txt + "<br/>" + d.cases + " new cases" + "<br/>" + d.lockdown;
+      			mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past 7 days:" + d.cases_week + "<br/><i>" + d.lockdown + "</i>";
       		}   
             div.transition()    
                 .duration(200)    
