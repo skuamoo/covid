@@ -159,6 +159,13 @@ function ready(error, topo) {
 	svg.append("text").attr("x", 295).attr("y", 210).text("Severely Restricted, Restricted, or Partially Restricted").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 230).text("Area of Concern").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 
+d3.csv("data.csv", function(data){
+
+    var totalSum = d3.sum(data.map(function(d){ return d.cases_day}));
+    svg.append("text").attr("x", 275).attr("y", 65).text("Total New Daily Cases (N. Irleand not included): "+ totalSum);
+    console.log(totalSum);//[4, 9, 12]
+
+});
 
 </script>
 <body>
