@@ -167,7 +167,7 @@ function ready(error, topo) {
 d3.csv("data.csv", function(data){
 
     var totalSum = d3.sum(data.map(function(d){ return d.cases_day}));
-    svg.append("text").attr("x", 275).attr("y", 65).text("Total New Daily Cases (N. Irleand not included): "+ totalSum);
+    svg.append("text").attr("x", 275).attr("y", 65).text("Total New Daily Cases (N. Irleand not included): "+ totalSum + " " + w + "x" + h);
     console.log(totalSum);//[4, 9, 12]
 
 });
