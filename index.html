@@ -46,14 +46,14 @@ var div = d3.select("body").append("div")
   .style("opacity", 0);
 
 var svg = d3.select("svg");//,
-  width = w/3; //500,
-  height = h*2/3;//600;
+  width = 500,
+  height = 600;
 
 var path = d3.geoPath();
 var projection = d3.geoMercator()
 .center([-2, 55.3])
 //.center([-3, 56])                 
-.scale(h*3 - 200)//    .scale(2200) 
+    .scale(2200) 
   .translate([width / 2, height / 2]);
 
 var data = d3.map();
