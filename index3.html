@@ -63,7 +63,8 @@ var projection = d3.geoMercator()
 
 const zoom = d3.zoom()
   .scaleExtent([1,8])
-  .on('zoom', zoomed);
+  .on('zoom', zoomed)
+  .on('wheel.zoom', zoomed);
 
 var data = d3.map();
 
