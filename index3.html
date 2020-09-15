@@ -61,6 +61,9 @@ var projection = d3.geoMercator()
   .translate([width / 2, height / 2]); 
 //900x600: width=w/3 , height=h*2/3 , scale=1910, center=[-4, 56.3]
 
+const zoom = d3.zoom()
+  .scaleExtent([1,8])
+  .on('zoom', zoomed);
 
 var data = d3.map();
 
@@ -70,11 +73,14 @@ d3.queue()
   		data.set(d.name, [+d.rate_day, d.lockdown, d.cases_day, d.rate_week, d.trend, d.cases_week]); 
   	})
   .await(ready);
-
+const g = svg.append('g');
 function ready(error, topo) {
   $('.loading').hide();
   $('.legend').show();
-  svg.append("g")
+
+  
+
+  g
     .selectAll("path")
     .data(topo.features)
     .enter()
@@ -169,6 +175,14 @@ function ready(error, topo) {
 	svg.append("text").attr("x", 295).attr("y", 190).text("Tipping Point (25+ daily cases per 100k): Stay-at-home orders necessary").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 210).text("Severely Restricted, Restricted, or Partially Restricted").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 230).text("Area of Concern").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+
+svg.call(zoom);
+
+function zoomed() {
+      g
+        .selectAll('path') // To prevent stroke width from scaling
+        .attr('transform', d3.event.transform);
+    }
 
 d3.csv("data.csv", function(data){
 
