@@ -79,7 +79,7 @@ function ready(error, topo) {
       	if (d.lockdown == "Restricted" || d.lockdown == "Partly Restricted" || d.lockdown == "Significantly Restricted") {
       		return "black";
       	}
-      	else if (d.lockdown == "Area of Concern") {
+      	else if (d.lockdown == "Area of Concern" || d.lockdown == "Enhanced Support") {
       		return "blue";
       	}
       	else {
@@ -168,7 +168,7 @@ function ready(error, topo) {
 	svg.append("text").attr("x", 295).attr("y", 170).text("Accelerated Spread (10-24 daily cases per 100k): Stay-at-home orders advised").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 190).text("Tipping Point (25+ daily cases per 100k): Stay-at-home orders necessary").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg.append("text").attr("x", 295).attr("y", 210).text("Significantly Restricted, Restricted, or Partially Restricted").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
-	svg.append("text").attr("x", 295).attr("y", 230).text("Area of Concern").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+	svg.append("text").attr("x", 295).attr("y", 230).text("Area of Concern or Enhanced Support").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 
 d3.csv("data.csv", function(data){
 
