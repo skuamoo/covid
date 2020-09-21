@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <style>
   div.tooltip { 
     position: absolute;     
@@ -45,8 +46,6 @@ var div = d3.select("body").append("div")
   .style("opacity", 0);
 
 var svg = d3.select("#container").append("svg");//,
-// var width = 500;
-// var height = 600;
 const w = window.innerWidth;
 const h = window.innerHeight;
 
@@ -56,7 +55,10 @@ var projection = d3.geoMercator();
 //.center([-3, 56])                 
   //  .scale(2200) 
   //.translate([width / 2, height / 2]);
-  //.fitExtent([20,20], [500, 600]);
+
+const zoom = d3.zoom()
+  .scaleExtent([1,8])
+  .on('zoom', zoomed);
 
 d3.json("uk_la.geojson", function(err, geojson) {
       projection.fitSize([w,h-40], geojson);
@@ -70,6 +72,8 @@ d3.queue()
   		data.set(d.name, [+d.rate_day, d.lockdown, d.cases_day, d.rate_week, d.trend, d.cases_week]); 
   	})
   .await(ready);
+
+const g = svg.append("g");
 
 function popup(d){
           d.cases = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[2];
@@ -93,7 +97,7 @@ function popup(d){
 function ready(error, topo) {
   $('.loading').hide();
   $('.legend').show();
-  svg.append("g")
+  g
     .selectAll("path")
     .data(topo.features)
     .enter()
@@ -180,6 +184,14 @@ function ready(error, topo) {
 
   svg2.append("text").attr("x", 40).attr("y", 220).text("Significantly Restricted, Restricted, or Partially Restricted").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg2.append("text").attr("x", 40).attr("y", 240).text("Area of Concern or Enhanced Support").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+
+svg.call(zoom);
+
+function zoomed() {
+      g
+        .selectAll('path') // To prevent stroke width from scaling
+        .attr('transform', d3.event.transform);
+    }
 
 d3.csv("data.csv", function(data){
 
