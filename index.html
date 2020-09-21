@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <style>
   div.tooltip { 
     position: absolute;     
@@ -50,18 +51,13 @@ const h = window.innerHeight;
 
 var path = d3.geoPath();
 var projection = d3.geoMercator();
-//.center([-2, 55.3])
-//.center([-3, 56])                 
+//.center([-2, 55.3])                
   //  .scale(2200) 
   //.translate([width / 2, height / 2]);
 
 const zoom = d3.zoom()
   .scaleExtent([1,8])
   .on('zoom', zoomed);
-
-d3.json("uk_la.geojson", function(err, geojson) {
-      projection.fitSize([w,h-40], geojson);
-    })
 
 var data = d3.map();
 
@@ -96,6 +92,7 @@ function popup(d){
 function ready(error, topo) {
   $('.loading').hide();
   $('.legend').show();
+  projection.fitSize([w,h-40], topo);
   g
     .selectAll("path")
     .data(topo.features)
