@@ -301,7 +301,8 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
       else if (d.value < 10) {return "yellow";}
       else if (d.value < 25) {return "orange";}
       else {return "red";}
-    });
+    })
+    .style("border", 0);
 
 
     }
