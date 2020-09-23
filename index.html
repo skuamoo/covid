@@ -72,12 +72,13 @@ svg {width:100%; height:100%;}
 <div style="font-size:15px;width:100%">Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Key Metrics for COVID Supression </a> framework. Risk levels calculated based on daily cases per 100,000 population (7 day rolling average). Hover over an area for details.
 </div>
 <!--top:35px; top:300px;  position:absolute;top:35px;left:100px;-->
-<div style="position:absolute;top:35px;height:100%;width:100%" id="container"></div>
-<div style="width:350px;height:250px;" id="container_legend"></div>
+<div style="height:100%;width:50%;float:left;" id="container"></div>
+
 <div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
-
-
-<div style="width:350px;height:400px;float:right;top:35px" id="container_list"></div>
+<div style="float:right;">
+<div style="width:350px;height:250px;" id="container_legend"></div>
+<div style="width:350px;height:400px;" id="container_list"></div>
+</div>
 <script>
 
 var div = d3.select("body").append("div") 
@@ -87,7 +88,7 @@ var div = d3.select("body").append("div")
 const w = window.innerWidth;
 const h = window.innerHeight;
 
-var svg = d3.select("#container").append("svg").attr("height", h-40).attr("width", h*.6);//,
+var svg = d3.select("#container").append("svg").attr("height", h-40).attr("width", h*.4);//,
 
 
 //d3.select("#container").style("width", h*.6);
@@ -97,11 +98,11 @@ var projection = d3.geoMercator();
 //.center([-2, 55.3])                
   //  .scale(2200) 
   //.translate([width / 2, height / 2]);
-
+/*
 const zoom = d3.zoom()
   .scaleExtent([1,8])
   .on('zoom', zoomed);
-
+*/
 var data = d3.map();
 
 d3.queue()
@@ -231,14 +232,14 @@ function ready(error, topo) {
   svg2.append("text").attr("x", 40).attr("y", 220).text("Local Restrictions in Place").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 	svg2.append("text").attr("x", 40).attr("y", 240).text("Area of Concern or Enhanced Support").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 
-svg.call(zoom);
-
+//svg.call(zoom);
+/*
 function zoomed() {
       g
         .selectAll('path') // To prevent stroke width from scaling
         .attr('transform', d3.event.transform);
     }
-
+*/
 d3.csv("data.csv", function(data){
 
     var totalSum = d3.sum(data.map(function(d){ return d.cases_day}));
@@ -321,7 +322,7 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
 
 
     }
-    drawTable(data, "#container_list", { width: 350, height: 1000 }, valueFunc, textFunc, columns);
+    drawTable(data, "#container_list", { width: 350, height: 400 }, valueFunc, textFunc, columns);
 
 });
 
