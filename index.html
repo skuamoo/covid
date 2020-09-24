@@ -84,7 +84,7 @@ svg {width:100%; height:100%;}
 </div>
 <div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
 <script>
-
+/*
 function touchHandler(event){
     if(event.touches.length > 1){
         //the event is multi-touch
@@ -92,7 +92,10 @@ function touchHandler(event){
         event.preventDefault()
     }
 }
-
+*/
+document.addEventListener("touchmove", function(e){
+e.preventDefault();
+},{passive: false});
 
 
 $.ajax({
