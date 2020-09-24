@@ -82,7 +82,7 @@ svg {width:100%; height:100%;}
 </div>
 <div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
 <script>
-/*
+
 function touchHandler(event){
     if(event.touches.length > 1){
         //the event is multi-touch
@@ -90,11 +90,11 @@ function touchHandler(event){
         event.preventDefault()
     }
 }
-*/
+/*
 document.addEventListener("touchmove", function(e){
 e.preventDefault();
 },{passive: false});
-
+*/
 
 $.ajax({
         url: "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&latestBy=newCasesByPublishDate&structure={%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22}",
@@ -238,17 +238,23 @@ function ready(error, topo) {
               d3.selectAll(".map_area").style("opacity", 0.7); 
               d3.select(this).style("opacity", 1); 
               clicked_area = d.properties.lad18nm;
+              div.transition()    
+                .duration(200)    
+                .style("opacity", .9);    
+              div .html(mouseover_txt)  
+                .style("left", (d3.event.pageX) + "px")   
+                .style("top", (d3.event.pageY - 28) + "px");
+              
             } else {
               d3.selectAll(".map_area").style("opacity", 1); 
               clicked_area = ""; 
+              div.transition()    
+                .duration(200)    
+                .style("opacity", 0);
+              
             }
 
-            div.transition()    
-                .duration(200)    
-                .style("opacity", .9);    
-            div .html(mouseover_txt)  
-                .style("left", (d3.event.pageX) + "px")   
-                .style("top", (d3.event.pageY - 28) + "px");  
+              
             });
 
           
