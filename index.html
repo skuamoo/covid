@@ -21,7 +21,7 @@
     background: lightsteelblue; 
     border: 0px;    
     border-radius: 8px;     
-    pointer-events: none;     
+    pointer-events: none;    
   }
   div.loading {   
   position: absolute;  
@@ -68,6 +68,9 @@ svg {width:100%; height:100%;}
   .scroll {
     overflow: auto;
   }
+  body {
+    touch-action:none;
+  }
 </style>
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
@@ -79,14 +82,7 @@ svg {width:100%; height:100%;}
 <div style="font-size:20px;width:100%"><strong>UK COVID-19 Risk Levels</strong> <label style="font-size:15px;">(Data updated 23 Sept 2020, provided by PHE)<br /></label> </div>
 <div style="font-size:15px;width:100%">Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Risk levels calculated from daily cases per 100,000 population (7 day rolling average). Hover over or click an area for details.
 </div>
-<!--top:35px; top:300px;  position:absolute;top:35px;left:100px;-->
-<!--<div style="height:100%;width:50%;float:left;" id="container"></div>-->
-<!--
-<div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
-<div style="float:right;">
-<div style="width:350px;height:235px;" id="container_legend"></div>
-<div style="width:350px;height:400px;" id="container_list"></div>
-</div>-->
+
 <script>
 
 
@@ -95,7 +91,7 @@ $.ajax({
         contentType: "application/json",
         dataType: 'json',
         success: function(result){
-            console.log(result);
+          //  console.log(result);
 
             svg2.append("text").attr("x", 10).attr("y", 20).attr("font-weight", "bold").text("Total New Daily Cases (" + result.data[0].date + "): "+ result.data[0].newCases);
         }
@@ -115,7 +111,7 @@ var w_var = .584;
 var h_var = 57;
 
 d3.select("body").append("div").attr("id", "container").style("height", h-h_var + "px").style("width", (h-h_var)*w_var + "px").style("float", "left");
-var outer_div = d3.select("body").append("div").style("float", "right");
+var outer_div = d3.select("body").append("div").style("display", "inline-block").style("padding-left", "20px");//.style("float", "right");
 outer_div.append("div").attr("id", "container_legend").style("width", "350px").style("height", "235px");
 outer_div.append("div").attr("id", "container_list").style("width", "350px").style("height", h-275 + "px");
 
@@ -154,7 +150,7 @@ function popup(d){
             if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
             else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
             else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
-            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "</i><br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
+            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown; //+ "</i><br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
           }  
           return mouseover_txt;
 }
@@ -162,6 +158,7 @@ function popup(d){
 function ready(error, topo) {
   $('.loading').hide();
   $('.legend').show();
+  var clicked_area = "";
 
   projection.fitSize([(h-h_var)*w_var,h-h_var], topo);
   g
@@ -205,33 +202,46 @@ function ready(error, topo) {
         else {return "silver";}
       })
       .on("mouseover", function(d) { 
+        if (clicked_area == ""){
         var mouseover_txt = popup(d);
             div.transition()    
                 .duration(200)    
                 .style("opacity", .9);    
-            div .html(/*d.properties.lad18nm + "<br/>"  + d.total + " daily case rate per 100k" + "<br/>" + d.lockdown */
-            	mouseover_txt)  
+            div .html(mouseover_txt)  
                 .style("left", (d3.event.pageX) + "px")   
-                .style("top", (d3.event.pageY - 28) + "px");  
-            })          
-        .on("mouseout", function(d) {   
-            div.transition()    
+                .style("top", (d3.event.pageY - 28) + "px"); 
+        }
+
+        })          
+        .on("mouseout", function(d) {  
+            if (clicked_area == ""){ 
+              div.transition()    
                 .duration(500)    
-                .style("opacity", 0); 
+                .style("opacity", 0);
+            } 
         })
         .on("click", function(d) {
+
           var mouseover_txt = popup(d); 
 
-            d3.selectAll(".map_area").style("opacity", 0.7);
-            d3.select(this).style("opacity", 1);
+            if (clicked_area != d.properties.lad18nm) {
+              d3.selectAll(".map_area").style("opacity", 0.7); 
+              d3.select(this).style("opacity", 1); 
+              clicked_area = d.properties.lad18nm;
+            } else {
+              d3.selectAll(".map_area").style("opacity", 1); 
+              clicked_area = ""; 
+            }
 
             div.transition()    
                 .duration(200)    
                 .style("opacity", .9);    
-            div .html(/*d.properties.lad18nm + "<br/>"  + d.total + " daily case rate per 100k"*/mouseover_txt)  
+            div .html(mouseover_txt)  
                 .style("left", (d3.event.pageX) + "px")   
                 .style("top", (d3.event.pageY - 28) + "px");  
-            })          ;
+            });
+
+          
   }
 
     var svg2 = d3.select("#container_legend").append("svg");
