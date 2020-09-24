@@ -92,11 +92,11 @@ function touchHandler(event){
         event.preventDefault()
     }
 }
-*/
+
 document.addEventListener("touchmove", function(e){
 e.preventDefault();
 },{passive: false});
-
+*/
 
 $.ajax({
         url: "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&latestBy=newCasesByPublishDate&structure={%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22}",
