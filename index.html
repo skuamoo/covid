@@ -80,13 +80,13 @@ svg {width:100%; height:100%;}
 <div style="font-size:15px;width:100%">Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Risk levels calculated from daily cases per 100,000 population (7 day rolling average). Hover over or click an area for details.
 </div>
 <!--top:35px; top:300px;  position:absolute;top:35px;left:100px;-->
-<div style="height:100%;width:50%;float:left;" id="container"></div>
-
+<!--<div style="height:100%;width:50%;float:left;" id="container"></div>-->
+<!--
 <div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
 <div style="float:right;">
 <div style="width:350px;height:235px;" id="container_legend"></div>
 <div style="width:350px;height:400px;" id="container_list"></div>
-</div>
+</div>-->
 <script>
 
 
@@ -111,16 +111,19 @@ var div = d3.select("body").append("div")
 const w = window.innerWidth;
 const h = window.innerHeight;
 
-var svg = d3.select("#container").append("svg").attr("height", h-40).attr("width", h*.4);//,
+var w_var = .584;
+var h_var = 57;
 
+d3.select("body").append("div").attr("id", "container").style("height", h-h_var + "px").style("width", (h-h_var)*w_var + "px").style("float", "left");
+var outer_div = d3.select("body").append("div").style("float", "right");
+outer_div.append("div").attr("id", "container_legend").style("width", "350px").style("height", "235px");
+outer_div.append("div").attr("id", "container_list").style("width", "350px").style("height", h-275 + "px");
 
-//d3.select("#container").style("width", h*.6);
+var svg = d3.select("#container").append("svg").attr("height", h-h_var).attr("width", (h-h_var)*w_var);
 
 var path = d3.geoPath();
 var projection = d3.geoMercator();
-//.center([-2, 55.3])                
-  //  .scale(2200) 
-  //.translate([width / 2, height / 2]);
+
 /*
 const zoom = d3.zoom()
   .scaleExtent([1,8])
@@ -160,7 +163,7 @@ function ready(error, topo) {
   $('.loading').hide();
   $('.legend').show();
 
-  projection.fitSize([h*.60,h-40], topo);
+  projection.fitSize([(h-h_var)*w_var,h-h_var], topo);
   g
     .selectAll("path")
     .data(topo.features)
@@ -282,8 +285,6 @@ d3.csv("data.csv", function(data){
 
 
 function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
-  console.log(valueFunc);
-  console.log(textFunc);
     var sortValueAscending = function (a, b) { return valueFunc(a) - valueFunc(b) }
     var sortValueDescending = function (a, b) { return valueFunc(b) - valueFunc(a) }
     var sortNameAscending = function (a, b) { return textFunc(a).localeCompare(textFunc(b)); }
