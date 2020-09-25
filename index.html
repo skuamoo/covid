@@ -125,8 +125,8 @@ if (h > w){
 
 d3.select("body").append("div").attr("id", "container").style("height", h-h_var + "px").style("width", (h-h_var)*w_var + "px").style("float", "left");
 var outer_div = d3.select("body").append("div").style("display", "inline-block").style("padding-left", "20px");//.style("float", "right");
-outer_div.append("div").attr("id", "container_legend").style("width", "350px").style("height", "215px");
-outer_div.append("div").attr("id", "container_list").style("display", "inline-block").style("width", "350px").style("height", h-235 + "px");
+outer_div.append("div").attr("id", "container_legend").style("width", "450px").style("height", "215px");
+outer_div.append("div").attr("id", "container_list").style("display", "inline-block").style("width", "450px").style("height", h-235 + "px");
 
 d3.select("body").append("div").text("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average).");
 
