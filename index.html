@@ -77,9 +77,10 @@ svg {width:100%; height:100%;}
 </head>
 <body>
 
-<div style="font-size:20px;width:100%"><strong>UK COVID-19 Risk Levels</strong> <label style="font-size:15px;">(Data updated 24 Sept 2020, provided by PHE)<br /></label> </div>
-<div style="font-size:15px;width:100%">Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Risk levels calculated from daily cases per 100,000 population (7 day rolling average). Hover over or click an area for details.
+<div style="font-size:20px;width:100%"><label><strong>UK COVID-19 Risk Levels </strong></label><label style="font-size:15px;">(<a href="https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965" target="_blank">Data</a> updated 24 Sept 2020)<br /></label> </div>
+<div style="font-size:15px;width:100%">Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.
 </div>
+<div id="new_cases"></div>
 <div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
 <script>
 
@@ -96,16 +97,7 @@ e.preventDefault();
 },{passive: false});
 */
 
-$.ajax({
-        url: "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&latestBy=newCasesByPublishDate&structure={%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22}",
-        contentType: "application/json",
-        dataType: 'json',
-        success: function(result){
-          //  console.log(result);
 
-            svg2.append("text").attr("x", 10).attr("y", 20).attr("font-weight", "bold").text("Total New Daily Cases (" + result.data[0].date + "): "+ result.data[0].newCases);
-        }
-    })
 
 //}
 
@@ -122,10 +114,24 @@ var h_var = 57;
 
 d3.select("body").append("div").attr("id", "container").style("height", h-h_var + "px").style("width", (h-h_var)*w_var + "px").style("float", "left");
 var outer_div = d3.select("body").append("div").style("display", "inline-block").style("padding-left", "20px");//.style("float", "right");
-outer_div.append("div").attr("id", "container_legend").style("width", "350px").style("height", "235px");
-outer_div.append("div").attr("id", "container_list").style("display", "inline-block").style("width", "350px").style("height", h-275 + "px");
+outer_div.append("div").attr("id", "container_legend").style("width", "350px").style("height", "215px");
+outer_div.append("div").attr("id", "container_list").style("display", "inline-block").style("width", "350px").style("height", h-235 + "px");
+
+d3.select("body").append("div").text("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average).");
 
 var svg = d3.select("#container").append("svg").attr("height", h-h_var).attr("width", (h-h_var)*w_var);
+
+$.ajax({
+        url: "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&latestBy=newCasesByPublishDate&structure={%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22}",
+        contentType: "application/json",
+        dataType: 'json',
+        success: function(result){
+          //  console.log(result);
+            //svg.append("text").attr("x", .6*(h-h_var)*w_var).attr("y", 5).attr("font-weight", "bold").text("Total New Daily Cases (" + result.data[0].date + "): "+ result.data[0].newCases);
+            d3.select("#new_cases").append("label").text("New cases " + result.data[0].date + ": " + result.data[0].newCases).style("font-weight", "bold");
+           // svg2.append("text").attr("x", 10).attr("y", 20).attr("font-weight", "bold").text("Total New Daily Cases (" + result.data[0].date + "): "+ result.data[0].newCases);
+        }
+    })
 
 var path = d3.geoPath();
 var projection = d3.geoMercator();
@@ -258,27 +264,27 @@ function ready(error, topo) {
 
     var svg2 = d3.select("#container_legend").append("svg");
 
-  svg2.append("circle").attr("cx",20).attr("cy",55).attr("r", 6).style("fill", "green").attr("class", "legend");
-	svg2.append("circle").attr("cx",20).attr("cy",90).attr("r", 6).style("fill", "yellow").attr("class", "legend");
-	svg2.append("circle").attr("cx",20).attr("cy",125).attr("r", 6).style("fill", "orange").attr("class", "legend");;
-	svg2.append("circle").attr("cx",20).attr("cy",160).attr("r", 6).style("fill", "red").attr("class", "legend");
-	svg2.append("rect").attr("x",20).attr("y",195).attr("width", 10).attr("height", 2).style("fill", "black").attr("class", "legend");
-	svg2.append("rect").attr("x",20).attr("y",215).attr("width", 10).attr("height", 2).style("fill", "blue").attr("class", "legend");
+  svg2.append("circle").attr("cx",20).attr("cy",10).attr("r", 6).style("fill", "green").attr("class", "legend");
+	svg2.append("circle").attr("cx",20).attr("cy",45).attr("r", 6).style("fill", "yellow").attr("class", "legend");
+	svg2.append("circle").attr("cx",20).attr("cy",80).attr("r", 6).style("fill", "orange").attr("class", "legend");;
+	svg2.append("circle").attr("cx",20).attr("cy",115).attr("r", 6).style("fill", "red").attr("class", "legend");
+	svg2.append("rect").attr("x",20).attr("y",150).attr("width", 10).attr("height", 2).style("fill", "black").attr("class", "legend");
+	svg2.append("rect").attr("x",20).attr("y",170).attr("width", 10).attr("height", 2).style("fill", "blue").attr("class", "legend");
 
-	svg2.append("text").attr("x", 40).attr("y", 55).text("On Track for Containment (<1 daily case per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
-  svg2.append("text").attr("x", 40).attr("y", 70).text("Monitor with test and trace").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
+	svg2.append("text").attr("x", 40).attr("y", 10).text("On Track for Containment (<1 daily case per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
+  svg2.append("text").attr("x", 40).attr("y", 25).text("Monitor with test and trace").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 
-	svg2.append("text").attr("x", 40).attr("y", 90).text("Community Spread (1-9 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
-  svg2.append("text").attr("x", 40).attr("y", 105).text("Rigorous test and trace advised").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
+	svg2.append("text").attr("x", 40).attr("y", 45).text("Community Spread (1-9 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
+  svg2.append("text").attr("x", 40).attr("y", 60).text("Rigorous test and trace advised").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 	
-  svg2.append("text").attr("x", 40).attr("y", 125).text("Accelerated Spread (10-24 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
-	svg2.append("text").attr("x", 40).attr("y", 140).text("Stay-at-home orders advised").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
+  svg2.append("text").attr("x", 40).attr("y", 80).text("Accelerated Spread (10-24 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
+	svg2.append("text").attr("x", 40).attr("y", 95).text("Stay-at-home orders advised").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 
-  svg2.append("text").attr("x", 40).attr("y", 160).text("Tipping Point (25+ daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
-	svg2.append("text").attr("x", 40).attr("y", 175).text("Stay-at-home orders necessary").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
+  svg2.append("text").attr("x", 40).attr("y", 115).text("Tipping Point (25+ daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
+	svg2.append("text").attr("x", 40).attr("y", 130).text("Stay-at-home orders necessary").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 
-  svg2.append("text").attr("x", 40).attr("y", 195).text("Local Restrictions in Place").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
-	svg2.append("text").attr("x", 40).attr("y", 215).text("Area of Concern or Enhanced Support").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+  svg2.append("text").attr("x", 40).attr("y", 150).text("Local Restrictions in Place").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+	svg2.append("text").attr("x", 40).attr("y", 170).text("Area of Concern or Enhanced Support").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
 
 //svg.call(zoom);
 /*
