@@ -67,11 +67,11 @@ svg {width:100%; height:100%;}
   }
 
   .bodyTable tr:hover {
-    background-color:grey;
+    background-color:lightsteelblue;
   }
 
   .headerTable th:hover {
-    background-color:grey;
+    background-color:lightsteelblue;
   }
 
   .scroll {
@@ -92,17 +92,17 @@ body {
 .header {
     display: block;
     margin: 0 auto;
-    width: 100px;
-    top:100px;
+    width: 110px;
+    top:130px;
     right:0px;
     max-width: 100%;
     box-shadow: none;
-    background-color: #36454f;
+    background-color: lightsteelblue;
     position: fixed;
-    height: 100px!important;
+    height: 110px!important;
     overflow: hidden;
     z-index: 10;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 15px 0px 0px 15px;
     display:none;
 }
 
@@ -111,10 +111,10 @@ body {
     position: fixed;
     right:0;
     width: 550px;
-    margin-top: 200px;
+    margin-top: 230px;
     transform: translateX(550px);
     transition: transform 250ms ease-in-out;
-    background: #36454f;
+    background: lightsteelblue;
 }
 
 input[type="checkbox"]:checked ~ #sidebarMenu {
@@ -134,8 +134,8 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 136px;
-    right: 25px;
+    top: 166px;
+    right: 37px;
     height: 72px;
     width: 50px;
 }
@@ -144,7 +144,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: absolute;
     height: 8px;
-    width: 100%;
+    width: 65px;
     background-color: #fff;
 }
 .horizontal {
@@ -182,7 +182,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(-135deg);
-    margin-top: -9px;
+    margin-top: -21px;
 }
 
 </style>
@@ -208,9 +208,9 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 
 <div>
-<div style="font-size:20px;width:100%" id="page_title"><label><strong>UK COVID-19 Risk Levels </strong></label><label style="font-size:15px;">(25 Sept 2020)<br /></label> </div>
-<div style="font-size:15px;width:100%" id="page_des">Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.
-</div>
+<div style="font-size:20px;width:100%" id="page_title"><label><strong>UK COVID-19 Risk Levels </strong></label><label style="font-size:14px;">(26 Sept 2020)<br /></label> </div>
+<div style="font-size:15px;width:100%" id="page_des"><!--Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.
+--></div>
 <div id="title_div"></div>
 <div id="text_div"></div>
 <div id="new_cases"></div>
@@ -248,12 +248,13 @@ var h_var = 57;
 var mobile_font = 0;
 var legend_font = 15;
 
+d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.")
 
 d3.select("body").append("div").attr("id", "container").style("height", h-h_var + "px").style("width", (h-h_var)*w_var + "px").style("float", "left");
 d3.select(".loading").style("left", ((h-h_var)*w_var)/3 + "px").style("top", h/3 + "px");
 var outer_div = d3.select("body").append("div").attr("id", "outerdiv").style("display", "inline-block").style("padding-left", "20px");//.style("float", "right");
 outer_div.append("div").attr("id", "container_legend").style("width", "450px").style("height", "215px");
-outer_div.append("div").attr("id", "container_list").style("width", "450px").style("height", h-270 + "px");
+outer_div.append("div").attr("id", "container_list").style("width", "450px");//.style("height", h-270 + "px");
 
 d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
 
@@ -265,7 +266,8 @@ if (h > w){
   legend_font = 16;
   $(".header").show();
   $(".sidebarIconToggle").show();
-  $("#outerdiv").appendTo("#sidebarMenu")
+  $("#outerdiv").appendTo("#sidebarMenu");
+  d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Click an area for details.");
   //d3.select("#container_list").style("float", "right");
   //d3.select("#container_legend").style("position", "absolute").style("left", 2*w/3).style("top", 180);
 }
@@ -564,7 +566,7 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
 
 
     }
-    drawTable(data, "#container_list", { width: 400, height: 400 }, valueFunc, textFunc, columns);
+    drawTable(data, "#container_list", { width: 400, height: h-445}, valueFunc, textFunc, columns);
 
 });
 
