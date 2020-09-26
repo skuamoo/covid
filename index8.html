@@ -248,6 +248,7 @@ var h_var = 57;
 var mobile_font = 0;
 var legend_font = 15;
 var table_height = h-280;
+var table_width = 400;
 
 d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.")
 
@@ -261,13 +262,15 @@ d3.select("body").append("div").html("*Risk levels calculated from daily cases p
 
 if (h > w){
   mobile_font = 6;
+  mobile_titles = 3;
   table_height = h-445;
+  table_width = 500;
   div.style("font-size", "18px");
-  //d3.select("#page_title").style("font-size", "24px");
-  //d3.select("#page_des").style("font-size", "16px");
+  d3.select("#page_title").style("font-size", "28px");
+  d3.select("#page_des").style("font-size", "16px");
   legend_font = 18;
-  $('#page_title').css("font-size", "24px");
-  $('#page_des').css("font-size", "16px");
+  //$('#page_title').css("font-size", "24px");
+  //$('#page_des').css("font-size", "16px");
   $(".header").show();
   $(".sidebarIconToggle").show();
   $("#outerdiv").appendTo("#sidebarMenu");
@@ -526,15 +529,17 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
     outerTable.append("tr").append("td")
         .append("table").attr("class", "headerTable").attr("width", twidth)
         .append("tr").selectAll("th").data(columns).enter()
-    .append("th").text(function (column) { return column; })
+    .append("th").attr("id", function(column) {return column;}).text(function (column) { return column + "▼"; })
         .on("click", function (d) {
             // Choose appropriate sorting function.
             if (d === columns[1]) {
           var sort = metricAscending ? sortValueAscending : sortValueDescending;
                 metricAscending = !metricAscending;
+              
             } else if(d === columns[0]) {
         var sort = nameAscending ? sortNameAscending : sortNameDescending
                 nameAscending = !nameAscending;
+
             }
       
             var rows = tbody.selectAll("tr").sort(sort);
@@ -570,7 +575,7 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
 
 
     }
-    drawTable(data, "#container_list", { width: 400, height: table_height}, valueFunc, textFunc, columns);
+    drawTable(data, "#container_list", { width: table_width, height: table_height}, valueFunc, textFunc, columns);
 
 });
 
