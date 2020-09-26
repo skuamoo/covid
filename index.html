@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177507313-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-177507313-1');
+  </script>
+
 <meta charset="utf-8">
 <meta property="og:image" content="https://skuamoo.github.io/covid/screenshot1.JPG" />
 <meta property="og:url" content="https://skuamoo.github.io/covid/" />
@@ -273,7 +282,15 @@ function ready(error, topo) {
 
           
   }
-
+/*
+   window.onclick = function(event){
+          if(!(event.target.className.baseVal=="map_area")){
+                d3.selectAll(".map_area").style("opacity", 1); 
+                clicked_area = ""; 
+                div.style("opacity", 0);
+              }
+          }
+*/
     var svg2 = d3.select("#container_legend").append("svg");
 
   svg2.append("circle").attr("cx",20).attr("cy",20).attr("r", 6).style("fill", "green").attr("class", "legend");
