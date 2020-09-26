@@ -92,14 +92,14 @@ body {
 .header {
     display: block;
     margin: 0 auto;
-    width: 50px;
-    top:30px;
+    width: 100px;
+    top:100px;
     right:0px;
     max-width: 100%;
     box-shadow: none;
     background-color: #36454f;
     position: fixed;
-    height: 50px!important;
+    height: 100px!important;
     overflow: hidden;
     z-index: 10;
     border-radius: 5px 0px 0px 5px;
@@ -110,9 +110,9 @@ body {
     height: 100%;
     position: fixed;
     right:0;
-    width: 450px;
-    margin-top: 70px;
-    transform: translateX(450px);
+    width: 550px;
+    margin-top: 200px;
+    transform: translateX(550px);
     transition: transform 250ms ease-in-out;
     background: #36454f;
 }
@@ -134,16 +134,16 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 46px;
-    right: 15px;
-    height: 22px;
-    width: 22px;
+    top: 136px;
+    right: 25px;
+    height: 72px;
+    width: 50px;
 }
 .spinner {
     transition: all 0.3s;
     box-sizing: border-box;
     position: absolute;
-    height: 3px;
+    height: 8px;
     width: 100%;
     background-color: #fff;
 }
@@ -152,7 +152,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: left;
-    margin-top: 3px;
+    margin-top: 7px;
 }
 .diagonal.part-1 {
     position: relative;
@@ -165,7 +165,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: left;
-    margin-top: 3px;
+    margin-top: 7px;
 }
 input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
     transition: all 0.3s;
@@ -260,7 +260,7 @@ d3.select("body").append("div").html("*Risk levels calculated from daily cases p
 if (h > w){
   mobile_font = 4;
   div.style("font-size", "18px");
-  d3.select("#page_title").style("font-size", "20px");
+  d3.select("#page_title").style("font-size", "24px");
   d3.select("#page_des").style("font-size", "16px");
   legend_font = 16;
   $(".header").show();
