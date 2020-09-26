@@ -179,6 +179,24 @@ function popup(d){
           d.weekly = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[3];
           d.cases_week = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[5];
           var mouseover_txt = "<strong><u>" + d.properties.lad18nm + "</strong></u><br/>";
+          var risk_color;
+          var risk_text;
+          if (d.total < 1){
+            risk_text = "Monitor with test and trace";
+            risk_color = "green";
+          }
+          else if (d.total < 10) {
+            risk_text = "Rigorous test and trace advised";
+            risk_color = "yellow";
+          }
+          else if (d.total < 25) {
+            risk_text = "Stay-at-home orders advised";
+            risk_color = "orange";
+          }
+          else {
+            risk_text = "Stay-at-home orders necessary";
+            risk_color = "red";
+          }
           if (d.total == "unavailable") {
             mouseover_txt += "No Data Available";
           }   
@@ -187,7 +205,7 @@ function popup(d){
             if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
             else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
             else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
-            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown; //+ "</i><br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
+            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "<br/><span style='background-color:" + risk_color + "'>" + risk_text + "</span>";//<label style='color:" + risk_color + ";'>●</label>" + risk_text; //+ "</i><br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
           }  
           return mouseover_txt;
 }
