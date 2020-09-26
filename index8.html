@@ -97,7 +97,7 @@ body {
     right:0px;
     max-width: 100%;
     box-shadow: none;
-    background-color: lightsteelblue;
+    background-color: steelblue;
     position: fixed;
     height: 110px!important;
     overflow: hidden;
@@ -114,7 +114,7 @@ body {
     margin-top: 230px;
     transform: translateX(550px);
     transition: transform 250ms ease-in-out;
-    background: lightsteelblue;
+    background: steelblue;
 }
 
 input[type="checkbox"]:checked ~ #sidebarMenu {
@@ -261,9 +261,11 @@ d3.select("body").append("div").html("*Risk levels calculated from daily cases p
 if (h > w){
   mobile_font = 4;
   div.style("font-size", "18px");
-  d3.select("#page_title").style("font-size", "24px");
-  d3.select("#page_des").style("font-size", "16px");
-  legend_font = 16;
+  //d3.select("#page_title").style("font-size", "24px");
+  //d3.select("#page_des").style("font-size", "16px");
+  legend_font = 18;
+  $('#page_title').css("font-size", "24px");
+  $('#page_des').css("font-size", "16px");
   $(".header").show();
   $(".sidebarIconToggle").show();
   $("#outerdiv").appendTo("#sidebarMenu");
