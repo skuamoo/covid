@@ -99,7 +99,7 @@ body {
     box-shadow: none;
     background-color: steelblue;
     position: fixed;
-    height: 110px!important;
+    height: 100px!important;
     overflow: hidden;
     z-index: 10;
     border-radius: 15px 0px 0px 15px;
@@ -134,7 +134,7 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 166px;
+    top: 161px;
     right: 37px;
     height: 72px;
     width: 50px;
@@ -251,7 +251,7 @@ var table_height = h-280;
 var table_width = 400;
 var mobile_titles = 0;
 
-d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.")
+var page_des = d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.")
 
 d3.select("body").append("div").attr("id", "container").style("height", h-h_var + "px").style("width", (h-h_var)*w_var + "px").style("float", "left");
 d3.select(".loading").style("left", ((h-h_var)*w_var)/3 + "px").style("top", h/3 + "px");
@@ -268,7 +268,8 @@ if (h > w){
   table_width = 500;
   legend_font = 18;
   div.style("font-size", "18px");
-  //d3.select("#page_title").style("font-size", "28px");
+  page_des.style("font-size","16px");
+  d3.select("#page_title").style("font-size", "18px");
   //d3.select("#page_des").style("font-size", "16px");
   legend_font = 18;
   //$('#page_title').css("font-size", "24px");
