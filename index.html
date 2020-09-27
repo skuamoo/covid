@@ -250,7 +250,7 @@ var h_var = 70;
 
 var mobile_font = 0;
 var legend_font = 15;
-var table_height = h-280;
+var table_height = h-300;
 var table_width = 400;
 var mobile_titles = 0;
 
@@ -261,13 +261,8 @@ d3.select(".loading").style("left", ((h-h_var)*w_var)/3 + "px").style("top", h/3
 var outer_div = d3.select("body").append("div").attr("id", "outerdiv").style("display", "inline-block").style("padding-left", "20px").style("padding-top", "10px");//.style("float", "right");
 outer_div.append("div").attr("id", "container_legend").style("width", "450px").style("height", "205px").style("top","10px").style("background", "white");
 var search_group = outer_div.append("div").attr("id", "search_grp").style("padding-top", "10px");
-search_group.append("input").attr("id", "search_box");
-search_group.append("button").text("Search").attr("id", "search_btn").on("click", function() {
-          var searchval = d3.select("#search_box").property("value");
-            d3.selectAll(".map_area").style("opacity", 0.5); 
-              d3.select("#" + searchval).style("opacity", 1); 
-              clicked_area = searchval;
-});
+search_group.append("input").attr("id", "search_box").style("width", "200px").attr("placeholder", "Enter area name to search map");
+
 outer_div.append("div").attr("id", "container_list").style("width", "450px");//.style("height", h-270 + "px");
 
 d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
@@ -327,10 +322,9 @@ d3.queue()
 const g = svg.append("g");
 
   window.onclick = function(event){
-    console.log(event.target.className.slice(0,6));
           if(!(event.target.className.baseVal=="map_area")){
             if (!(event.target.innerText)) {
-              if(!(event.target.className == "openSidebarMenu" || event.target.className.slice(0,7) == "spinner")) {
+              if(!(event.target.className == "openSidebarMenu" || (event.target.className.length >6 && event.target.className.slice(0,7) == "spinner"))) {
                 d3.selectAll(".map_area").style("opacity", 1); 
                 clicked_area = ""; 
                 div.style("opacity", 0);
@@ -523,6 +517,15 @@ function zoomed() {
         .attr('transform', d3.event.transform);
     }
 */
+
+$("#search_box").on( "autocompleteselect", function( event, ui ) {
+          var searchval = ui.item.value;//d3.select("#search_box").property("value");
+            d3.selectAll(".map_area").style("opacity", 0.5); 
+              d3.select("#" + searchval).style("opacity", 1); 
+              clicked_area = searchval;
+
+} );
+
 d3.csv("data.csv", function(data){
 
     //var totalSum = d3.sum(data.map(function(d){ return d.cases_day}));
