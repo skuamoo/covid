@@ -67,16 +67,123 @@ svg {width:100%; height:100%;}
   }
 
   .bodyTable tr:hover {
-    background-color:grey;
+    background-color:lightsteelblue;
   }
 
   .headerTable th:hover {
-    background-color:grey;
+    background-color:lightsteelblue;
   }
 
   .scroll {
     overflow: auto;
   }
+
+  @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    top:130px;
+    right:0px;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: steelblue;
+    position: fixed;
+    height: 110px!important;
+    overflow: hidden;
+    z-index: 10;
+    border-radius: 15px 0px 0px 15px;
+    display:none;
+}
+
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    right:0;
+    width: 550px;
+    margin-top: 230px;
+    transform: translateX(550px);
+    transition: transform 250ms ease-in-out;
+    background: steelblue;
+}
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 166px;
+    right: 37px;
+    height: 72px;
+    width: 50px;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 8px;
+    width: 65px;
+    background-color: #fff;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 7px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 7px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -21px;
+}
 
 </style>
 <script src="https://d3js.org/d3.v4.js"></script>
@@ -86,9 +193,24 @@ svg {width:100%; height:100%;}
 </head>
 <body>
 
-<div style="font-size:20px;width:100%" id="page_title"><label><strong>UK COVID-19 Risk Levels </strong></label><label style="font-size:15px;">(25 Sept 2020)<br /></label> </div>
-<div style="font-size:15px;width:100%" id="page_des">Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.
-</div>
+<div class="header"></div>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <label for="openSidebarMenu" class="sidebarIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+  <div id="sidebarMenu">
+   
+  </div>
+
+
+
+
+<div>
+<div style="font-size:20px;width:100%" id="page_title"><label><strong>UK COVID-19 Risk Levels </strong></label><label style="font-size:14px;">(26 Sept 2020)<br /></label> </div>
+<div style="font-size:15px;width:100%" id="page_des"><!--Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.
+--></div>
 <div id="title_div"></div>
 <div id="text_div"></div>
 <div id="new_cases"></div>
@@ -124,23 +246,37 @@ var w_var = .584;
 var h_var = 57;
 
 var mobile_font = 0;
+var legend_font = 15;
+var table_height = h-280;
+var table_width = 400;
 
-
+d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.")
 
 d3.select("body").append("div").attr("id", "container").style("height", h-h_var + "px").style("width", (h-h_var)*w_var + "px").style("float", "left");
 d3.select(".loading").style("left", ((h-h_var)*w_var)/3 + "px").style("top", h/3 + "px");
-var outer_div = d3.select("body").append("div").style("display", "inline-block").style("padding-left", "20px");//.style("float", "right");
+var outer_div = d3.select("body").append("div").attr("id", "outerdiv").style("display", "inline-block").style("padding-left", "20px");//.style("float", "right");
 outer_div.append("div").attr("id", "container_legend").style("width", "450px").style("height", "215px");
-outer_div.append("div").attr("id", "container_list").style("width", "450px").style("height", h-270 + "px");
+outer_div.append("div").attr("id", "container_list").style("width", "450px");//.style("height", h-270 + "px");
 
 d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
 
 if (h > w){
-  mobile_font = 4;
+  mobile_font = 6;
+  mobile_titles = 3;
+  table_height = h-445;
+  table_width = 500;
   div.style("font-size", "18px");
-  d3.select("#page_title").style("font-size", "24px");
+  d3.select("#page_title").style("font-size", "28px");
   d3.select("#page_des").style("font-size", "16px");
-  d3.select("container_list").style("float", "right");
+  legend_font = 18;
+  //$('#page_title').css("font-size", "24px");
+  //$('#page_des').css("font-size", "16px");
+  $(".header").show();
+  $(".sidebarIconToggle").show();
+  $("#outerdiv").appendTo("#sidebarMenu");
+  d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Click an area for details.");
+  //d3.select("#container_list").style("float", "right");
+  //d3.select("#container_legend").style("position", "absolute").style("left", 2*w/3).style("top", 180);
 }
 
 var svg = d3.select("#container").append("svg").attr("height", h-h_var).attr("width", (h-h_var)*w_var);
@@ -243,7 +379,7 @@ function ready(error, topo) {
       })
       .attr("stroke-opacity", function(d) {
         d.lockdown = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[1];
-        if (d.lockdown == "No Action Required") {
+        if (d.lockdown == "No Additional Restrictions") {
           return 0.3;
         }
         else {
@@ -270,8 +406,8 @@ function ready(error, topo) {
                 .style("top", (d3.event.pageY - 28) + "px"); 
         }
 
-        })          
-        .on("mouseout", function(d) {  
+      })          
+      .on("mouseout", function(d) {  
             if (clicked_area == ""){ 
               div.transition()    
                 .duration(500)    
@@ -303,6 +439,18 @@ function ready(error, topo) {
 
           
   }
+
+/*
+d3.selectAll(".map_area").sort(function (a, b) { // select the parent and sort the path's
+      if(a.lockdown == "Area of Intervention") {
+        return 1;
+        console.log("area");
+      }    
+      else {
+        return -1;
+      }               // a is the hovered element, bring "a" to the front
+  });
+*/ 
 /*
    window.onclick = function(event){
           if(!(event.target.className.baseVal=="map_area")){
@@ -312,6 +460,7 @@ function ready(error, topo) {
               }
           }
 */
+
     var svg2 = d3.select("#container_legend").append("svg");
 
   svg2.append("circle").attr("cx",20).attr("cy",20).attr("r", 6).style("fill", "green").attr("class", "legend");
@@ -321,20 +470,20 @@ function ready(error, topo) {
 	svg2.append("rect").attr("x",20).attr("y",160).attr("width", 10).attr("height", 2).style("fill", "black").attr("class", "legend");
 	svg2.append("rect").attr("x",20).attr("y",180).attr("width", 10).attr("height", 2).style("fill", "blue").attr("class", "legend");
 
-	svg2.append("text").attr("x", 40).attr("y", 20).text("On Track for Containment (<1 daily case per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
-  svg2.append("text").attr("x", 40).attr("y", 35).text("Monitor with test and trace").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
+	svg2.append("text").attr("x", 40).attr("y", 20).text("On Track for Containment (<1 daily case per 100k)").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend");
+  svg2.append("text").attr("x", 40).attr("y", 35).text("Monitor with test and trace").style("font-size", legend_font + "px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 
-	svg2.append("text").attr("x", 40).attr("y", 55).text("Community Spread (1-9 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
-  svg2.append("text").attr("x", 40).attr("y", 70).text("Rigorous test and trace advised").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
+	svg2.append("text").attr("x", 40).attr("y", 55).text("Community Spread (1-9 daily cases per 100k)").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend");
+  svg2.append("text").attr("x", 40).attr("y", 70).text("Rigorous test and trace advised").style("font-size", legend_font + "px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 	
-  svg2.append("text").attr("x", 40).attr("y", 90).text("Accelerated Spread (10-24 daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
-	svg2.append("text").attr("x", 40).attr("y", 105).text("Stay-at-home orders advised").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
+  svg2.append("text").attr("x", 40).attr("y", 90).text("Accelerated Spread (10-24 daily cases per 100k)").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend");
+	svg2.append("text").attr("x", 40).attr("y", 105).text("Stay-at-home orders advised").style("font-size", legend_font + "px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 
-  svg2.append("text").attr("x", 40).attr("y", 125).text("Tipping Point (25+ daily cases per 100k)").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend");
-	svg2.append("text").attr("x", 40).attr("y", 140).text("Stay-at-home orders necessary").style("font-size", "15px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
+  svg2.append("text").attr("x", 40).attr("y", 125).text("Tipping Point (25+ daily cases per 100k)").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend");
+	svg2.append("text").attr("x", 40).attr("y", 140).text("Stay-at-home orders necessary").style("font-size", legend_font + "px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 
-  svg2.append("text").attr("x", 40).attr("y", 160).text("Area of Intervention").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
-	svg2.append("text").attr("x", 40).attr("y", 180).text("Area of Concern or Enhanced Support").style("font-size", "15px").attr("alignment-baseline","middle").attr("class", "legend")
+  svg2.append("text").attr("x", 40).attr("y", 160).text("Area of Intervention").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
+	svg2.append("text").attr("x", 40).attr("y", 180).text("Area of Concern or Enhanced Support").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
 
 //svg.call(zoom);
 /*
@@ -380,15 +529,17 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
     outerTable.append("tr").append("td")
         .append("table").attr("class", "headerTable").attr("width", twidth)
         .append("tr").selectAll("th").data(columns).enter()
-    .append("th").text(function (column) { return column; })
+    .append("th").attr("id", function(column) {return column;}).text(function (column) { return column + "▼"; })
         .on("click", function (d) {
             // Choose appropriate sorting function.
             if (d === columns[1]) {
           var sort = metricAscending ? sortValueAscending : sortValueDescending;
                 metricAscending = !metricAscending;
+              
             } else if(d === columns[0]) {
         var sort = nameAscending ? sortNameAscending : sortNameDescending
                 nameAscending = !nameAscending;
+
             }
       
             var rows = tbody.selectAll("tr").sort(sort);
@@ -420,17 +571,17 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
       else {return "red";}
     })
     .style("border", 0)
-    .style("font-size", 14+mobile_font + "px");
+    .style("font-size", 14+ mobile_font + "px");
 
 
     }
-    drawTable(data, "#container_list", { width: 400, height: 400 }, valueFunc, textFunc, columns);
+    drawTable(data, "#container_list", { width: table_width, height: table_height}, valueFunc, textFunc, columns);
 
 });
 
 </script>
 <!--position:absolute;top:0px;  position:absolute;top:23px;       -->
 	
-
+</div>
 </body>
 </html>
