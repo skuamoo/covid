@@ -187,10 +187,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 
 </style>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
 
@@ -258,6 +260,14 @@ d3.select("body").append("div").attr("id", "container").style("height", h-h_var 
 d3.select(".loading").style("left", ((h-h_var)*w_var)/3 + "px").style("top", h/3 + "px");
 var outer_div = d3.select("body").append("div").attr("id", "outerdiv").style("display", "inline-block").style("padding-left", "20px").style("padding-top", "10px");//.style("float", "right");
 outer_div.append("div").attr("id", "container_legend").style("width", "450px").style("height", "205px").style("top","10px").style("background", "white");
+var search_group = outer_div.append("div").attr("id", "search_grp").style("padding-top", "10px");
+search_group.append("input").attr("id", "search_box");
+search_group.append("button").text("Search").attr("id", "search_btn").on("click", function() {
+          var searchval = d3.select("#search_box").property("value");
+            d3.selectAll(".map_area").style("opacity", 0.5); 
+              d3.select("#" + searchval).style("opacity", 1); 
+              clicked_area = searchval;
+});
 outer_div.append("div").attr("id", "container_list").style("width", "450px");//.style("height", h-270 + "px");
 
 d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
@@ -310,18 +320,23 @@ d3.queue()
   .defer(d3.json, "uk_la.geojson")
   .defer(d3.csv, "data.csv", function(d) {
   		data.set(d.name, [+d.rate_day, d.lockdown, d.cases_day, d.rate_week, d.trend, d.cases_week]); 
+    
   	})
   .await(ready);
 
 const g = svg.append("g");
 
   window.onclick = function(event){
+    console.log(event.target.className.slice(0,6));
           if(!(event.target.className.baseVal=="map_area")){
+            if (!(event.target.innerText)) {
+              if(!(event.target.className == "openSidebarMenu" || event.target.className.slice(0,7) == "spinner")) {
                 d3.selectAll(".map_area").style("opacity", 1); 
                 clicked_area = ""; 
                 div.style("opacity", 0);
               }
-
+              }
+            }
           }
 
   window.addEventListener('resize', function() {
@@ -383,6 +398,7 @@ function ready(error, topo) {
       .attr("d", d3.geoPath()
         .projection(projection)
       )
+      .attr("id", function(d) { return d.properties.lad18nm;})
       .attr("class", "map_area")
       .attr("stroke", function(d) {
       	//"black"
@@ -511,11 +527,13 @@ d3.csv("data.csv", function(data){
 
     //var totalSum = d3.sum(data.map(function(d){ return d.cases_day}));
     //svg2.append("text").attr("x", 10).attr("y", 45).attr("font-weight", "bold").text("Total New Daily Cases (N. Irl not included): "+ totalSum);
-
-
-
-
-
+      var areas = []; 
+      data.map(function(e) {
+        areas.push(e.name);
+      });
+      $( "#search_box" ).autocomplete({
+          source: areas
+      });
       //var chart = d3.select("#container_list");
 //var width = chart.offsetWidth;
 //var height = chart.offsetHeight;
@@ -566,7 +584,16 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
 
     var tbody = inner.append("tbody");
     // Create a row for each object in the data and perform an intial sort.
-    var rows = tbody.selectAll("tr").data(data).enter().append("tr").sort(sortValueDescending);
+    var rows = tbody.selectAll("tr").data(data).enter().append("tr").attr("class", "table_row").sort(sortValueDescending).on("click", function(d){
+              d3.selectAll(".map_area").style("opacity", 0.5); 
+              d3.select("#" + d.name).style("opacity", 1); 
+              clicked_area = d.name;
+
+              //div.style("opacity", .9);    
+            /*  div .html(mouseover_txt)  
+                .style("left", (d3.event.pageX) + "px")   
+                .style("top", (d3.event.pageY - 28) + "px"); */
+    });
 
     // Create a cell in each row for each column
     var cells = rows.selectAll("td")
