@@ -262,10 +262,11 @@ outer_div.append("div").attr("id", "container_list").style("width", "450px");//.
 d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
 
 if (h > w){
-  mobile_font = 6;
-  mobile_titles = 4;
+  mobile_font = 8;
+  mobile_titles = 6;
   table_height = h-445;
   table_width = 500;
+  legend_font = 18;
   div.style("font-size", "18px");
   d3.select("#page_title").style("font-size", "28px");
   d3.select("#page_des").style("font-size", "16px");
