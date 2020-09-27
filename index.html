@@ -67,11 +67,11 @@ svg {width:100%; height:100%;}
   }
 
   .bodyTable tr:hover {
-    background-color:lightsteelblue;
+    cursor:pointer;
   }
 
   .headerTable th:hover {
-    background-color:lightsteelblue;
+    cursor:pointer;
   }
 
   .scroll {
@@ -208,12 +208,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 
 <div>
-<div style="font-size:20px;width:100%" id="page_title"><label style="font-size:20px"><strong>UK COVID-19 Risk Levels </strong></label><label style="font-size:14px;">(26 Sept 2020)<br /></label> </div>
-<div style="font-size:15px;width:100%" id="page_des"><!--Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.
+<div style="font-size:20px;width:100%;padding-left:10px" id="page_title"><label style="font-size:20px"><strong>UK COVID-19 Risk Levels </strong></label><label style="font-size:14px;">(26 Sept 2020)<br /></label> </div>
+<div style="font-size:15px;width:100%;padding-left:10px" id="page_des"><!--Based on the <a href="https://globalepidemics.org/key-metrics-for-covid-suppression/" target="_blank">Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.
 --></div>
 <div id="title_div"></div>
 <div id="text_div"></div>
-<div id="new_cases"></div>
+<div id="new_cases" style="padding-left:10px"></div>
 <div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
 <script>
 
@@ -249,20 +249,21 @@ var mobile_font = 0;
 var legend_font = 15;
 var table_height = h-280;
 var table_width = 400;
+var mobile_titles = 0;
 
 d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Hover over or click an area for details.")
 
 d3.select("body").append("div").attr("id", "container").style("height", h-h_var + "px").style("width", (h-h_var)*w_var + "px").style("float", "left");
 d3.select(".loading").style("left", ((h-h_var)*w_var)/3 + "px").style("top", h/3 + "px");
-var outer_div = d3.select("body").append("div").attr("id", "outerdiv").style("display", "inline-block").style("padding-left", "20px");//.style("float", "right");
-outer_div.append("div").attr("id", "container_legend").style("width", "450px").style("height", "215px");
+var outer_div = d3.select("body").append("div").attr("id", "outerdiv").style("display", "inline-block").style("padding-left", "20px").style("padding-top", "10px");//.style("float", "right");
+outer_div.append("div").attr("id", "container_legend").style("width", "450px").style("height", "205px").style("top","10px").style("background", "white");
 outer_div.append("div").attr("id", "container_list").style("width", "450px");//.style("height", h-270 + "px");
 
 d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
 
 if (h > w){
   mobile_font = 6;
-  mobile_titles = 3;
+  mobile_titles = 4;
   table_height = h-445;
   table_width = 500;
   div.style("font-size", "18px");
@@ -334,18 +335,22 @@ function popup(d){
           var risk_color;
           var risk_text;
           if (d.total < 1){
+            risk_text1 = "On Track for Containment";
             risk_text = "Monitor with test and trace";
             risk_color = "green";
           }
           else if (d.total < 10) {
+            risk_text1 = "Community Spread";
             risk_text = "Rigorous test and trace advised";
             risk_color = "yellow";
           }
           else if (d.total < 25) {
+            risk_text1 = "Accelerated Spread";
             risk_text = "Stay-at-home orders advised";
             risk_color = "orange";
           }
           else {
+            risk_text1 = "Tipping Point";
             risk_text = "Stay-at-home orders necessary";
             risk_color = "red";
           }
@@ -357,7 +362,7 @@ function popup(d){
             if(d.trend == "▲") {mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";}
             else if (d.trend == "▼") {mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";}
             else {mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";}
-            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "<br/><span style='background-color:" + risk_color + "'>" + risk_text + "</span>";//<label style='color:" + risk_color + ";'>●</label>" + risk_text; //+ "</i><br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
+            mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "<br/><span style='background-color:" + risk_color + "'>" + risk_text1 + "</span><br/><span style='background-color:" + risk_color + "'>" + risk_text + "</span>";//<label style='color:" + risk_color + ";'>●</label>" + risk_text; //+ "</i><br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
           }  
           return mouseover_txt;
 }
@@ -550,7 +555,8 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
             }
       
             var rows = tbody.selectAll("tr").sort(sort);
-        });
+        })
+        .style("font-size", 16 + mobile_titles +"px");
 
     var inner = outerTable.append("tr").append("td")
     .append("div").attr("class", "scroll").attr("width", width).attr("style", "height:" + divHeight + ";")
