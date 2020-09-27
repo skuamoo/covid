@@ -312,6 +312,19 @@ d3.queue()
 
 const g = svg.append("g");
 
+  window.onclick = function(event){
+          if(!(event.target.className.baseVal=="map_area")){
+                d3.selectAll(".map_area").style("opacity", 1); 
+                clicked_area = ""; 
+                div.style("opacity", 0);
+              }
+
+          }
+
+  window.addEventListener('resize', function() {
+    console.log("The window was resized!");
+  });
+
 function popup(d){
           d.cases = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[2];
           d.trend = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[4];
@@ -451,15 +464,9 @@ d3.selectAll(".map_area").sort(function (a, b) { // select the parent and sort t
       }               // a is the hovered element, bring "a" to the front
   });
 */ 
-/*
-   window.onclick = function(event){
-          if(!(event.target.className.baseVal=="map_area")){
-                d3.selectAll(".map_area").style("opacity", 1); 
-                clicked_area = ""; 
-                div.style("opacity", 0);
-              }
-          }
-*/
+
+ 
+
 
     var svg2 = d3.select("#container_legend").append("svg");
 
