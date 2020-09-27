@@ -523,7 +523,7 @@ $("#search_box").on( "autocompleteselect", function( event, ui ) {
             d3.selectAll(".map_area").style("opacity", 0.5); 
               d3.select("#" + searchval).style("opacity", 1); 
               clicked_area = searchval;
-
+              d3.select("#openSidebarMenu").property('checked', false);
 } );
 
 d3.csv("data.csv", function(data){
