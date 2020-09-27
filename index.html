@@ -262,10 +262,28 @@ var outer_div = d3.select("body").append("div").attr("id", "outerdiv").style("di
 outer_div.append("div").attr("id", "container_legend").style("width", "450px").style("height", "205px").style("top","10px").style("background", "white");
 var search_group = outer_div.append("div").attr("id", "search_grp").style("padding-top", "10px");
 search_group.append("input").attr("id", "search_box").style("width", "200px").attr("placeholder", "Enter area name to search map");
+search_group.append("button").attr("id", "search_btn").text("Search");
 
 outer_div.append("div").attr("id", "container_list").style("width", "450px");//.style("height", h-270 + "px");
 
 d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
+
+
+$("#search_box").on( "autocompleteselect", function( event, ui ) {
+          var searchval = ui.item.value.toLowerCase();//d3.select("#search_box").property("value");
+            d3.selectAll(".map_area").style("opacity", 0.5); 
+              d3.select("#" + searchval).style("opacity", 1); 
+              clicked_area = searchval;
+              d3.select("#openSidebarMenu").property('checked', false);
+} );
+
+$("#search_btn").on( "click", function() {
+          var searchval = d3.select("#search_box").property("value").toLowerCase();
+            d3.selectAll(".map_area").style("opacity", 0.5); 
+              d3.select("#" + searchval).style("opacity", 1); 
+              clicked_area = searchval;
+              d3.select("#openSidebarMenu").property('checked', false);
+} );
 
 if (h > w){
   //assume mobile phone if browser height is greater than width
@@ -285,6 +303,7 @@ if (h > w){
   $("#outerdiv").appendTo("#sidebarMenu");
   d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Click an area for details.");
   d3.select("#search_box").style("height", "30px").style("width", "300px").style("font-size", "20px");
+  d3.select("#search_btn").style("height", "30px").style("font-size", "20px");
 
   //d3.select("#container_list").style("float", "right");
   //d3.select("#container_legend").style("position", "absolute").style("left", 2*w/3).style("top", 180);
@@ -395,7 +414,7 @@ function ready(error, topo) {
       .attr("d", d3.geoPath()
         .projection(projection)
       )
-      .attr("id", function(d) { return d.properties.lad18nm;})
+      .attr("id", function(d) { return d.properties.lad18nm.toLowerCase();})
       .attr("class", "map_area")
       .attr("stroke", function(d) {
       	//"black"
@@ -521,13 +540,7 @@ function zoomed() {
     }
 */
 
-$("#search_box").on( "autocompleteselect", function( event, ui ) {
-          var searchval = ui.item.value;//d3.select("#search_box").property("value");
-            d3.selectAll(".map_area").style("opacity", 0.5); 
-              d3.select("#" + searchval).style("opacity", 1); 
-              clicked_area = searchval;
-              d3.select("#openSidebarMenu").property('checked', false);
-} );
+
 
 d3.csv("data.csv", function(data){
 
