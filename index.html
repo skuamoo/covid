@@ -268,6 +268,7 @@ outer_div.append("div").attr("id", "container_list").style("width", "450px");//.
 d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
 
 if (h > w){
+  //assume mobile phone if browser height is greater than width
   mobile_font = 8;
   mobile_titles = 6;
   table_height = h-445;
@@ -283,6 +284,8 @@ if (h > w){
   $(".sidebarIconToggle").show();
   $("#outerdiv").appendTo("#sidebarMenu");
   d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Click an area for details.");
+  d3.select("#search_box").style("height", "30px").style("width", "300px").style("font-size", "20px");
+
   //d3.select("#container_list").style("float", "right");
   //d3.select("#container_legend").style("position", "absolute").style("left", 2*w/3).style("top", 180);
 }
