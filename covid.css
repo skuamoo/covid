@@ -1,0 +1,175 @@
+div.tooltip { 
+  position: absolute;     
+  text-align: center;     
+  width: auto;          
+  height: auto;         
+  padding: 2px;       
+  font: 14px sans-serif;    
+  background: lightsteelblue; 
+  border: 0px;    
+  border-radius: 8px;     
+  pointer-events: none;    
+}
+
+div.loading {   
+  position: absolute;  
+  left: 25%;
+  top: 30%;         
+  text-align: center;           
+  width: 125px;                  
+  height: 50px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  border: 0px;      
+  border-radius: 8px;  
+  pointer-events: none;
+}
+
+svg {
+  width:100%; 
+  height:100%;
+}
+
+#chart {
+  width: 500px;
+  height: 500px;
+}
+
+.bodyTable td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.bodyTable tr {
+  height: 18px;
+}
+
+.bodyTable tr:hover {
+  cursor:pointer;
+}
+
+.headerTable th:hover {
+  cursor:pointer;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.header {
+  display: block;
+  margin: 0 auto;
+  width: 110px;
+  top:130px;
+  right:0px;
+  max-width: 100%;
+  box-shadow: none;
+  background-color: steelblue;
+  position: fixed;
+  height: 100px!important;
+  overflow: hidden;
+  z-index: 10;
+  border-radius: 15px 0px 0px 15px;
+  display:none;
+}
+
+#sidebarMenu {
+  height: 100%;
+  position: fixed;
+  right:0;
+  width: 550px;
+  margin-top: 230px;
+  transform: translateX(550px);
+  transition: transform 250ms ease-in-out;
+  background: steelblue;
+}
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+  transform: translateX(0);
+}
+
+input[type=checkbox] {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: none;
+}
+
+.sidebarIconToggle {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 161px;
+  right: 37px;
+  height: 72px;
+  width: 50px;
+}
+
+.spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 8px;
+  width: 65px;
+  background-color: #fff;
+}
+
+.horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 7px;
+}
+
+.diagonal.part-1 {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: left;
+}
+
+.diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 7px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -21px;
+}
