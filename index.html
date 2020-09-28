@@ -16,9 +16,6 @@
 <meta property="og:title" content="UK COVID-19 Risk Levels" />
 <meta property="og:description" content="Risk levels by local authority according to the Harvard/Brown Key Metrics for COVID Suppression risk framework." />
 
-<!--<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />-->
-
-<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />-->
 <style>
   div.tooltip { 
     position: absolute;     
@@ -32,26 +29,27 @@
     border-radius: 8px;     
     pointer-events: none;    
   }
+
   div.loading {   
-  position: absolute;  
-  left: 25%;
-  top: 30%;         
-  text-align: center;           
-  width: 125px;                  
-  height: 50px;                 
-  padding: 2px;             
-  font: 12px sans-serif;        
-  border: 0px;      
-  border-radius: 8px;  
-  pointer-events: none;
-}
-.legend {
+    position: absolute;  
+    left: 25%;
+    top: 30%;         
+    text-align: center;           
+    width: 125px;                  
+    height: 50px;                 
+    padding: 2px;             
+    font: 12px sans-serif;        
+    border: 0px;      
+    border-radius: 8px;  
+    pointer-events: none;
+  }
 
-}
-svg {width:100%; height:100%;}
+  svg {
+    width:100%; 
+    height:100%;
+  }
 
-
-#chart {
+  #chart {
     width: 500px;
     height: 500px;
   }
@@ -79,17 +77,19 @@ svg {width:100%; height:100%;}
   }
 
   @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-html, body {
+  html, body {
     overflow-x: hidden;
     height: 100%;
-}
-body {
+  }
+
+  body {
     background: #fff;
     padding: 0;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
-}
-.header {
+  }
+
+  .header {
     display: block;
     margin: 0 auto;
     width: 110px;
@@ -104,9 +104,9 @@ body {
     z-index: 10;
     border-radius: 15px 0px 0px 15px;
     display:none;
-}
+  }
 
-#sidebarMenu {
+  #sidebarMenu {
     height: 100%;
     position: fixed;
     right:0;
@@ -115,18 +115,19 @@ body {
     transform: translateX(550px);
     transition: transform 250ms ease-in-out;
     background: steelblue;
-}
+  }
 
-input[type="checkbox"]:checked ~ #sidebarMenu {
+  input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
-}
+  }
 
-input[type=checkbox] {
+  input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
     display: none;
-}
-.sidebarIconToggle {
+  }
+
+  .sidebarIconToggle {
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
@@ -138,53 +139,59 @@ input[type=checkbox] {
     right: 37px;
     height: 72px;
     width: 50px;
-}
-.spinner {
+  }
+
+  .spinner {
     transition: all 0.3s;
     box-sizing: border-box;
     position: absolute;
     height: 8px;
     width: 65px;
     background-color: #fff;
-}
-.horizontal {
+  }
+
+  .horizontal {
     transition: all 0.3s;
     box-sizing: border-box;
     position: relative;
     float: left;
     margin-top: 7px;
-}
-.diagonal.part-1 {
+  }
+
+  .diagonal.part-1 {
     position: relative;
     transition: all 0.3s;
     box-sizing: border-box;
     float: left;
-}
-.diagonal.part-2 {
+  }
+
+  .diagonal.part-2 {
     transition: all 0.3s;
     box-sizing: border-box;
     position: relative;
     float: left;
     margin-top: 7px;
-}
-input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
     transition: all 0.3s;
     box-sizing: border-box;
     opacity: 0;
-}
-input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(135deg);
     margin-top: 8px;
-}
-input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+  }
+
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(-135deg);
     margin-top: -21px;
-}
-
+  }
 
 </style>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -197,26 +204,24 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 <body>
 
 <div class="header"></div>
-  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-  <label for="openSidebarMenu" class="sidebarIconToggle">
-    <div class="spinner diagonal part-1"></div>
-    <div class="spinner horizontal"></div>
-    <div class="spinner diagonal part-2"></div>
-  </label>
-  <div id="sidebarMenu">
-   
-  </div>
-
-
-
-
+<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+<label for="openSidebarMenu" class="sidebarIconToggle">
+  <div class="spinner diagonal part-1"></div>
+  <div class="spinner horizontal"></div>
+  <div class="spinner diagonal part-2"></div>
+</label>
+<div id="sidebarMenu"></div>
 <div>
-<div style="padding-left:10px" id="page_title"><label id="title_label" style="font-weight: bold;font-size:24;">UK COVID-19 Risk Levels </label><label style="font-size:14px;">(28 Sept 2020)<br /></label> </div>
-<div style="padding-left:10px; font-size:14;" id="page_des"></div>
-<div id="title_div"></div>
-<div id="text_div"></div>
-<div id="new_cases" style="padding-left:10px"></div>
-<div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/><label style="font-size: 11px;">Image Credit: camdelafu</label></div>
+  <div style="padding-left:10px" id="page_title">
+    <label id="title_label" style="font-weight: bold;font-size:24;">UK COVID-19 Risk Levels </label>
+    <label style="font-size:14px;">(28 Sept 2020)<br /></label> 
+  </div>
+  <div style="padding-left:10px; font-size:14;" id="page_des"></div>
+  <div id="title_div"></div>
+  <div id="text_div"></div>
+  <div id="new_cases" style="padding-left:10px"></div>
+  <div class="loading">
+    <font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/><label style="font-size: 11px;">Image Credit: camdelafu</label></div>
 <script>
 
 function touchHandler(event){
@@ -260,7 +265,7 @@ d3.select("body").append("div").html("*Risk levels calculated from daily cases p
 
 
 $("#search_box").on( "autocompleteselect", function( event, ui ) {
-          var searchval = ui.item.value.toLowerCase().replaceAll(" ", "_").replaceAll("&", "_").replaceAll(",", "_");//d3.select("#search_box").property("value");
+          var searchval = ui.item.value.toLowerCase().replace(/[\s&,]/g,"_");//d3.select("#search_box").property("value");
             d3.selectAll(".map_area").style("opacity", 0.5); 
               d3.select("#" + searchval).style("opacity", 1); 
               clicked_area = searchval;
@@ -273,7 +278,7 @@ $("#search_box").on( "autocompleteselect", function( event, ui ) {
 } );
 
 $("#search_btn").on( "click", function() {
-          var searchval = d3.select("#search_box").property("value").toLowerCase().replaceAll(" ", "_").replaceAll("&", "_").replaceAll(",", "_");
+          var searchval = d3.select("#search_box").property("value").toLowerCase().replace(/[\s&,]/g,"_");
             d3.selectAll(".map_area").style("opacity", 0.5); 
               d3.select("#" + searchval).style("opacity", 1); 
               clicked_area = searchval;
@@ -412,7 +417,7 @@ function ready(error, topo) {
       )
       .attr("id", function(d) { 
         
-        return d.properties.lad18nm.toLowerCase().replaceAll(" ", "_").replaceAll("&", "_").replaceAll(",", "_");
+        return d.properties.lad18nm.toLowerCase().replace(/[\s&,]/g,"_");
 
     })
       .attr("class", "map_area")
@@ -470,10 +475,10 @@ function ready(error, topo) {
 
           var mouseover_txt = popup(d); 
 
-            if (clicked_area != d.properties.lad18nm.toLowerCase().replaceAll(" ", "_").replaceAll("&", "_").replaceAll(",", "_")) {
+            if (clicked_area != d.properties.lad18nm.toLowerCase().replace(/[\s&,]/g,"_")) {
               d3.selectAll(".map_area").style("opacity", 0.5); 
               d3.select(this).style("opacity", 1); 
-              clicked_area = d.properties.lad18nm.toLowerCase().replaceAll(" ", "_").replaceAll("&", "_").replaceAll(",", "_");
+              clicked_area = d.properties.lad18nm.toLowerCase().replace(/[\s&,]/g,"_");
               div.style("opacity", .9);    
               div .html(mouseover_txt)  
                 .style("left", (d3.event.pageX) + "px")   
@@ -603,7 +608,7 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
     var tbody = inner.append("tbody");
     // Create a row for each object in the data and perform an intial sort.
     var rows = tbody.selectAll("tr").data(data).enter().append("tr").attr("class", "table_row").sort(sortValueDescending).on("click", function(d){
-              var clickval = d.name.toLowerCase().replaceAll(" ", "_").replaceAll("&", "_").replaceAll(",", "_");
+              var clickval = d.name.toLowerCase().replace(/[\s&,]/g,"_");
               //console.log($("#"+clickval)[0].getBoundingClientRect());//d3.select("#" + clickval));
               d3.select("#openSidebarMenu").property('checked', false);
               d3.selectAll(".map_area").style("opacity", 0.5); 
