@@ -268,8 +268,8 @@ $("#search_box").on( "autocompleteselect", function( event, ui ) {
               mouseover_txt = popup(d3.select("#" + searchval).data()[0]);
               div.style("opacity", .9);    
               div .html(mouseover_txt)  
-                .style("left", ($("#"+clickval)[0].getBoundingClientRect().x + 10) + "px")   
-                .style("top", ($("#"+clickval)[0].getBoundingClientRect().y - 28) + "px"); 
+                .style("left", ($("#"+searchval)[0].getBoundingClientRect().x + 10) + "px")   
+                .style("top", ($("#"+searchval)[0].getBoundingClientRect().y - 28) + "px"); 
 } );
 
 $("#search_btn").on( "click", function() {
@@ -281,8 +281,8 @@ $("#search_btn").on( "click", function() {
               mouseover_txt = popup(d3.select("#" + searchval).data()[0]);
               div.style("opacity", .9);    
               div .html(mouseover_txt)  
-                .style("left", ($("#"+clickval)[0].getBoundingClientRect().x + 10) + "px")   
-                .style("top", ($("#"+clickval)[0].getBoundingClientRect().y - 28) + "px");
+                .style("left", ($("#"+searchval)[0].getBoundingClientRect().x + 10) + "px")   
+                .style("top", ($("#"+searchval)[0].getBoundingClientRect().y - 28) + "px");
 } );
 
 if (h > w){
@@ -604,7 +604,7 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
     // Create a row for each object in the data and perform an intial sort.
     var rows = tbody.selectAll("tr").data(data).enter().append("tr").attr("class", "table_row").sort(sortValueDescending).on("click", function(d){
               var clickval = d.name.toLowerCase().replaceAll(" ", "_").replaceAll("&", "_").replaceAll(",", "_");
-              console.log($("#"+clickval)[0].getBoundingClientRect());//d3.select("#" + clickval));
+              //console.log($("#"+clickval)[0].getBoundingClientRect());//d3.select("#" + clickval));
               d3.selectAll(".map_area").style("opacity", 0.5); 
               d3.select("#" + clickval).style("opacity", 1); 
               clicked_area = clickval;            
