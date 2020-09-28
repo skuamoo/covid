@@ -48,7 +48,7 @@ search_group.append("input").attr("id", "search_box").style("width", "200px").at
 search_group.append("button").attr("id", "search_btn").text("Search");
 outer_div.append("div").attr("id", "container_list").style("width", "450px");
 
-d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>").style("bottom", "0px");
+d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>").style("position", "absolute").style("bottom", "-40px");
 
 var svg = d3.select("#container").append("svg").attr("height", h-h_var).attr("width", (h-h_var)*w_var);
 
@@ -135,6 +135,7 @@ window.addEventListener('resize', function() {
 });
 
 function popup(d){
+  //form text for local authority popup information
   var mouseover_txt = "<strong><u>" + d.properties.lad18nm + "</strong></u><br/>";
   var risk_color;
   var risk_text;
@@ -185,6 +186,7 @@ function popup(d){
 }
 
 function ready(error, topo) {
+  //draw map
   $('.loading').hide();
   $('.legend').show();
   var clicked_area = "";
