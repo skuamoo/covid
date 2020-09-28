@@ -605,6 +605,7 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
     var rows = tbody.selectAll("tr").data(data).enter().append("tr").attr("class", "table_row").sort(sortValueDescending).on("click", function(d){
               var clickval = d.name.toLowerCase().replaceAll(" ", "_").replaceAll("&", "_").replaceAll(",", "_");
               //console.log($("#"+clickval)[0].getBoundingClientRect());//d3.select("#" + clickval));
+              d3.select("#openSidebarMenu").property('checked', false);
               d3.selectAll(".map_area").style("opacity", 0.5); 
               d3.select("#" + clickval).style("opacity", 1); 
               clicked_area = clickval;            
