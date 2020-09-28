@@ -217,7 +217,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 <div id="title_div"></div>
 <div id="text_div"></div>
 <div id="new_cases" style="padding-left:10px"></div>
-<div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/></div>
+<div class="loading"><font size=4>Loading...</font><p /><img src="load_icon.gif" style="width:150px;"/><label style="font-size: 11px;">Image Credit: camdelafu</label></div>
 <script>
 
 function touchHandler(event){
@@ -606,8 +606,8 @@ function drawTable(data, tableid, dimensions, valueFunc, textFunc, columns) {
     // Create a row for each object in the data and perform an intial sort.
     var rows = tbody.selectAll("tr").data(data).enter().append("tr").attr("class", "table_row").sort(sortValueDescending).on("click", function(d){
               d3.selectAll(".map_area").style("opacity", 0.5); 
-              d3.select("#" + d.name).style("opacity", 1); 
-              clicked_area = d.name;
+              d3.select("#" + d.name.toLowerCase()).style("opacity", 1); 
+              clicked_area = d.name.toLowerCase();
 
               //div.style("opacity", .9);    
             /*  div .html(mouseover_txt)  
