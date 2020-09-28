@@ -342,11 +342,11 @@ const g = svg.append("g");
   window.onclick = function(event){
           if(!(event.target.className.baseVal=="map_area")){
             if (!(event.target.innerText)) {
-              if(!(event.target.className == "openSidebarMenu" || (event.target.className.length >6 && event.target.className.slice(0,7) == "spinner"))) {
+              
                 d3.selectAll(".map_area").style("opacity", 1); 
                 clicked_area = ""; 
                 div.style("opacity", 0);
-              }
+              
               }
             }
           }
