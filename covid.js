@@ -62,7 +62,7 @@ if (h > w){
   legend_font = 18;
   div.style("font-size", "20px");
   d3.select("#title_label").style("font-size", "34px");
-  d3.select("#page_des").style("font-size", "14px");
+  d3.select("#page_des").style("font-size", "20px");
   legend_font = 18;
   $(".header").show();
   $(".sidebarIconToggle").show();
@@ -70,6 +70,7 @@ if (h > w){
   d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Click an area for details.");
   d3.select("#search_box").style("height", "30px").style("width", "300px").style("font-size", "20px");
   d3.select("#search_btn").style("height", "30px").style("font-size", "20px");
+  d3.select("#new_cases").style("font-size", "20px");
 }
 
 $("#search_box").on( "autocompleteselect", function( event, ui ) {
