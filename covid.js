@@ -67,7 +67,7 @@ if (h > w){
   $(".header").show();
   $(".sidebarIconToggle").show();
   $("#outerdiv").appendTo("#sidebarMenu");
-  d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard/Brown Key Metrics for COVID Suppression</a> framework. Click an area for details.");
+  d3.select("#page_des").html("Based on the <a href='https://globalepidemics.org/key-metrics-for-covid-suppression/' target='_blank'>Harvard Global Health Institute Key Metrics for COVID Suppression</a> framework. Click an area for details.");
   d3.select("#search_box").style("height", "30px").style("width", "300px").style("font-size", "20px");
   d3.select("#search_btn").style("height", "30px").style("font-size", "20px");
   d3.select("#new_cases").style("font-size", "20px");
