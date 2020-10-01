@@ -26,8 +26,8 @@ div.loading {
 }
 
 .loader {
-  width: 85px;
-  height: 85px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -48,16 +48,16 @@ div.loading {
   margin: auto;
   border: 6px solid;
   border-color: transparent transparent #FF3D00 #FF3D00;
-  width: 74px;
-  height: 74px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   box-sizing: border-box;
   animation: rotationBack 0.5s linear infinite;
   transform-origin: center center;
 }
 .loader::before {
-  width: 66px;
-  height: 66px;
+  width: 60px;
+  height: 60px;
   border: 6px solid;
   border-color: #000 #000 transparent transparent;
   animation: rotation 1.5s linear infinite;
