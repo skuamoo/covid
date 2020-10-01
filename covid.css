@@ -26,12 +26,12 @@ div.loading {
 }
 
 .loader {
-  width: 48px;
-  height: 48px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
   display: inline-block;
   position: relative;
-  border: 3px solid;
+  border: 6px solid;
   border-color: #000 #000 transparent transparent;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
@@ -46,18 +46,19 @@ div.loading {
   top: 0;
   bottom: 0;
   margin: auto;
-  border: 3px solid;
+  border: 6px solid;
   border-color: transparent transparent #FF3D00 #FF3D00;
-  width: 40px;
-  height: 40px;
+  width: 74px;
+  height: 74px;
   border-radius: 50%;
   box-sizing: border-box;
   animation: rotationBack 0.5s linear infinite;
   transform-origin: center center;
 }
 .loader::before {
-  width: 32px;
-  height: 32px;
+  width: 66px;
+  height: 66px;
+  border: 6px solid;
   border-color: #000 #000 transparent transparent;
   animation: rotation 1.5s linear infinite;
 }
@@ -78,7 +79,6 @@ div.loading {
     transform: rotate(-360deg);
   }
 }
-
 
 svg {
   width:100%; 
