@@ -1,382 +1,382 @@
 name,pop,cases_day,cases_week,rate_day,rate_week,trend,deaths_day,"New Deaths
 Last 7 Days",Death Rate,Trend2,lockdown
 North West,,,,,,,,,,,
-Allerdale,"97,527",2,33,4.83,33.84,▼,,,0.00,➖,No Additional Restrictions
-Barrow-in-Furness,"67,137",16,74,15.75,110.22,▲,,,1.49,▲,No Additional Restrictions
-Blackburn with Darwen,"148,942",38,260,24.94,174.56,▼,,,2.69,▲,Area of Intervention
-Blackpool,"139,305",23,112,11.49,80.40,▲,,,1.44,▲,Area of Intervention
-Bolton,"285,372",81,589,29.49,206.40,▼,,,1.75,▲,Area of Intervention
-Burnley,"88,527",46,318,51.32,359.21,▲,,,6.78,▲,Area of Intervention
-Bury,"190,108",49,364,27.35,191.47,▼,,,1.05,▲,Area of Intervention
-Carlisle,"108,387",2,36,4.74,33.21,▼,,,0.00,➖,No Additional Restrictions
-Cheshire East,"380,790",31,220,8.25,57.77,▲,,,0.26,▲,No Additional Restrictions
-Cheshire West and Chester,"340,502",48,271,11.37,79.59,▲,,,0.00,➖,No Additional Restrictions
-Chorley,"116,821",18,96,11.74,82.18,▲,,,0.00,➖,Area of Intervention
-Copeland,"68,424",4,21,4.38,30.69,▼,,,1.46,▲,No Additional Restrictions
-Eden,"52,881",2,13,3.51,24.58,▲,,,0.00,➖,No Additional Restrictions
-Fylde,"79,770",15,96,17.19,120.35,▲,,,1.25,▲,Area of Intervention
-Halton,"128,432",50,314,34.93,244.49,▲,,,1.56,▲,Area of Intervention
-Hyndburn,"80,815",19,175,30.93,216.54,▲,,,4.95,▲,Area of Intervention
-Knowsley,"149,571",71,461,44.03,308.21,▲,,,2.01,▲,Area of Intervention
-Lancaster,"144,246",15,95,9.41,65.86,▲,,,1.39,▲,Area of Intervention
-Liverpool,"380,790",272,"1,559",58.49,409.41,▲,,,4.46,▲,Area of Intervention
-Manchester,"547,627",347,"1,702",44.40,310.80,▲,,,1.46,▲,Area of Intervention
-Oldham,"235,623",67,440,26.68,186.74,▲,,,0.42,▲,Area of Intervention
-Pendle,"91,405",24,217,33.91,237.40,▲,,,1.09,▲,Area of Intervention
-Preston,"141,818",62,337,33.95,237.63,▲,,,2.82,▲,Area of Intervention
-Ribble Valley,"60,057",8,73,17.36,121.55,▲,,,1.67,▲,Area of Intervention
-Rochdale,"220,001",65,417,27.08,189.54,▲,,,1.36,▲,Area of Intervention
-Rossendale,"70,895",20,114,22.97,160.80,▲,,,0.00,➖,Area of Intervention
-Salford,"254,408",65,456,25.61,179.24,▲,,,6.29,▲,Area of Intervention
-Sefton,"275,396",97,576,29.88,209.15,▲,,,3.63,▲,Area of Intervention
-South Lakeland,"104,532",3,35,4.78,33.48,▼,,,1.91,▲,No Additional Restrictions
-South Ribble,"110,527",22,128,16.54,115.81,▲,,,0.00,➖,Area of Intervention
-St. Helens,"180,049",55,416,33.01,231.05,▲,,,0.00,➖,Area of Intervention
-Stockport,"291,775",59,307,15.03,105.22,▲,,,1.37,▲,Area of Intervention
-Tameside,"225,197",44,345,21.89,153.20,▲,,,13.77,▲,Area of Intervention
-Trafford,"236,370",49,320,19.34,135.38,▲,,,0.42,▲,Area of Intervention
-Warrington,"209,547",50,351,23.93,167.50,▼,,,2.39,▲,Area of Intervention
-West Lancashire,"113,949",26,171,21.44,150.07,▲,,,3.51,▲,Area of Intervention
-Wigan,"326,088",68,520,22.78,159.47,▲,,,0.31,▲,Area of Intervention
-Wirral,"323,235",83,572,25.28,176.96,▼,,,2.78,▲,Area of Intervention
-Wyre,"111,223",15,89,11.43,80.02,▲,,,0.90,▲,Area of Intervention
+Allerdale,"97,527",5,34,4.98,34.86,▼,,,0.00,➖,No Additional Restrictions
+Barrow-in-Furness,"67,137",10,74,15.75,110.22,▲,,,1.49,▲,No Additional Restrictions
+Blackburn with Darwen,"148,942",22,210,20.14,140.99,▼,,,2.69,▲,Area of Intervention
+Blackpool,"139,305",24,127,13.02,91.17,▲,,,1.44,▲,Area of Intervention
+Bolton,"285,372",64,527,26.38,184.67,▼,,,1.75,▲,Area of Intervention
+Burnley,"88,527",39,310,50.03,350.18,▲,,,6.78,▲,Area of Intervention
+Bury,"190,108",51,336,25.25,176.74,▼,,,1.05,▲,Area of Intervention
+Carlisle,"108,387",3,30,3.95,27.68,▼,,,0.00,➖,No Additional Restrictions
+Cheshire East,"380,790",28,218,8.18,57.25,➖,,,0.26,▲,No Additional Restrictions
+Cheshire West and Chester,"340,502",20,249,10.45,73.13,▲,,,0.00,➖,No Additional Restrictions
+Chorley,"116,821",12,91,11.13,77.90,▲,,,0.00,➖,Area of Intervention
+Copeland,"68,424",5,20,4.18,29.23,▼,,,1.46,▲,No Additional Restrictions
+Eden,"52,881",1,14,3.78,26.47,▲,,,0.00,➖,No Additional Restrictions
+Fylde,"79,770",8,87,15.58,109.06,▲,,,1.25,▲,Area of Intervention
+Halton,"128,432",46,293,32.59,228.14,▲,,,1.56,▲,Area of Intervention
+Hyndburn,"80,815",22,165,29.17,204.17,▲,,,4.95,▲,Area of Intervention
+Knowsley,"149,571",63,450,42.98,300.86,▲,,,2.01,▲,Area of Intervention
+Lancaster,"144,246",21,102,10.10,70.71,▲,,,1.39,▲,Area of Intervention
+Liverpool,"380,790",255,"1,550",58.15,407.05,▲,,,4.46,▲,Area of Intervention
+Manchester,"547,627",214,"1,676",43.72,306.05,▲,,,1.46,▲,Area of Intervention
+Oldham,"235,623",46,396,24.01,168.07,▼,,,0.42,▲,Area of Intervention
+Pendle,"91,405",15,194,30.32,212.24,▼,,,1.09,▲,Area of Intervention
+Preston,"141,818",48,322,32.44,227.05,▲,,,2.82,▲,Area of Intervention
+Ribble Valley,"60,057",11,70,16.65,116.56,▲,,,1.67,▲,Area of Intervention
+Rochdale,"220,001",68,393,25.52,178.64,▲,,,1.36,▲,Area of Intervention
+Rossendale,"70,895",15,107,21.56,150.93,▲,,,0.00,➖,Area of Intervention
+Salford,"254,408",51,417,23.42,163.91,▼,,,6.29,▲,Area of Intervention
+Sefton,"275,396",74,539,27.96,195.72,▲,,,3.63,▲,Area of Intervention
+South Lakeland,"104,532",7,32,4.37,30.61,▼,,,1.91,▲,No Additional Restrictions
+South Ribble,"110,527",14,117,15.12,105.86,▲,,,0.00,➖,Area of Intervention
+St. Helens,"180,049",50,405,32.13,224.94,▲,,,0.00,➖,Area of Intervention
+Stockport,"291,775",38,302,14.79,103.50,▲,,,1.37,▲,Area of Intervention
+Tameside,"225,197",21,301,19.09,133.66,▼,,,13.77,▲,Area of Intervention
+Trafford,"236,370",41,316,19.10,133.69,▲,,,0.42,▲,Area of Intervention
+Warrington,"209,547",36,330,22.50,157.48,▼,,,2.39,▲,Area of Intervention
+West Lancashire,"113,949",22,167,20.94,146.56,▲,,,3.51,▲,Area of Intervention
+Wigan,"326,088",54,484,21.20,148.43,▲,,,0.31,▲,Area of Intervention
+Wirral,"323,235",67,536,23.69,165.82,▼,,,2.78,▲,Area of Intervention
+Wyre,"111,223",12,90,11.56,80.92,▲,,,0.90,▲,Area of Intervention
 Greater London,,,,,,,,,,,
-Barking and Dagenham,"211,998",19,118,7.95,55.66,▼,,,2.36,▲,Area of Concern
-Barnet,"392,140",24,147,5.36,37.49,▲,,,0.26,▲,Area of Concern
-Bexley,"247,258",14,56,3.24,22.65,▼,,,0.40,▲,Area of Concern
-Brent,"330,795",17,142,6.13,42.93,▼,,,-0.30,▼,Area of Concern
-Bromley,"331,096",15,72,3.11,21.75,▼,,,0.60,▲,Area of Concern
-Camden,"262,226",6,65,3.54,24.79,▼,,,0.00,➖,Area of Concern
-Croydon,"385,346",17,101,3.74,26.21,▲,,,0.26,▲,Area of Concern
-Ealing,"341,982",25,165,6.89,48.25,▲,,,0.58,▲,Area of Concern
-Enfield,"333,869",24,123,5.26,36.84,▲,,,0.00,➖,Area of Concern
-Greenwich,"286,186",11,88,4.39,30.75,➖,,,0.00,➖,Area of Concern
-Hackney and City of London,"288,371",30,135,6.69,46.81,▲,,,0.35,▲,Area of Concern
-Hammersmith and Fulham,"185,426",11,75,5.78,40.45,▲,,,0.00,➖,Area of Concern
-Haringey,"270,624",17,102,5.38,37.69,▲,,,1.11,▲,Area of Concern
-Harrow,"250,149",18,97,5.54,38.78,▲,,,0.00,➖,Area of Concern
-Havering,"257,810",15,126,6.98,48.87,▲,,,1.94,▲,Area of Concern
-Hillingdon,"304,824",17,137,6.42,44.94,▼,,,0.00,➖,Area of Concern
-Hounslow,"270,782",16,151,7.97,55.76,▲,,,0.37,▲,Area of Concern
-Islington,"239,142",18,101,6.03,42.23,▲,,,0.42,▲,Area of Concern
-Kensington and Chelsea,"156,197",10,43,3.93,27.53,▲,,,0.00,➖,Area of Concern
-Kingston upon Thames,"175,470",11,57,4.64,32.48,▲,,,0.57,▲,Area of Concern
-Lambeth,"325,917",17,96,4.21,29.46,▼,,,0.00,➖,Area of Concern
-Lewisham,"303,536",15,70,3.29,23.06,▼,,,0.33,▲,Area of Concern
-Merton,"206,186",9,55,3.81,26.67,▲,,,0.00,➖,Area of Concern
-Newham,"352,005",34,197,8.00,55.97,▼,,,0.85,▲,Area of Concern
-Redbridge,"303,858",30,195,9.17,64.17,▼,,,2.96,▲,Area of Concern
-Richmond upon Thames,"196,904",16,77,5.59,39.11,▲,,,0.00,➖,Area of Concern
-Southwark,"317,256",19,112,5.04,35.30,▼,,,0.00,➖,Area of Concern
-Sutton,"204,525",2,36,2.51,17.60,▼,,,0.49,▲,Area of Concern
-Tower Hamlets,"317,705",29,160,7.19,50.36,▼,,,0.63,▲,Area of Concern
-Waltham Forest,"276,700",12,97,5.01,35.06,▼,,,1.45,▲,Area of Concern
-Wandsworth,"326,474",20,100,4.38,30.63,▼,,,0.00,➖,Area of Concern
-Westminster,"255,324",13,76,4.25,29.77,▲,,,0.00,➖,Area of Concern
+Barking and Dagenham,"211,998",7,101,6.81,47.64,▼,,,2.36,▲,Area of Concern
+Barnet,"392,140",36,154,5.61,39.27,▼,,,0.26,▲,Area of Concern
+Bexley,"247,258",11,54,3.12,21.84,▼,,,0.40,▲,Area of Concern
+Brent,"330,795",23,135,5.83,40.81,▼,,,-0.30,▼,Area of Concern
+Bromley,"331,096",10,71,3.06,21.44,▼,,,0.60,▲,Area of Concern
+Camden,"262,226",11,63,3.43,24.03,▼,,,0.00,➖,Area of Concern
+Croydon,"385,346",32,118,4.37,30.62,▲,,,0.26,▲,Area of Concern
+Ealing,"341,982",22,164,6.85,47.96,▼,,,0.58,▲,Area of Concern
+Enfield,"333,869",25,131,5.61,39.24,▼,,,0.00,➖,Area of Concern
+Greenwich,"286,186",12,79,3.94,27.60,▼,,,0.00,➖,Area of Concern
+Hackney and City of London,"288,371",17,140,6.94,48.55,▲,,,0.35,▲,Area of Concern
+Hammersmith and Fulham,"185,426",6,70,5.39,37.75,▼,,,0.00,➖,Area of Concern
+Haringey,"270,624",26,114,6.02,42.12,▲,,,1.11,▲,Area of Concern
+Harrow,"250,149",15,88,5.03,35.18,▼,,,0.00,➖,Area of Concern
+Havering,"257,810",14,116,6.43,44.99,▼,,,1.94,▲,Area of Concern
+Hillingdon,"304,824",9,113,5.30,37.07,▼,,,0.00,➖,Area of Concern
+Hounslow,"270,782",20,132,6.96,48.75,▼,,,0.37,▲,Area of Concern
+Islington,"239,142",6,92,5.50,38.47,➖,,,0.42,▲,Area of Concern
+Kensington and Chelsea,"156,197",10,47,4.30,30.09,▲,,,0.00,➖,Area of Concern
+Kingston upon Thames,"175,470",7,60,4.88,34.19,▲,,,0.57,▲,Area of Concern
+Lambeth,"325,917",13,97,4.25,29.76,▼,,,0.00,➖,Area of Concern
+Lewisham,"303,536",18,77,3.62,25.37,▲,,,0.33,▲,Area of Concern
+Merton,"206,186",3,46,3.19,22.31,▼,,,0.00,➖,Area of Concern
+Newham,"352,005",13,189,7.67,53.69,▼,,,0.85,▲,Area of Concern
+Redbridge,"303,858",28,193,9.07,63.52,▼,,,2.96,▲,Area of Concern
+Richmond upon Thames,"196,904",18,85,6.17,43.17,▲,,,0.00,➖,Area of Concern
+Southwark,"317,256",9,102,4.59,32.15,▼,,,0.00,➖,Area of Concern
+Sutton,"204,525",13,41,2.86,20.05,▼,,,0.49,▲,Area of Concern
+Tower Hamlets,"317,705",7,134,6.03,42.18,▼,,,0.63,▲,Area of Concern
+Waltham Forest,"276,700",17,96,4.96,34.69,▼,,,1.45,▲,Area of Concern
+Wandsworth,"326,474",24,107,4.68,32.77,▼,,,0.00,➖,Area of Concern
+Westminster,"255,324",15,76,4.25,29.77,➖,,,0.00,➖,Area of Concern
 North East,,,,,,,,,,,
-County Durham,"526,980",73,483,13.09,91.65,▲,,,0.38,▲,Area of Intervention
-Darlington,"106,566",15,121,16.22,113.54,▲,,,0.00,➖,Enhanced Support
-Gateshead,"202,508",39,256,18.06,126.41,▼,,,2.47,▲,Area of Intervention
-Hartlepool,"93,242",19,126,19.30,135.13,▲,,,0.00,➖,Enhanced Support
-Middlesbrough,"140,545",7,152,15.45,108.15,▲,,,2.13,▲,Enhanced Support
-Newcastle upon Tyne,"300,196",67,736,35.02,245.17,▲,,,2.00,▲,Area of Intervention
-North Tyneside,"205,985",11,250,17.34,121.37,▼,,,0.49,▲,Area of Intervention
-Northumberland,"320,274",14,406,18.11,126.77,▼,,,3.43,▲,Area of Intervention
-Redcar and Cleveland,"136,718",4,86,8.99,62.90,▲,,,0.00,➖,Enhanced Support
-South Tyneside,"150,265",31,262,24.91,174.36,▼,,,12.64,▲,Area of Intervention
-Stockton-on-Tees,"197,213",35,211,15.28,106.99,▲,,,1.01,▲,Enhanced Support
-Sunderland,"277,417",48,481,24.77,173.39,▼,,,2.88,▲,Area of Intervention
+County Durham,"526,980",51,453,12.28,85.96,▼,,,0.38,▲,Area of Intervention
+Darlington,"106,566",10,124,16.62,116.36,▲,,,0.00,➖,Enhanced Support
+Gateshead,"202,508",28,240,16.93,118.51,▼,,,2.47,▲,Area of Intervention
+Hartlepool,"93,242",26,139,21.30,149.07,▲,,,0.00,➖,Enhanced Support
+Middlesbrough,"140,545",18,155,15.75,110.28,▼,,,2.13,▲,Enhanced Support
+Newcastle upon Tyne,"300,196",76,693,32.98,230.85,▼,,,2.00,▲,Area of Intervention
+North Tyneside,"205,985",31,233,16.16,113.12,▼,,,0.49,▲,Area of Intervention
+Northumberland,"320,274",33,355,15.83,110.84,▼,,,3.43,▲,Area of Intervention
+Redcar and Cleveland,"136,718",13,89,9.30,65.10,▼,,,0.00,➖,Enhanced Support
+South Tyneside,"150,265",46,255,24.24,169.70,▼,,,12.64,▲,Area of Intervention
+Stockton-on-Tees,"197,213",42,225,16.30,114.09,▲,,,1.01,▲,Enhanced Support
+Sunderland,"277,417",47,454,23.38,163.65,▼,,,2.88,▲,Area of Intervention
 East Midlands,,,,,,,,,,,
-Amber Valley,"126,678",10,61,6.88,48.15,▼,,,0.79,▲,No Additional Restrictions
-Ashfield,"127,151",6,61,6.85,47.97,▲,,,1.57,▲,No Additional Restrictions
-Bassetlaw,"116,839",9,44,5.38,37.66,▲,,,1.71,▲,No Additional Restrictions
-Blaby,"100,421",7,57,8.11,56.76,▲,,,1.99,▲,Enhanced Support
-Bolsover,"79,530",0,35,6.29,44.01,▼,,,1.26,▲,No Additional Restrictions
-Boston,"69,366",3,12,2.47,17.30,▲,,,0.00,➖,No Additional Restrictions
-Broxtowe,"113,272",10,63,7.95,55.62,▲,,,0.88,▲,No Additional Restrictions
-Charnwood,"182,643",12,79,6.18,43.25,▼,,,1.10,▲,No Additional Restrictions
-Chesterfield,"104,628",4,24,3.28,22.94,▲,,,0.00,➖,No Additional Restrictions
-Corby,"70,827",1,25,5.04,35.30,▲,,,0.00,➖,No Additional Restrictions
-Daventry,"84,484",5,20,3.38,23.67,▲,,,0.00,➖,No Additional Restrictions
-Derby,"257,174",17,99,5.50,38.50,▲,,,0.00,➖,No Additional Restrictions
-Derbyshire Dales,"71,977",0,9,1.79,12.50,▼,,,0.00,➖,No Additional Restrictions
-East Lindsey,"140,741",1,26,2.64,18.47,▲,,,0.00,➖,No Additional Restrictions
-East Northamptonshire,"93,906",10,25,3.80,26.62,▲,,,0.00,➖,No Additional Restrictions
-Erewash,"115,490",14,48,5.94,41.56,▲,,,0.87,▲,No Additional Restrictions
-Gedling,"117,786",23,57,6.91,48.39,▲,,,0.00,➖,No Additional Restrictions
-Harborough,"92,499",1,29,4.48,31.35,▼,,,0.00,➖,No Additional Restrictions
-High Peak,"92,221",10,62,9.60,67.23,▲,,,2.17,▲,No Additional Restrictions
-Hinckley and Bosworth,"112,423",6,46,5.85,40.92,➖,,,1.78,▲,No Additional Restrictions
-Kettering,"101,266",4,21,2.96,20.74,▼,,,0.00,➖,No Additional Restrictions
-Leicester,"355,218",47,275,11.06,77.42,▼,,,1.69,▲,Area of Intervention
-Lincoln,"99,039",6,56,8.08,56.54,▼,,,2.02,▲,No Additional Restrictions
-Mansfield,"108,841",2,43,5.64,39.51,▲,,,0.00,➖,No Additional Restrictions
-Melton,"51,100",4,13,3.63,25.44,▲,,,0.00,➖,No Additional Restrictions
-Newark and Sherwood,"121,566",26,111,13.04,91.31,▲,,,0.82,▲,No Additional Restrictions
-North East Derbyshire,"101,125",3,45,6.36,44.50,▲,,,0.00,➖,No Additional Restrictions
-North Kesteven,"115,985",1,27,3.33,23.28,▼,,,0.86,▲,No Additional Restrictions
-North West Leicestershire,"102,126",0,29,4.06,28.40,▼,,,0.00,➖,No Additional Restrictions
-Northampton,"225,146",7,38,2.41,16.88,▼,,,0.00,➖,No Additional Restrictions
-Nottingham,"331,069",129,349,15.06,105.42,▲,,,0.60,▲,No Additional Restrictions
-Oadby and Wigston,"57,056",8,42,10.52,73.61,▼,,,0.00,➖,Area of Intervention
-Rushcliffe,"117,671",15,67,8.13,56.94,▲,,,0.00,➖,No Additional Restrictions
-Rutland,"39,697",0,13,4.68,32.75,▲,,,0.00,➖,No Additional Restrictions
-South Derbyshire,"104,493",7,43,5.88,41.15,▲,,,0.96,▲,No Additional Restrictions
-South Holland,"93,980",4,14,2.13,14.90,▲,,,0.00,➖,No Additional Restrictions
-South Kesteven,"141,853",3,32,3.22,22.56,▲,,,0.70,▲,No Additional Restrictions
-South Northamptonshire,"92,515",2,15,2.32,16.21,▼,,,0.00,➖,No Additional Restrictions
-Wellingborough,"79,478",5,19,3.42,23.91,▲,,,0.00,➖,No Additional Restrictions
-West Lindsey,"94,869",6,28,4.22,29.51,▲,,,1.05,▲,No Additional Restrictions
+Amber Valley,"126,678",6,55,6.20,43.42,▼,,,0.79,▲,No Additional Restrictions
+Ashfield,"127,151",8,54,6.07,42.47,▼,,,1.57,▲,No Additional Restrictions
+Bassetlaw,"116,839",6,48,5.87,41.08,▲,,,1.71,▲,No Additional Restrictions
+Blaby,"100,421",3,56,7.97,55.77,▲,,,1.99,▲,Enhanced Support
+Bolsover,"79,530",4,36,6.47,45.27,▼,,,1.26,▲,No Additional Restrictions
+Boston,"69,366",2,13,2.68,18.74,▲,,,0.00,➖,No Additional Restrictions
+Broxtowe,"113,272",11,65,8.20,57.38,▲,,,0.88,▲,No Additional Restrictions
+Charnwood,"182,643",15,80,6.26,43.80,▼,,,1.10,▲,No Additional Restrictions
+Chesterfield,"104,628",4,26,3.55,24.85,▼,,,0.00,➖,No Additional Restrictions
+Corby,"70,827",3,20,4.03,28.24,▼,,,0.00,➖,No Additional Restrictions
+Daventry,"84,484",1,19,3.21,22.49,▲,,,0.00,➖,No Additional Restrictions
+Derby,"257,174",20,99,5.50,38.50,▲,,,0.00,➖,No Additional Restrictions
+Derbyshire Dales,"71,977",2,10,1.98,13.89,▼,,,0.00,➖,No Additional Restrictions
+East Lindsey,"140,741",2,25,2.54,17.76,▲,,,0.00,➖,No Additional Restrictions
+East Northamptonshire,"93,906",14,34,5.17,36.21,▲,,,0.00,➖,No Additional Restrictions
+Erewash,"115,490",14,56,6.93,48.49,▲,,,0.87,▲,No Additional Restrictions
+Gedling,"117,786",7,58,7.03,49.24,▲,,,0.00,➖,No Additional Restrictions
+Harborough,"92,499",8,27,4.17,29.19,▼,,,0.00,➖,No Additional Restrictions
+High Peak,"92,221",5,55,8.52,59.64,▼,,,2.17,▲,No Additional Restrictions
+Hinckley and Bosworth,"112,423",4,44,5.59,39.14,▼,,,1.78,▲,No Additional Restrictions
+Kettering,"101,266",10,28,3.95,27.65,▲,,,0.00,➖,No Additional Restrictions
+Leicester,"355,218",63,297,11.94,83.61,▼,,,1.69,▲,Area of Intervention
+Lincoln,"99,039",7,59,8.51,59.57,▲,,,2.02,▲,No Additional Restrictions
+Mansfield,"108,841",1,37,4.86,33.99,▼,,,0.00,➖,No Additional Restrictions
+Melton,"51,100",4,15,4.19,29.35,▲,,,0.00,➖,No Additional Restrictions
+Newark and Sherwood,"121,566",6,106,12.46,87.20,▲,,,0.82,▲,No Additional Restrictions
+North East Derbyshire,"101,125",3,43,6.07,42.52,▼,,,0.00,➖,No Additional Restrictions
+North Kesteven,"115,985",3,24,2.96,20.69,▼,,,0.86,▲,No Additional Restrictions
+North West Leicestershire,"102,126",3,27,3.78,26.44,▼,,,0.00,➖,No Additional Restrictions
+Northampton,"225,146",5,36,2.28,15.99,▼,,,0.00,➖,No Additional Restrictions
+Nottingham,"331,069",92,414,17.86,125.05,▲,,,0.60,▲,No Additional Restrictions
+Oadby and Wigston,"57,056",7,38,9.51,66.60,▼,,,0.00,➖,Area of Intervention
+Rushcliffe,"117,671",16,73,8.86,62.04,▲,,,0.00,➖,No Additional Restrictions
+Rutland,"39,697",1,13,4.68,32.75,▲,,,0.00,➖,No Additional Restrictions
+South Derbyshire,"104,493",6,41,5.61,39.24,▲,,,0.96,▲,No Additional Restrictions
+South Holland,"93,980",1,13,1.98,13.83,▲,,,0.00,➖,No Additional Restrictions
+South Kesteven,"141,853",12,41,4.13,28.90,▲,,,0.70,▲,No Additional Restrictions
+South Northamptonshire,"92,515",0,11,1.70,11.89,▼,,,0.00,➖,No Additional Restrictions
+Wellingborough,"79,478",6,24,4.31,30.20,▲,,,0.00,➖,No Additional Restrictions
+West Lindsey,"94,869",4,31,4.67,32.68,▲,,,1.05,▲,No Additional Restrictions
 East of England,,,,,,,,,,,
-Babergh,"91,401",0,2,0.31,2.19,▼,,,1.09,▲,No Additional Restrictions
-Basildon,"185,862",19,53,4.07,28.52,▼,,,0.00,➖,No Additional Restrictions
-Bedford,"171,623",11,74,6.16,43.12,▼,,,0.00,➖,No Additional Restrictions
-Braintree,"151,561",6,21,1.98,13.86,▲,,,0.66,▲,No Additional Restrictions
-Breckland,"139,329",4,16,1.64,11.48,▼,,,0.00,➖,No Additional Restrictions
-Brentwood,"76,550",7,24,4.48,31.35,▼,,,0.00,➖,No Additional Restrictions
-Broadland,"129,464",2,9,0.99,6.95,➖,,,0.00,➖,No Additional Restrictions
-Broxbourne,"96,876",4,29,4.28,29.94,▼,,,1.03,▲,No Additional Restrictions
-Cambridge,"125,758",2,30,3.41,23.86,▲,,,0.00,➖,No Additional Restrictions
-Castle Point,"90,070",3,22,3.49,24.43,▼,,,1.11,▲,No Additional Restrictions
-Central Bedfordshire,"283,606",8,57,2.87,20.10,▼,,,0.35,▲,No Additional Restrictions
-Chelmsford,"177,079",10,39,3.15,22.02,▲,,,1.13,▲,No Additional Restrictions
-Colchester,"192,523",3,20,1.48,10.39,▼,,,0.00,➖,No Additional Restrictions
-Dacorum,"154,280",11,47,4.35,30.46,▲,,,0.00,➖,No Additional Restrictions
-East Cambridgeshire,"89,362",6,13,2.08,14.55,▲,,,0.00,➖,No Additional Restrictions
-East Hertfordshire,"148,105",12,42,4.05,28.36,▲,,,0.00,➖,No Additional Restrictions
-East Suffolk,"248,249",9,27,1.55,10.88,▲,,,0.00,➖,No Additional Restrictions
-Epping Forest,"131,137",10,51,5.56,38.89,▼,,,1.53,▲,No Additional Restrictions
-Fenland,"101,491",0,7,0.99,6.90,▼,,,0.00,➖,No Additional Restrictions
-Great Yarmouth,"99,370",5,49,7.04,49.31,▲,,,0.00,➖,No Additional Restrictions
-Harlow,"86,594",3,26,4.29,30.03,▼,,,2.31,▲,No Additional Restrictions
-Hertsmere,"104,205",13,37,5.07,35.51,▲,,,4.80,▲,Area of Concern
-Huntingdonshire,"177,352",7,38,3.06,21.43,▲,,,0.00,➖,No Additional Restrictions
+Babergh,"91,401",2,4,0.63,4.38,➖,,,1.09,▲,No Additional Restrictions
+Basildon,"185,862",7,54,4.15,29.05,▼,,,0.00,➖,No Additional Restrictions
+Bedford,"171,623",10,65,5.41,37.87,▼,,,0.00,➖,No Additional Restrictions
+Braintree,"151,561",1,19,1.79,12.54,▼,,,0.66,▲,No Additional Restrictions
+Breckland,"139,329",2,16,1.64,11.48,▼,,,0.00,➖,No Additional Restrictions
+Brentwood,"76,550",4,23,4.29,30.05,▼,,,0.00,➖,No Additional Restrictions
+Broadland,"129,464",3,10,1.10,7.72,▲,,,0.00,➖,No Additional Restrictions
+Broxbourne,"96,876",6,32,4.72,33.03,▼,,,1.03,▲,No Additional Restrictions
+Cambridge,"125,758",2,31,3.52,24.65,▲,,,0.00,➖,No Additional Restrictions
+Castle Point,"90,070",3,21,3.33,23.32,▼,,,1.11,▲,No Additional Restrictions
+Central Bedfordshire,"283,606",9,54,2.72,19.04,▼,,,0.35,▲,No Additional Restrictions
+Chelmsford,"177,079",4,40,3.23,22.59,▲,,,1.13,▲,No Additional Restrictions
+Colchester,"192,523",6,22,1.63,11.43,▼,,,0.00,➖,No Additional Restrictions
+Dacorum,"154,280",11,55,5.09,35.65,▲,,,0.00,➖,No Additional Restrictions
+East Cambridgeshire,"89,362",1,12,1.92,13.43,▲,,,0.00,➖,No Additional Restrictions
+East Hertfordshire,"148,105",11,50,4.82,33.76,▲,,,0.00,➖,No Additional Restrictions
+East Suffolk,"248,249",9,34,1.96,13.70,▲,,,0.00,➖,No Additional Restrictions
+Epping Forest,"131,137",12,52,5.66,39.65,▼,,,1.53,▲,No Additional Restrictions
+Fenland,"101,491",5,9,1.27,8.87,▲,,,0.00,➖,No Additional Restrictions
+Great Yarmouth,"99,370",17,56,8.05,56.36,▲,,,0.00,➖,No Additional Restrictions
+Harlow,"86,594",1,23,3.79,26.56,▼,,,2.31,▲,No Additional Restrictions
+Hertsmere,"104,205",4,35,4.80,33.59,▲,,,4.80,▲,Area of Concern
+Huntingdonshire,"177,352",5,39,3.14,21.99,➖,,,0.00,➖,No Additional Restrictions
 Ipswich,"137,532",2,13,1.35,9.45,▲,,,0.00,➖,No Additional Restrictions
 King's Lynn and West Norfolk,"151,811",3,20,1.88,13.17,▲,,,0.00,➖,No Additional Restrictions
-Luton,"214,109",21,124,8.27,57.91,▼,,,0.00,➖,No Additional Restrictions
-Maldon,"64,425",1,12,2.66,18.63,▲,,,0.00,➖,No Additional Restrictions
-Mid Suffolk,"102,493",2,10,1.39,9.76,▲,,,0.00,➖,No Additional Restrictions
-North Hertfordshire,"133,214",3,22,2.36,16.51,▼,,,0.00,➖,No Additional Restrictions
-North Norfolk,"104,552",1,6,0.82,5.74,▲,,,0.00,➖,No Additional Restrictions
-Norwich,"141,137",2,20,2.02,14.17,▼,,,0.00,➖,No Additional Restrictions
-Peterborough,"201,041",10,52,3.70,25.87,▼,,,1.49,▲,Area of Concern
-Rochford,"86,981",3,12,1.97,13.80,▼,,,-1.15,▼,No Additional Restrictions
-South Cambridgeshire,"157,519",7,32,2.90,20.32,▲,,,0.00,➖,No Additional Restrictions
-South Norfolk,"138,017",1,21,2.17,15.22,▲,,,0.00,➖,No Additional Restrictions
-Southend-On-Sea,"182,463",8,51,3.99,27.95,▲,,,0.00,➖,No Additional Restrictions
-St Albans,"147,373",10,51,4.94,34.61,▲,,,0.00,➖,No Additional Restrictions
-Stevenage,"87,754",1,8,1.30,9.12,▼,,,0.00,➖,No Additional Restrictions
-Tendring,"145,803",2,18,1.76,12.35,▲,,,0.00,➖,No Additional Restrictions
-Three Rivers,"93,045",11,39,5.99,41.92,▲,,,0.00,➖,No Additional Restrictions
-Thurrock,"172,525",9,45,3.73,26.08,▲,,,0.00,➖,No Additional Restrictions
-Uttlesford,"89,179",5,35,5.61,39.25,▼,,,0.00,➖,No Additional Restrictions
-Watford,"96,767",6,34,5.02,35.14,▲,,,0.00,➖,No Additional Restrictions
-Welwyn Hatfield,"122,746",4,22,2.56,17.92,▼,,,0.00,➖,No Additional Restrictions
-West Suffolk,"178,881",8,23,1.84,12.86,▲,,,0.00,➖,No Additional Restrictions
+Luton,"214,109",3,110,7.34,51.38,▼,,,0.00,➖,No Additional Restrictions
+Maldon,"64,425",0,11,2.44,17.07,▼,,,0.00,➖,No Additional Restrictions
+Mid Suffolk,"102,493",0,9,1.25,8.78,➖,,,0.00,➖,No Additional Restrictions
+North Hertfordshire,"133,214",1,17,1.82,12.76,▼,,,0.00,➖,No Additional Restrictions
+North Norfolk,"104,552",1,7,0.96,6.70,▲,,,0.00,➖,No Additional Restrictions
+Norwich,"141,137",10,24,2.43,17.00,➖,,,0.00,➖,No Additional Restrictions
+Peterborough,"201,041",7,53,3.77,26.36,▼,,,1.49,▲,Area of Concern
+Rochford,"86,981",1,10,1.64,11.50,▼,,,-1.15,▼,No Additional Restrictions
+South Cambridgeshire,"157,519",4,32,2.90,20.32,▲,,,0.00,➖,No Additional Restrictions
+South Norfolk,"138,017",8,28,2.90,20.29,▲,,,0.00,➖,No Additional Restrictions
+Southend-On-Sea,"182,463",10,50,3.91,27.40,▼,,,0.00,➖,No Additional Restrictions
+St Albans,"147,373",5,49,4.75,33.25,▼,,,0.00,➖,No Additional Restrictions
+Stevenage,"87,754",2,8,1.30,9.12,▼,,,0.00,➖,No Additional Restrictions
+Tendring,"145,803",4,20,1.96,13.72,▼,,,0.00,➖,No Additional Restrictions
+Three Rivers,"93,045",4,41,6.29,44.06,▲,,,0.00,➖,No Additional Restrictions
+Thurrock,"172,525",3,41,3.39,23.76,▲,,,0.00,➖,No Additional Restrictions
+Uttlesford,"89,179",6,38,6.09,42.61,▲,,,0.00,➖,No Additional Restrictions
+Watford,"96,767",5,33,4.87,34.10,▲,,,0.00,➖,No Additional Restrictions
+Welwyn Hatfield,"122,746",7,23,2.68,18.74,▼,,,0.00,➖,No Additional Restrictions
+West Suffolk,"178,881",4,26,2.08,14.53,▲,,,0.00,➖,No Additional Restrictions
 South East,,,,,,,,,,,
-Adur,"63,869",1,6,1.34,9.39,▼,,,4.70,▲,No Additional Restrictions
-Arun,"159,827",6,30,2.68,18.77,▲,,,0.63,▲,No Additional Restrictions
-Ashford,"129,281",3,10,1.11,7.74,▼,,,0.00,➖,No Additional Restrictions
-Aylesbury Vale,"199,448",6,28,2.01,14.04,▲,,,0.00,➖,No Additional Restrictions
-Basingstoke and Deane,"175,729",2,21,1.71,11.95,▼,,,0.00,➖,No Additional Restrictions
-Bracknell Forest,"121,676",2,18,2.11,14.79,▼,,,0.00,➖,No Additional Restrictions
-Brighton and Hove,"290,395",16,64,3.15,22.04,▲,,,0.00,➖,No Additional Restrictions
-Canterbury,"164,553",2,31,2.69,18.84,▲,,,0.00,➖,No Additional Restrictions
-Cherwell,"149,161",7,23,2.20,15.42,▲,,,0.00,➖,No Additional Restrictions
-Chichester,"120,750",3,20,2.37,16.56,▲,,,0.83,▲,No Additional Restrictions
-Chiltern,"95,927",6,26,3.87,27.10,▲,,,0.00,➖,No Additional Restrictions
-Crawley,"112,448",3,27,3.43,24.01,▲,,,0.89,▲,No Additional Restrictions
-Dartford,"109,709",5,30,3.91,27.35,▲,,,0.00,➖,No Additional Restrictions
-Dover,"116,969",3,9,1.10,7.69,▲,,,0.00,➖,No Additional Restrictions
-East Hampshire,"120,681",4,22,2.60,18.23,▲,,,-0.83,▼,No Additional Restrictions
-Eastbourne,"103,160",1,13,1.80,12.60,▼,,,0.00,➖,No Additional Restrictions
-Eastleigh,"131,819",0,8,0.87,6.07,▼,,,0.00,➖,No Additional Restrictions
-Elmbridge,"136,626",7,35,3.66,25.62,▲,,,0.73,▲,No Additional Restrictions
-Epsom and Ewell,"79,928",2,16,2.86,20.02,▲,,,0.00,➖,No Additional Restrictions
-Fareham,"116,339",0,11,1.35,9.46,▼,,,1.72,▲,No Additional Restrictions
-Folkestone and Hythe,"112,578",1,12,1.52,10.66,▼,,,0.89,▲,No Additional Restrictions
-Gosport,"85,283",1,15,2.51,17.59,▲,,,1.17,▲,No Additional Restrictions
-Gravesham,"106,385",3,16,2.15,15.04,▼,,,0.00,➖,No Additional Restrictions
-Guildford,"147,889",6,33,3.19,22.31,▲,,,0.00,➖,No Additional Restrictions
-Hart,"96,293",1,14,2.08,14.54,▼,,,0.00,➖,No Additional Restrictions
-Hastings,"92,855",2,16,2.46,17.23,▲,,,0.00,➖,No Additional Restrictions
-Havant,"125,813",2,23,2.61,18.28,▲,,,0.79,▲,No Additional Restrictions
-Horsham,"142,217",1,20,2.01,14.06,▲,,,0.70,▲,No Additional Restrictions
-Isle of Wight,"141,538",1,5,0.50,3.53,▼,,,0.00,➖,No Additional Restrictions
-Lewes,"102,744",1,11,1.53,10.71,▲,,,0.00,➖,No Additional Restrictions
-Maidstone,"169,955",3,19,1.60,11.18,▼,,,0.00,➖,No Additional Restrictions
-Medway,"277,855",2,35,1.80,12.60,▼,,,0.00,➖,No Additional Restrictions
-Mid Sussex,"149,716",2,24,2.29,16.03,▲,,,0.00,➖,No Additional Restrictions
-Milton Keynes,"268,607",9,54,2.87,20.10,▼,,,0.00,➖,No Additional Restrictions
-Mole Valley,"87,253",4,12,1.96,13.75,▲,,,0.00,➖,No Additional Restrictions
-New Forest,"179,753",2,22,1.75,12.24,▼,,,0.00,➖,No Additional Restrictions
-Oxford,"154,327",23,91,8.42,58.97,▲,,,0.00,➖,No Additional Restrictions
-Portsmouth,"215,133",8,54,3.59,25.10,▼,,,1.39,▲,No Additional Restrictions
-Reading,"163,203",6,40,3.50,24.51,▲,,,0.61,▲,No Additional Restrictions
-Reigate and Banstead,"147,757",3,14,1.35,9.48,▼,,,1.35,▲,No Additional Restrictions
-Rother,"95,656",0,10,1.49,10.45,▲,,,0.00,➖,No Additional Restrictions
-Runnymede,"88,000",1,20,3.25,22.73,▼,,,0.00,➖,No Additional Restrictions
-Rushmoor,"95,142",3,19,2.85,19.97,▼,,,0.00,➖,No Additional Restrictions
-Sevenoaks,"120,293",4,19,2.26,15.79,▼,,,0.00,➖,No Additional Restrictions
-Slough,"149,112",7,95,9.10,63.71,▼,,,0.00,➖,No Additional Restrictions
-South Bucks,"70,043",6,31,6.32,44.26,▲,,,1.43,▲,No Additional Restrictions
-South Oxfordshire,"140,504",5,15,1.53,10.68,▲,,,0.00,➖,No Additional Restrictions
-Southampton,"252,796",8,47,2.66,18.59,▲,,,0.00,➖,No Additional Restrictions
-Spelthorne,"99,334",4,30,4.31,30.20,▲,,,2.01,▲,Area of Concern
-Surrey Heath,"88,874",2,22,3.54,24.75,▼,,,0.00,➖,No Additional Restrictions
-Swale,"148,519",4,15,1.44,10.10,▼,,,-0.67,▼,No Additional Restrictions
-Tandridge,"87,496",5,22,3.59,25.14,▲,,,0.00,➖,No Additional Restrictions
-Test Valley,"125,169",2,18,2.05,14.38,▼,,,1.60,▲,No Additional Restrictions
-Thanet,"141,819",0,10,1.01,7.05,▲,,,0.00,➖,No Additional Restrictions
-Tonbridge and Malling,"130,508",2,14,1.53,10.73,▼,,,0.00,➖,No Additional Restrictions
-Tunbridge Wells,"118,054",5,25,3.03,21.18,▲,,,0.00,➖,No Additional Restrictions
-Vale of White Horse,"133,732",5,23,2.46,17.20,▲,,,0.00,➖,No Additional Restrictions
-Waverley,"125,610",4,39,4.44,31.05,▼,,,0.00,➖,No Additional Restrictions
-Wealden,"160,175",0,12,1.07,7.49,▲,,,0.00,➖,No Additional Restrictions
-West Berkshire,"158,527",5,33,2.97,20.82,▲,,,0.63,▲,No Additional Restrictions
-West Oxfordshire,"109,800",6,21,2.73,19.13,▲,,,0.00,➖,No Additional Restrictions
-Winchester,"124,295",5,21,2.41,16.90,▲,,,0.00,➖,No Additional Restrictions
-Windsor and Maidenhead,"150,906",10,41,3.88,27.17,▲,,,1.33,▲,No Additional Restrictions
-Woking,"101,167",4,31,4.38,30.64,▼,,,0.99,▲,No Additional Restrictions
-Wokingham,"167,979",4,42,3.57,25.00,▼,,,0.60,▲,No Additional Restrictions
-Worthing,"110,025",2,21,2.73,19.09,▼,,,2.73,▲,No Additional Restrictions
-Wycombe,"174,641",5,30,2.45,17.18,▼,,,0.00,➖,No Additional Restrictions
+Adur,"63,869",0,4,0.89,6.26,▼,,,4.70,▲,No Additional Restrictions
+Arun,"159,827",6,31,2.77,19.40,▲,,,0.63,▲,No Additional Restrictions
+Ashford,"129,281",1,9,0.99,6.96,▼,,,0.00,➖,No Additional Restrictions
+Aylesbury Vale,"199,448",4,31,2.22,15.54,▲,,,0.00,➖,No Additional Restrictions
+Basingstoke and Deane,"175,729",2,19,1.54,10.81,▼,,,0.00,➖,No Additional Restrictions
+Bracknell Forest,"121,676",1,17,2.00,13.97,▼,,,0.00,➖,No Additional Restrictions
+Brighton and Hove,"290,395",10,68,3.35,23.42,▲,,,0.00,➖,No Additional Restrictions
+Canterbury,"164,553",16,35,3.04,21.27,▼,,,0.00,➖,No Additional Restrictions
+Cherwell,"149,161",3,24,2.30,16.09,▲,,,0.00,➖,No Additional Restrictions
+Chichester,"120,750",2,18,2.13,14.91,▼,,,0.83,▲,No Additional Restrictions
+Chiltern,"95,927",2,24,3.57,25.02,▼,,,0.00,➖,No Additional Restrictions
+Crawley,"112,448",1,22,2.79,19.56,▼,,,0.89,▲,No Additional Restrictions
+Dartford,"109,709",0,26,3.39,23.70,▼,,,0.00,➖,No Additional Restrictions
+Dover,"116,969",2,10,1.22,8.55,▲,,,0.00,➖,No Additional Restrictions
+East Hampshire,"120,681",3,20,2.37,16.57,▲,,,-0.83,▼,No Additional Restrictions
+Eastbourne,"103,160",7,18,2.49,17.45,➖,,,0.00,➖,No Additional Restrictions
+Eastleigh,"131,819",1,7,0.76,5.31,▼,,,0.00,➖,No Additional Restrictions
+Elmbridge,"136,626",7,37,3.87,27.08,▲,,,0.73,▲,No Additional Restrictions
+Epsom and Ewell,"79,928",1,16,2.86,20.02,▲,,,0.00,➖,No Additional Restrictions
+Fareham,"116,339",1,9,1.11,7.74,▼,,,1.72,▲,No Additional Restrictions
+Folkestone and Hythe,"112,578",3,9,1.14,7.99,▼,,,0.89,▲,No Additional Restrictions
+Gosport,"85,283",0,12,2.01,14.07,▼,,,1.17,▲,No Additional Restrictions
+Gravesham,"106,385",1,9,1.21,8.46,▼,,,0.00,➖,No Additional Restrictions
+Guildford,"147,889",5,33,3.19,22.31,▼,,,0.00,➖,No Additional Restrictions
+Hart,"96,293",3,16,2.37,16.62,➖,,,0.00,➖,No Additional Restrictions
+Hastings,"92,855",3,18,2.77,19.39,▲,,,0.00,➖,No Additional Restrictions
+Havant,"125,813",2,22,2.50,17.49,▼,,,0.79,▲,No Additional Restrictions
+Horsham,"142,217",3,22,2.21,15.47,▲,,,0.70,▲,No Additional Restrictions
+Isle of Wight,"141,538",4,9,0.91,6.36,▼,,,0.00,➖,No Additional Restrictions
+Lewes,"102,744",2,12,1.67,11.68,▲,,,0.00,➖,No Additional Restrictions
+Maidstone,"169,955",2,17,1.43,10.00,▼,,,0.00,➖,No Additional Restrictions
+Medway,"277,855",8,33,1.70,11.88,▼,,,0.00,➖,No Additional Restrictions
+Mid Sussex,"149,716",4,22,2.10,14.69,➖,,,0.00,➖,No Additional Restrictions
+Milton Keynes,"268,607",8,54,2.87,20.10,▼,,,0.00,➖,No Additional Restrictions
+Mole Valley,"87,253",6,14,2.29,16.05,▲,,,0.00,➖,No Additional Restrictions
+New Forest,"179,753",5,25,1.99,13.91,▼,,,0.00,➖,No Additional Restrictions
+Oxford,"154,327",15,95,8.79,61.56,▲,,,0.00,➖,No Additional Restrictions
+Portsmouth,"215,133",6,49,3.25,22.78,▼,,,1.39,▲,No Additional Restrictions
+Reading,"163,203",6,38,3.33,23.28,▼,,,0.61,▲,No Additional Restrictions
+Reigate and Banstead,"147,757",1,15,1.45,10.15,▼,,,1.35,▲,No Additional Restrictions
+Rother,"95,656",2,9,1.34,9.41,▼,,,0.00,➖,No Additional Restrictions
+Runnymede,"88,000",2,16,2.60,18.18,▼,,,0.00,➖,No Additional Restrictions
+Rushmoor,"95,142",1,19,2.85,19.97,▲,,,0.00,➖,No Additional Restrictions
+Sevenoaks,"120,293",5,20,2.38,16.63,▲,,,0.00,➖,No Additional Restrictions
+Slough,"149,112",8,80,7.66,53.65,▼,,,0.00,➖,No Additional Restrictions
+South Bucks,"70,043",5,34,6.93,48.54,▲,,,1.43,▲,No Additional Restrictions
+South Oxfordshire,"140,504",4,18,1.83,12.81,▲,,,0.00,➖,No Additional Restrictions
+Southampton,"252,796",12,50,2.83,19.78,▲,,,0.00,➖,No Additional Restrictions
+Spelthorne,"99,334",5,30,4.31,30.20,▼,,,2.01,▲,Area of Concern
+Surrey Heath,"88,874",4,21,3.38,23.63,▼,,,0.00,➖,No Additional Restrictions
+Swale,"148,519",4,16,1.54,10.77,▼,,,-0.67,▼,No Additional Restrictions
+Tandridge,"87,496",1,21,3.43,24.00,➖,,,0.00,➖,No Additional Restrictions
+Test Valley,"125,169",1,17,1.94,13.58,▼,,,1.60,▲,No Additional Restrictions
+Thanet,"141,819",3,11,1.11,7.76,➖,,,0.00,➖,No Additional Restrictions
+Tonbridge and Malling,"130,508",1,13,1.42,9.96,▼,,,0.00,➖,No Additional Restrictions
+Tunbridge Wells,"118,054",4,24,2.90,20.33,▼,,,0.00,➖,No Additional Restrictions
+Vale of White Horse,"133,732",7,28,2.99,20.94,▲,,,0.00,➖,No Additional Restrictions
+Waverley,"125,610",2,30,3.41,23.88,▼,,,0.00,➖,No Additional Restrictions
+Wealden,"160,175",1,11,0.98,6.87,▼,,,0.00,➖,No Additional Restrictions
+West Berkshire,"158,527",5,35,3.15,22.08,▲,,,0.63,▲,No Additional Restrictions
+West Oxfordshire,"109,800",3,23,2.99,20.95,▲,,,0.00,➖,No Additional Restrictions
+Winchester,"124,295",7,26,2.99,20.92,▲,,,0.00,➖,No Additional Restrictions
+Windsor and Maidenhead,"150,906",6,37,3.50,24.52,▲,,,1.33,▲,No Additional Restrictions
+Woking,"101,167",7,29,4.10,28.67,▼,,,0.99,▲,No Additional Restrictions
+Wokingham,"167,979",5,40,3.40,23.81,▼,,,0.60,▲,No Additional Restrictions
+Worthing,"110,025",2,18,2.34,16.36,▼,,,2.73,▲,No Additional Restrictions
+Wycombe,"174,641",8,32,2.62,18.32,▼,,,0.00,➖,No Additional Restrictions
 Yorkshire and The Humber,,,,,,,,,,,
-Barnsley,"245,199",23,164,9.55,66.88,▲,,,0.00,➖,No Additional Restrictions
-Bradford,"537,173",143,927,24.65,172.57,▲,,,3.16,▲,Area of Intervention
-Calderdale,"210,082",29,181,12.31,86.16,▼,,,1.43,▲,Area of Intervention
-Craven,"56,832",5,69,17.34,121.41,▲,,,0.00,➖,No Additional Restrictions
-Doncaster,"310,542",38,195,8.97,62.79,▲,,,1.29,▲,No Additional Restrictions
-East Riding of Yorkshire,"339,614",26,180,7.57,53.00,▲,,,0.29,▲,No Additional Restrictions
-Hambleton,"91,134",4,49,7.68,53.77,▲,,,2.19,▲,No Additional Restrictions
-Harrogate,"160,533",19,95,8.45,59.18,▲,,,0.62,▲,No Additional Restrictions
-"Kingston upon Hull, City of","260,645",16,76,4.17,29.16,▲,,,0.38,▲,No Additional Restrictions
-Kirklees,"438,727",68,461,15.01,105.08,▲,,,1.60,▲,Area of Intervention
-Leeds,"789,194",205,"1,240",22.45,157.12,▲,,,0.63,▲,Area of Intervention
-North East Lincolnshire,"159,821",3,44,3.93,27.53,▼,,,0.63,▲,No Additional Restrictions
-North Lincolnshire,"172,005",7,74,6.15,43.02,▲,,,0.58,▲,No Additional Restrictions
-Richmondshire,"53,244",6,43,11.54,80.76,▲,,,0.00,➖,No Additional Restrictions
-Rotherham,"264,671",28,270,14.57,102.01,▲,,,1.13,▲,No Additional Restrictions
-Ryedale,"54,920",4,23,5.98,41.88,▲,,,3.64,▲,No Additional Restrictions
-Scarborough,"108,736",10,53,6.96,48.74,▲,,,0.00,➖,Area of Concern
-Selby,"89,106",8,49,7.86,54.99,▼,,,0.00,➖,Area of Concern
-Sheffield,"582,506",125,697,17.09,119.66,▲,,,1.89,▲,Area of Concern
-Wakefield,"345,038",31,277,11.47,80.28,▲,,,0.58,▲,No Additional Restrictions
-York,"209,893",25,149,10.14,70.99,▲,,,-0.48,▼,No Additional Restrictions
+Barnsley,"245,199",28,176,10.25,71.78,▲,,,0.00,➖,No Additional Restrictions
+Bradford,"537,173",84,845,22.47,157.31,▼,,,3.16,▲,Area of Intervention
+Calderdale,"210,082",20,174,11.83,82.82,▼,,,1.43,▲,Area of Intervention
+Craven,"56,832",9,62,15.58,109.09,▼,,,0.00,➖,No Additional Restrictions
+Doncaster,"310,542",9,171,7.87,55.07,▲,,,1.29,▲,No Additional Restrictions
+East Riding of Yorkshire,"339,614",31,195,8.20,57.42,▲,,,0.29,▲,No Additional Restrictions
+Hambleton,"91,134",10,48,7.52,52.67,▲,,,2.19,▲,No Additional Restrictions
+Harrogate,"160,533",15,97,8.63,60.42,▲,,,0.62,▲,No Additional Restrictions
+"Kingston upon Hull, City of","260,645",9,83,4.55,31.84,▲,,,0.38,▲,No Additional Restrictions
+Kirklees,"438,727",42,429,13.97,97.78,▼,,,1.60,▲,Area of Intervention
+Leeds,"789,194",191,"1,299",23.51,164.60,▲,,,0.63,▲,Area of Intervention
+North East Lincolnshire,"159,821",4,41,3.66,25.65,▼,,,0.63,▲,No Additional Restrictions
+North Lincolnshire,"172,005",7,72,5.98,41.86,▼,,,0.58,▲,No Additional Restrictions
+Richmondshire,"53,244",5,40,10.73,75.13,▼,,,0.00,➖,No Additional Restrictions
+Rotherham,"264,671",38,254,13.71,95.97,▲,,,1.13,▲,No Additional Restrictions
+Ryedale,"54,920",0,20,5.20,36.42,▲,,,3.64,▲,No Additional Restrictions
+Scarborough,"108,736",5,49,6.44,45.06,▲,,,0.00,➖,Area of Concern
+Selby,"89,106",5,50,8.02,56.11,▼,,,0.00,➖,Area of Concern
+Sheffield,"582,506",148,755,18.52,129.61,▲,,,1.89,▲,Area of Concern
+Wakefield,"345,038",40,269,11.14,77.96,▲,,,0.58,▲,No Additional Restrictions
+York,"209,893",18,143,9.73,68.13,▲,,,-0.48,▼,No Additional Restrictions
 West Midlands,,,,,,,,,,,
-Birmingham,"1,141,374",214,"1,330",16.65,116.53,▼,,,2.72,▲,Area of Intervention
-Bromsgrove,"98,662",8,39,5.65,39.53,➖,,,0.00,➖,No Additional Restrictions
-Cannock Chase,"100,109",4,25,3.57,24.97,▼,,,1.00,▲,No Additional Restrictions
-Coventry,"366,785",30,234,9.11,63.80,▼,,,0.55,▲,No Additional Restrictions
-Dudley,"320,626",30,169,7.53,52.71,▼,,,0.62,▲,No Additional Restrictions
-East Staffordshire,"118,574",4,42,5.06,35.42,▲,,,5.90,▲,No Additional Restrictions
-"Herefordshire, County of","192,107",3,26,1.93,13.53,▲,,,1.04,▲,No Additional Restrictions
-Lichfield,"103,965",8,31,4.26,29.82,▲,,,1.92,▲,No Additional Restrictions
-Malvern Hills,"78,113",3,25,4.57,32.00,▲,,,0.00,➖,No Additional Restrictions
-Newcastle-under-Lyme,"129,490",18,69,7.61,53.29,▲,,,0.77,▲,No Additional Restrictions
-North Warwickshire,"64,850",3,21,4.63,32.38,▼,,,0.00,➖,No Additional Restrictions
-Nuneaton and Bedworth,"128,902",5,53,5.87,41.12,▼,,,0.00,➖,No Additional Restrictions
-Redditch,"84,989",0,27,4.54,31.77,▼,,,0.00,➖,No Additional Restrictions
-Rugby,"107,194",6,43,5.73,40.11,▼,,,0.00,➖,No Additional Restrictions
-Sandwell,"327,378",48,305,13.31,93.16,▼,,,2.14,▲,Area of Intervention
-Shropshire,"320,274",18,125,5.58,39.03,▲,,,0.31,▲,No Additional Restrictions
-Solihull,"214,909",33,176,11.70,81.90,▼,,,2.33,▲,Area of Intervention
-South Staffordshire,"112,126",12,67,8.54,59.75,▲,,,1.78,▲,No Additional Restrictions
-Stafford,"135,880",23,77,8.10,56.67,▲,,,0.00,➖,No Additional Restrictions
-Staffordshire Moorlands,"98,397",4,24,3.48,24.39,➖,,,0.00,➖,No Additional Restrictions
-Stoke-on-Trent,"255,833",19,122,6.81,47.69,▲,,,0.39,▲,No Additional Restrictions
-Stratford-on-Avon,"127,580",6,29,3.25,22.73,▲,,,0.00,➖,No Additional Restrictions
-Tamworth,"76,678",1,10,1.86,13.04,▼,,,0.00,➖,No Additional Restrictions
-Telford and Wrekin,"177,799",12,72,5.79,40.50,▲,,,0.00,➖,No Additional Restrictions
-Walsall,"283,378",36,183,9.23,64.58,▼,,,0.35,▲,No Additional Restrictions
+Birmingham,"1,141,374",134,"1,232",15.42,107.94,▼,,,2.72,▲,Area of Intervention
+Bromsgrove,"98,662",8,42,6.08,42.57,▲,,,0.00,➖,No Additional Restrictions
+Cannock Chase,"100,109",3,25,3.57,24.97,▼,,,1.00,▲,No Additional Restrictions
+Coventry,"366,785",37,233,9.07,63.52,▼,,,0.55,▲,No Additional Restrictions
+Dudley,"320,626",11,156,6.95,48.65,▼,,,0.62,▲,No Additional Restrictions
+East Staffordshire,"118,574",8,44,5.30,37.11,▲,,,5.90,▲,No Additional Restrictions
+"Herefordshire, County of","192,107",1,23,1.71,11.97,▼,,,1.04,▲,No Additional Restrictions
+Lichfield,"103,965",7,36,4.95,34.63,▲,,,1.92,▲,No Additional Restrictions
+Malvern Hills,"78,113",2,22,4.02,28.16,▼,,,0.00,➖,No Additional Restrictions
+Newcastle-under-Lyme,"129,490",5,68,7.50,52.51,▲,,,0.77,▲,No Additional Restrictions
+North Warwickshire,"64,850",1,17,3.74,26.21,▼,,,0.00,➖,No Additional Restrictions
+Nuneaton and Bedworth,"128,902",4,52,5.76,40.34,▼,,,0.00,➖,No Additional Restrictions
+Redditch,"84,989",4,30,5.04,35.30,▼,,,0.00,➖,No Additional Restrictions
+Rugby,"107,194",6,46,6.13,42.91,▼,,,0.00,➖,No Additional Restrictions
+Sandwell,"327,378",26,279,12.17,85.22,▼,,,2.14,▲,Area of Intervention
+Shropshire,"320,274",13,126,5.62,39.34,▲,,,0.31,▲,No Additional Restrictions
+Solihull,"214,909",11,166,11.03,77.24,▼,,,2.33,▲,Area of Intervention
+South Staffordshire,"112,126",7,64,8.15,57.08,▲,,,1.78,▲,No Additional Restrictions
+Stafford,"135,880",14,76,7.99,55.93,▲,,,0.00,➖,No Additional Restrictions
+Staffordshire Moorlands,"98,397",2,22,3.19,22.36,▼,,,0.00,➖,No Additional Restrictions
+Stoke-on-Trent,"255,833",7,109,6.09,42.61,▼,,,0.39,▲,No Additional Restrictions
+Stratford-on-Avon,"127,580",7,31,3.47,24.30,▲,,,0.00,➖,No Additional Restrictions
+Tamworth,"76,678",2,9,1.68,11.74,▼,,,0.00,➖,No Additional Restrictions
+Telford and Wrekin,"177,799",2,61,4.90,34.31,▲,,,0.00,➖,No Additional Restrictions
+Walsall,"283,378",44,203,10.23,71.64,▼,,,0.35,▲,No Additional Restrictions
 Warwick,"142,484",3,44,4.41,30.88,▼,,,0.70,▲,No Additional Restrictions
-Wolverhampton,"262,008",30,171,9.32,65.27,▼,,,0.76,▲,Area of Intervention
-Worcester,"101,891",6,39,5.47,38.28,▲,,,0.00,➖,No Additional Restrictions
-Wychavon,"127,340",13,33,3.70,25.91,➖,,,1.57,▲,No Additional Restrictions
-Wyre Forest,"101,062",6,46,6.50,45.52,▼,,,1.98,▲,No Additional Restrictions
+Wolverhampton,"262,008",19,162,8.83,61.83,▼,,,0.76,▲,Area of Intervention
+Worcester,"101,891",8,42,5.89,41.22,▲,,,0.00,➖,No Additional Restrictions
+Wychavon,"127,340",9,37,4.15,29.06,➖,,,1.57,▲,No Additional Restrictions
+Wyre Forest,"101,062",3,36,5.09,35.62,▼,,,1.98,▲,No Additional Restrictions
 South West,,,,,,,,,,,
-Bath and North East Somerset,"192,106",8,54,4.02,28.11,▲,,,0.00,➖,No Additional Restrictions
-"Bournemouth, Christchurch and Poole","395,784",15,94,3.39,23.75,▼,,,0.25,▲,No Additional Restrictions
-"Bristol, City of","463,405",10,97,2.99,20.93,▼,,,0.43,▲,No Additional Restrictions
-Cheltenham,"117,090",2,24,2.93,20.50,▼,,,0.00,➖,No Additional Restrictions
-Cornwall and Isles of Scilly,"568,210",5,161,4.05,28.33,▼,,,0.18,▲,No Additional Restrictions
-Cotswold,"89,022",2,7,1.12,7.86,▲,,,-1.12,▼,No Additional Restrictions
-Dorset,"426,516",7,38,1.27,8.91,▲,,,0.00,➖,No Additional Restrictions
-East Devon,"144,317",3,10,0.99,6.93,▼,,,0.69,▲,No Additional Restrictions
-Exeter,"130,428",13,99,10.84,75.90,▲,,,0.00,➖,No Additional Restrictions
-Forest of Dean,"86,543",6,19,3.14,21.95,▲,,,0.00,➖,No Additional Restrictions
-Gloucester,"129,285",5,24,2.65,18.56,▼,,,0.00,➖,No Additional Restrictions
-Mendip,"114,881",5,14,1.74,12.19,▼,,,0.00,➖,No Additional Restrictions
-Mid Devon,"81,695",2,7,1.22,8.57,▲,,,0.00,➖,No Additional Restrictions
-North Devon,"96,110",3,13,1.93,13.53,▲,,,0.00,➖,No Additional Restrictions
-North Somerset,"213,919",3,35,2.34,16.36,▼,,,1.87,▲,No Additional Restrictions
-Plymouth,"263,100",8,45,2.44,17.10,▼,,,1.52,▲,No Additional Restrictions
-Sedgemoor,"122,791",3,18,2.09,14.66,➖,,,0.00,➖,No Additional Restrictions
-Somerset West and Taunton,"153,866",7,19,1.76,12.35,▲,,,0.00,➖,No Additional Restrictions
-South Gloucestershire,"282,644",15,71,3.59,25.12,▲,,,0.00,➖,No Additional Restrictions
-South Hams,"86,221",1,10,1.66,11.60,▼,,,0.00,➖,No Additional Restrictions
-South Somerset,"167,861",2,18,1.53,10.72,▲,,,0.00,➖,No Additional Restrictions
-Stroud,"119,019",1,14,1.68,11.76,▼,,,0.00,➖,No Additional Restrictions
-Swindon,"221,996",2,29,1.87,13.06,▼,,,0.90,▲,No Additional Restrictions
-Teignbridge,"132,844",3,14,1.51,10.54,▲,,,0.00,➖,No Additional Restrictions
-Tewkesbury,"92,599",6,11,1.70,11.88,▲,,,0.00,➖,No Additional Restrictions
-Torbay,"135,780",16,32,3.37,23.57,▲,,,0.00,➖,No Additional Restrictions
+Bath and North East Somerset,"192,106",9,56,4.16,29.15,▲,,,0.00,➖,No Additional Restrictions
+"Bournemouth, Christchurch and Poole","395,784",30,117,4.22,29.56,▲,,,0.25,▲,No Additional Restrictions
+"Bristol, City of","463,405",10,91,2.81,19.64,▼,,,0.43,▲,No Additional Restrictions
+Cheltenham,"117,090",1,24,2.93,20.50,▼,,,0.00,➖,No Additional Restrictions
+Cornwall and Isles of Scilly,"568,210",14,132,3.32,23.23,▼,,,0.18,▲,No Additional Restrictions
+Cotswold,"89,022",4,11,1.77,12.36,▲,,,-1.12,▼,No Additional Restrictions
+Dorset,"426,516",9,41,1.37,9.61,▲,,,0.00,➖,No Additional Restrictions
+East Devon,"144,317",1,11,1.09,7.62,▼,,,0.69,▲,No Additional Restrictions
+Exeter,"130,428",29,107,11.72,82.04,▲,,,0.00,➖,No Additional Restrictions
+Forest of Dean,"86,543",2,19,3.14,21.95,▲,,,0.00,➖,No Additional Restrictions
+Gloucester,"129,285",5,23,2.54,17.79,▼,,,0.00,➖,No Additional Restrictions
+Mendip,"114,881",0,12,1.49,10.45,▼,,,0.00,➖,No Additional Restrictions
+Mid Devon,"81,695",1,8,1.40,9.79,▲,,,0.00,➖,No Additional Restrictions
+North Devon,"96,110",4,15,2.23,15.61,▲,,,0.00,➖,No Additional Restrictions
+North Somerset,"213,919",6,35,2.34,16.36,▼,,,1.87,▲,No Additional Restrictions
+Plymouth,"263,100",9,36,1.95,13.68,▼,,,1.52,▲,No Additional Restrictions
+Sedgemoor,"122,791",0,15,1.75,12.22,▼,,,0.00,➖,No Additional Restrictions
+Somerset West and Taunton,"153,866",9,27,2.51,17.55,▲,,,0.00,➖,No Additional Restrictions
+South Gloucestershire,"282,644",14,77,3.89,27.24,▲,,,0.00,➖,No Additional Restrictions
+South Hams,"86,221",1,9,1.49,10.44,▼,,,0.00,➖,No Additional Restrictions
+South Somerset,"167,861",2,17,1.45,10.13,▼,,,0.00,➖,No Additional Restrictions
+Stroud,"119,019",1,13,1.56,10.92,▼,,,0.00,➖,No Additional Restrictions
+Swindon,"221,996",3,28,1.80,12.61,▼,,,0.90,▲,No Additional Restrictions
+Teignbridge,"132,844",7,20,2.15,15.06,▲,,,0.00,➖,No Additional Restrictions
+Tewkesbury,"92,599",0,9,1.39,9.72,▼,,,0.00,➖,No Additional Restrictions
+Torbay,"135,780",10,39,4.10,28.72,▲,,,0.00,➖,No Additional Restrictions
 Torridge,"68,143",1,5,1.05,7.34,▲,,,0.00,➖,No Additional Restrictions
-West Devon,"55,528",0,5,1.29,9.00,▲,,,0.00,➖,No Additional Restrictions
-Wiltshire,"498,064",15,74,2.12,14.86,▲,,,0.20,▲,No Additional Restrictions
+West Devon,"55,528",1,5,1.29,9.00,▲,,,0.00,➖,No Additional Restrictions
+Wiltshire,"498,064",10,71,2.04,14.26,▲,,,0.20,▲,No Additional Restrictions
 Wales / Cymru,,,,,,,,,,,
-Anglesey,"70,046",0,9,1.84,12.85,▼,,,,,No Additional Restrictions
-Blaenau Gwent,"69,858",0,158,32.31,226.17,▼,,,,,Area of Intervention
-Bridgend,"147,044",0,140,13.60,95.21,▼,,,,,Area of Intervention
-Caerphilly,"181,080",0,77,6.07,42.52,▼,,,,,Area of Intervention
-Cardiff,"366,890",0,275,10.71,74.95,▲,,,,,Area of Intervention
-Carmarthenshire,"188,760",0,104,7.87,55.10,▼,,,,,No Additional Restrictions
-Ceredigion,"72,727",0,16,3.14,22.00,▲,,,,,No Additional Restrictions
-Conwy,"117,205",0,53,6.46,45.22,➖,,,,,Area of Intervention
-Denbighshire,"95,697",0,40,5.97,41.80,▼,,,,,Area of Intervention
-Flintshire,"156,105",0,85,7.78,54.45,▲,,,,,Area of Intervention
-Gwynedd,"124,549",0,15,1.72,12.04,▼,,,,,No Additional Restrictions
-Merthyr Tydfil,"60,326",0,95,22.50,157.48,▼,,,,,Area of Intervention
-Monmouthshire,"94,598",0,17,2.57,17.97,▲,,,,,No Additional Restrictions
-Neath Port Talbot,"143,305",0,73,7.28,50.94,▲,,,,,No Additional Restrictions
-Newport,"154,685",0,80,7.39,51.72,▼,,,,,Area of Intervention
-Pembrokeshire,"125,799",0,10,1.14,7.95,▼,,,,,No Additional Restrictions
-Powys,"132,450",0,26,2.80,19.63,▲,,,,,No Additional Restrictions
-Rhondda Cynon Taf,"241,279",0,367,21.73,152.11,▼,,,,,Area of Intervention
-Swansea,"246,985",0,204,11.80,82.60,▼,,,,,Area of Intervention
-Torfaen,"93,951",0,41,6.23,43.64,▼,,,,,No Additional Restrictions
-Vale of Glamorgan,"133,598",0,52,5.56,38.92,▼,,,,,No Additional Restrictions
-Wrexham,"135,955",0,57,5.99,41.93,▲,,,,,Area of Intervention
+Anglesey,"70,046",0,10,2.04,14.28,▼,,,,,No Additional Restrictions
+Blaenau Gwent,"69,858",8,144,29.45,206.13,▼,,,,,Area of Intervention
+Bridgend,"147,044",26,160,15.54,108.81,▼,,,,,Area of Intervention
+Caerphilly,"181,080",10,90,7.10,49.70,▼,,,,,Area of Intervention
+Cardiff,"366,890",46,368,14.33,100.30,▲,,,,,Area of Intervention
+Carmarthenshire,"188,760",16,123,9.31,65.16,▼,,,,,No Additional Restrictions
+Ceredigion,"72,727",3,23,4.52,31.63,▲,,,,,No Additional Restrictions
+Conwy,"117,205",18,78,9.51,66.55,▲,,,,,Area of Intervention
+Denbighshire,"95,697",9,47,7.02,49.11,▲,,,,,Area of Intervention
+Flintshire,"156,105",30,114,10.43,73.03,▲,,,,,Area of Intervention
+Gwynedd,"124,549",9,26,2.98,20.88,▲,,,,,No Additional Restrictions
+Merthyr Tydfil,"60,326",18,111,26.29,184.00,▼,,,,,Area of Intervention
+Monmouthshire,"94,598",2,19,2.87,20.08,▲,,,,,No Additional Restrictions
+Neath Port Talbot,"143,305",15,80,7.97,55.82,▲,,,,,No Additional Restrictions
+Newport,"154,685",11,100,9.24,64.65,▲,,,,,Area of Intervention
+Pembrokeshire,"125,799",2,13,1.48,10.33,▼,,,,,No Additional Restrictions
+Powys,"132,450",7,35,3.78,26.43,▲,,,,,No Additional Restrictions
+Rhondda Cynon Taf,"241,279",68,438,25.93,181.53,▼,,,,,Area of Intervention
+Swansea,"246,985",51,252,14.58,102.03,▼,,,,,Area of Intervention
+Torfaen,"93,951",8,54,8.21,57.48,▲,,,,,No Additional Restrictions
+Vale of Glamorgan,"133,598",14,69,7.38,51.65,▲,,,,,No Additional Restrictions
+Wrexham,"135,955",15,89,9.35,65.46,▲,,,,,Area of Intervention
 Scotland,,,,,,,,,,,
-Aberdeen City,"227,560",16,126,7.91,55.37,▲,,,,,No Additional Restrictions
-Aberdeenshire,"261,470",2,31,1.69,11.86,▲,,,,,No Additional Restrictions
-Angus,"116,040",3,24,2.95,20.68,▲,,,,,No Additional Restrictions
-Argyll & Bute,"86,260",7,32,5.30,37.10,▲,,,,,No Additional Restrictions
-City of Edinburgh,"518,500",109,588,16.20,113.40,▲,,,,,No Additional Restrictions
-Clackmannanshire,"51,400",2,10,2.78,19.46,▲,,,,,No Additional Restrictions
-Dumfries & Galloway,"148,790",5,49,4.70,32.93,▲,,,,,No Additional Restrictions
-Dundee City,"148,750",7,157,15.08,105.55,▲,,,,,No Additional Restrictions
-East Ayrshire,"121,840",14,65,7.62,53.35,▲,,,,,No Additional Restrictions
-East Dunbartonshire,"108,330",15,70,9.23,64.62,▲,,,,,Area of Intervention
-East Lothian,"105,790",12,50,6.75,47.26,▲,,,,,No Additional Restrictions
-East Renfrewshire,"95,170",12,58,8.71,60.94,▲,,,,,Area of Intervention
-Falkirk,"160,340",10,47,4.19,29.31,▲,,,,,No Additional Restrictions
-Fife,"371,910",27,176,6.76,47.32,▲,,,,,No Additional Restrictions
-Glasgow City,"626,410",178,"1,222",27.87,195.08,▲,,,,,Area of Intervention
-Highland,"235,540",10,45,2.73,19.11,▲,,,,,No Additional Restrictions
-Inverclyde,"78,150",8,25,4.57,31.99,▲,,,,,No Additional Restrictions
-Midlothian,"91,340",10,50,7.82,54.74,▲,,,,,No Additional Restrictions
-Moray,"95,520",2,6,0.90,6.28,▲,,,,,No Additional Restrictions
-Na h-Eileanan Siar,"26,830",2,22,11.71,82.00,▲,,,,,No Additional Restrictions
-North Ayrshire,"135,280",9,55,5.81,40.66,▲,,,,,No Additional Restrictions
-North Lanarkshire,"340,180",55,286,12.01,84.07,▲,,,,,No Additional Restrictions
-Orkney Islands,"22,190",0,3,1.93,13.52,➖,,,,,No Additional Restrictions
-Perth & Kinross,"151,290",3,35,3.30,23.13,▲,,,,,No Additional Restrictions
-Renfrewshire,"177,790",17,109,8.76,61.31,▲,,,,,Area of Intervention
-Scottish Borders,"115,270",1,36,4.46,31.23,▲,,,,,No Additional Restrictions
+Aberdeen City,"227,560",17,137,8.60,60.20,▲,,,,,No Additional Restrictions
+Aberdeenshire,"261,470",6,33,1.80,12.62,▲,,,,,No Additional Restrictions
+Angus,"116,040",7,25,3.08,21.54,▲,,,,,No Additional Restrictions
+Argyll & Bute,"86,260",6,33,5.47,38.26,➖,,,,,No Additional Restrictions
+City of Edinburgh,"518,500",127,644,17.74,124.20,▲,,,,,No Additional Restrictions
+Clackmannanshire,"51,400",0,10,2.78,19.46,▲,,,,,No Additional Restrictions
+Dumfries & Galloway,"148,790",13,59,5.66,39.65,▲,,,,,No Additional Restrictions
+Dundee City,"148,750",16,155,14.89,104.20,▲,,,,,No Additional Restrictions
+East Ayrshire,"121,840",15,70,8.21,57.45,▲,,,,,No Additional Restrictions
+East Dunbartonshire,"108,330",13,71,9.36,65.54,▲,,,,,Area of Intervention
+East Lothian,"105,790",6,47,6.35,44.43,▲,,,,,No Additional Restrictions
+East Renfrewshire,"95,170",20,71,10.66,74.60,▲,,,,,Area of Intervention
+Falkirk,"160,340",15,57,5.08,35.55,▲,,,,,No Additional Restrictions
+Fife,"371,910",23,181,6.95,48.67,▲,,,,,No Additional Restrictions
+Glasgow City,"626,410",247,"1,263",28.80,201.63,▲,,,,,Area of Intervention
+Highland,"235,540",6,43,2.61,18.26,▼,,,,,No Additional Restrictions
+Inverclyde,"78,150",8,30,5.48,38.39,▲,,,,,No Additional Restrictions
+Midlothian,"91,340",8,49,7.66,53.65,▲,,,,,No Additional Restrictions
+Moray,"95,520",0,5,0.75,5.23,➖,,,,,No Additional Restrictions
+Na h-Eileanan Siar,"26,830",7,26,13.84,96.91,▲,,,,,No Additional Restrictions
+North Ayrshire,"135,280",21,69,7.29,51.01,▲,,,,,No Additional Restrictions
+North Lanarkshire,"340,180",53,304,12.77,89.36,▲,,,,,No Additional Restrictions
+Orkney Islands,"22,190",0,3,1.93,13.52,▼,,,,,No Additional Restrictions
+Perth & Kinross,"151,290",7,40,3.78,26.44,▲,,,,,No Additional Restrictions
+Renfrewshire,"177,790",24,115,9.24,64.68,▲,,,,,Area of Intervention
+Scottish Borders,"115,270",5,33,4.09,28.63,▼,,,,,No Additional Restrictions
 Shetland Islands,"22,990",0,0,0.00,0.00,➖,,,,,No Additional Restrictions
-South Ayrshire,"112,550",4,43,5.46,38.21,▲,,,,,No Additional Restrictions
-South Lanarkshire,"319,020",68,250,11.19,78.36,▲,,,,,No Additional Restrictions
-Stirling,"94,330",7,58,8.78,61.49,▲,,,,,No Additional Restrictions
-West Dunbartonshire,"89,130",6,52,8.33,58.34,▼,,,,,Area of Intervention
-West Lothian,"182,140",35,131,10.27,71.92,▲,,,,,No Additional Restrictions
+South Ayrshire,"112,550",10,46,5.84,40.87,▼,,,,,No Additional Restrictions
+South Lanarkshire,"319,020",49,273,12.22,85.57,▲,,,,,No Additional Restrictions
+Stirling,"94,330",10,62,9.39,65.73,▲,,,,,No Additional Restrictions
+West Dunbartonshire,"89,130",9,55,8.82,61.71,▼,,,,,Area of Intervention
+West Lothian,"182,140",22,139,10.90,76.31,▲,,,,,No Additional Restrictions
