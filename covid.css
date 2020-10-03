@@ -47,7 +47,7 @@ div.loading {
   bottom: 0;
   margin: auto;
   border: 6px solid;
-  border-color: transparent transparent #FF3D00 #FF3D00;
+  border-color: transparent transparent #FF0000 #FF0000;
   width: 75px;
   height: 75px;
   border-radius: 50%;
