@@ -20,11 +20,13 @@ function touchHandler(event){
 
 //get total positive cases for current day from Public Health England API
 $.ajax({
-  url: "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&latestBy=newCasesByPublishDate&structure={%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22}",
+  //url: "https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=overview&latestBy=newCasesByPublishDate&structure={%22date%22:%22date%22,%22newCases%22:%22newCasesByPublishDate%22}",
+  url: "https://api.coronavirus.data.gov.uk/v1/data?filters=areaName=United%2520Kingdom;areaType=overview&latestBy=newCasesByPublishDate&structure=%7B%22date%22:%22date%22,%22value%22:%22newCasesByPublishDate%22%7D",
   contentType: "application/json",
   dataType: 'json',
   success: function(result){          
-      d3.select("#new_cases").append("label").text("New cases " + result.data[0].date + ": " + result.data[0].newCases).style("font-weight", "bold");          
+      console.log(result);
+      d3.select("#new_cases").append("label").text("New cases " + result.data[0].date + ": " + result.data[0].value).style("font-weight", "bold");          
   }
 })
 
@@ -48,7 +50,7 @@ search_group.append("input").attr("id", "search_box").style("width", "200px").at
 search_group.append("button").attr("id", "search_btn").text("Search");
 outer_div.append("div").attr("id", "container_list").style("width", "450px");
 
-d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://docs.google.com/spreadsheets/d/1APtcBmI4JeTR0Ysufjavgg2gy4MBiHz0Hf9eKIp5BSo/edit#gid=1865138965' target='_blank'>source</a>");
+d3.select("body").append("div").html("*Risk levels calculated from daily cases per 100,000 population (7 day rolling average). <a href='https://coronavirus.data.gov.uk/' target='_blank'>source</a>");
 
 var svg = d3.select("#container").append("svg").attr("height", h-h_var).attr("width", (h-h_var)*w_var);
 
