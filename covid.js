@@ -182,7 +182,7 @@ function popup(d){
     else {
       mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";
     }
-    mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "<br/><span style='background-color:" + risk_color + "'>" + risk_text1 + "</span><br/><span style='background-color:" + risk_color + "'>" + risk_text + "</span>";
+    mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>Tier " + d.lockdown + "<br/><span style='background-color:" + risk_color + "'>" + risk_text1 + "</span><br/><span style='background-color:" + risk_color + "'>" + risk_text + "</span>";
     //Add link to PHE page"<br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
   }  
   return mouseover_txt;
@@ -207,10 +207,10 @@ function ready(error, topo) {
       .attr("class", "map_area")
       .attr("stroke", function(d) {
       	d.lockdown = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[1];
-      	if (d.lockdown == "Restricted" || d.lockdown == "Partly Restricted" || d.lockdown == "Significantly Restricted" || d.lockdown == "Area of Intervention") {
+      	if (d.lockdown == 3) {
       		return "black";
       	}
-      	else if (d.lockdown == "Area of Concern" || d.lockdown == "Enhanced Support") {
+      	else if (d.lockdown == 2) {
       		return "blue";
       	}
       	else {
@@ -219,7 +219,7 @@ function ready(error, topo) {
       })
       .attr("stroke-opacity", function(d) {
         d.lockdown = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[1];
-        if (d.lockdown == "No Additional Restrictions") {
+        if (d.lockdown == 1) {
           return 0.3;
         }
         else {
@@ -290,6 +290,7 @@ svg2.append("circle").attr("cx",20).attr("cy",90).attr("r", 6).style("fill", "or
 svg2.append("circle").attr("cx",20).attr("cy",125).attr("r", 6).style("fill", "red").style("stroke", "black").attr("class", "legend");
 svg2.append("rect").attr("x",20).attr("y",160).attr("width", 10).attr("height", 2).style("fill", "black").attr("class", "legend");
 svg2.append("rect").attr("x",20).attr("y",180).attr("width", 10).attr("height", 2).style("fill", "blue").attr("class", "legend");
+svg2.append("rect").attr("x",20).attr("y",200).attr("width", 10).attr("height", 2).style("fill", "grey").style("opacity", 0.3).attr("class", "legend");
 
 svg2.append("text").attr("x", 40).attr("y", 20).text("On Track for Containment (<1 daily case per 100k)").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend");
 svg2.append("text").attr("x", 40).attr("y", 35).text("Monitor with test and trace").style("font-size", legend_font + "px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
@@ -303,8 +304,9 @@ svg2.append("text").attr("x", 40).attr("y", 105).text("Stay-at-home orders advis
 svg2.append("text").attr("x", 40).attr("y", 125).text("Tipping Point (25+ daily cases per 100k)").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend");
 svg2.append("text").attr("x", 40).attr("y", 140).text("Stay-at-home orders necessary").style("font-size", legend_font + "px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 
-svg2.append("text").attr("x", 40).attr("y", 160).text("Area of Intervention").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
-svg2.append("text").attr("x", 40).attr("y", 180).text("Area of Concern or Enhanced Support").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
+svg2.append("text").attr("x", 40).attr("y", 160).text("Tier 3 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
+svg2.append("text").attr("x", 40).attr("y", 180).text("Tier 2 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
+svg2.append("text").attr("x", 40).attr("y", 200).text("Tier 1 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
 
 /* zoom function (disabled)
 svg.call(zoom);
