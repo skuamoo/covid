@@ -25,7 +25,7 @@ $.ajax({
   contentType: "application/json",
   dataType: 'json',
   success: function(result){          
-      console.log(result);
+      //console.log(result);
       d3.select("#new_cases").append("label").text("New cases " + result.data[0].date + ": " + result.data[0].value).style("font-weight", "bold");          
   }
 })
@@ -324,6 +324,9 @@ d3.csv("data.csv", function(data){
   svg2.append("text").attr("x", 10).attr("y", 45).attr("font-weight", "bold").text("Total New Daily Cases (N. Irl not included): "+ totalSum);
   */
   //get all local authority areas to populate search autocomplete
+  var updated = data[0]["last_updated"];
+  d3.select("#updated_date").text("(updated " + updated + ")");
+
   var areas = []; 
   data.map(function(e) {
     areas.push(e.name);
