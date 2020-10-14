@@ -182,7 +182,7 @@ function popup(d){
     else {
       mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";
     }
-    mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>Tier " + d.lockdown + "<br/><span style='background-color:" + risk_color + "'>" + risk_text1 + "</span><br/><span style='background-color:" + risk_color + "'>" + risk_text + "</span>";
+    mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "<br/><span style='background-color:" + risk_color + "'>" + risk_text1 + "</span><br/><span style='background-color:" + risk_color + "'>" + risk_text + "</span>";
     //Add link to PHE page"<br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
   }  
   return mouseover_txt;
@@ -207,10 +207,10 @@ function ready(error, topo) {
       .attr("class", "map_area")
       .attr("stroke", function(d) {
       	d.lockdown = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[1];
-      	if (d.lockdown == 3) {
+      	if (d.lockdown == "Level 3 - Very High") {
       		return "black";
       	}
-      	else if (d.lockdown == 2) {
+      	else if (d.lockdown == "Level 2 - High") {
       		return "blue";
       	}
       	else {
@@ -219,7 +219,7 @@ function ready(error, topo) {
       })
       .attr("stroke-opacity", function(d) {
         d.lockdown = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[1];
-        if (d.lockdown == 1) {
+        if (d.lockdown == "Level 1 - Medium") {
           return 0.3;
         }
         else {
@@ -324,8 +324,8 @@ d3.csv("data.csv", function(data){
   svg2.append("text").attr("x", 10).attr("y", 45).attr("font-weight", "bold").text("Total New Daily Cases (N. Irl not included): "+ totalSum);
   */
   //get all local authority areas to populate search autocomplete
-  var updated = data[0]["last_updated"];
-  d3.select("#updated_date").text("(updated " + updated + ")");
+  //var updated = data[0]["last_updated"];
+  //d3.select("#updated_date").text("(updated " + updated + ")");
 
   var areas = []; 
   data.map(function(e) {
