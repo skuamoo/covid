@@ -1,382 +1,373 @@
-name,pop,cases_day,cases_week,rate_day,rate_week,trend,deaths_day,"New Deaths
-Last 7 Days",Death Rate,Trend2,lockdown
-North West,,,,,,,,,,,
-Allerdale,"97,527",7,72,10.55,73.83,▲,,,0.00,➖,Level 1 - Medium
-Barrow-in-Furness,"67,137",30,179,38.09,266.62,▼,,,0.00,➖,Level 1 - Medium
-Blackburn with Darwen,"148,942",115,647,62.06,434.40,▲,,,0.00,➖,Level 2 - High
-Blackpool,"139,305",68,389,39.89,279.24,▲,,,0.00,➖,Level 2 - High
-Bolton,"285,372",151,942,47.16,330.10,▲,,,0.00,➖,Level 2 - High
-Burnley,"88,527",64,515,83.11,581.74,▲,,,0.00,➖,Level 2 - High
-Bury,"190,108",120,709,53.28,372.95,▲,,,0.00,➖,Level 2 - High
-Carlisle,"108,387",27,130,17.13,119.94,▲,,,0.00,➖,Level 1 - Medium
-Cheshire East,"380,790",108,649,24.35,170.44,▲,,,0.00,➖,Level 2 - High
-Cheshire West and Chester,"340,502",113,655,27.48,192.36,▲,,,0.00,➖,Level 2 - High
-Chorley,"116,821",38,267,32.65,228.55,▼,,,0.00,➖,Level 2 - High
-Copeland,"68,424",14,67,13.99,97.92,▲,,,0.00,➖,Level 1 - Medium
-Eden,"52,881",26,83,22.42,156.96,▲,,,0.00,➖,Level 1 - Medium
-Fylde,"79,770",37,171,30.62,214.37,▲,,,0.00,➖,Level 2 - High
-Halton,"128,432",77,464,51.61,361.28,▼,,,0.00,➖,Level 3 - Very High
-Hyndburn,"80,815",47,261,46.14,322.96,▼,,,0.00,➖,Level 2 - High
-Knowsley,"149,571",184,"1,008",96.28,673.93,▼,,,0.00,➖,Level 3 - Very High
-Lancaster,"144,246",57,451,44.67,312.66,▲,,,0.00,➖,Level 2 - High
-Liverpool,"380,790",625,"3,374",126.58,886.05,▲,,,0.00,➖,Level 3 - Very High
-Manchester,"547,627",339,"2,407",62.79,439.53,▼,,,0.00,➖,Level 2 - High
-Oldham,"235,623",136,867,52.57,367.96,▼,,,0.00,➖,Level 2 - High
-Pendle,"91,405",68,431,67.36,471.53,▲,,,0.00,➖,Level 2 - High
-Preston,"141,818",72,523,52.68,368.78,▲,,,0.00,➖,Level 2 - High
-Ribble Valley,"60,057",29,175,41.63,291.39,▼,,,0.00,➖,Level 2 - High
-Rochdale,"220,001",149,877,56.95,398.63,➖,,,0.00,➖,Level 2 - High
-Rossendale,"70,895",50,262,52.79,369.56,▲,,,0.00,➖,Level 2 - High
-Salford,"254,408",157,979,54.97,384.81,▲,,,0.00,➖,Level 2 - High
-Sefton,"275,396",178,"1,282",66.50,465.51,▼,,,0.00,➖,Level 3 - Very High
-South Lakeland,"104,532",24,135,18.45,129.15,▼,,,0.00,➖,Level 1 - Medium
-South Ribble,"110,527",56,311,40.20,281.38,▲,,,0.00,➖,Level 2 - High
-St. Helens,"180,049",131,770,61.09,427.66,▲,,,0.00,➖,Level 3 - Very High
-Stockport,"291,775",100,795,38.92,272.47,▼,,,0.00,➖,Level 2 - High
-Tameside,"225,197",136,734,46.56,325.94,▲,,,0.00,➖,Level 2 - High
-Trafford,"236,370",97,723,43.70,305.88,▼,,,0.00,➖,Level 2 - High
-Warrington,"209,547",130,701,47.79,334.53,▼,,,0.00,➖,Level 2 - High
-West Lancashire,"113,949",76,567,71.08,497.59,▲,,,0.00,➖,Level 2 - High
-Wigan,"326,088",232,"1,368",59.93,419.52,▲,,,0.00,➖,Level 2 - High
-Wirral,"323,235",146,964,42.61,298.24,▼,,,0.00,➖,Level 3 - Very High
-Wyre,"111,223",38,233,29.93,209.49,▲,,,0.00,➖,Level 2 - High
-Greater London,,,,,,,,,,,
-Barking and Dagenham,"211,998",44,220,14.82,103.77,▲,,,0.00,➖,Level 1 - Medium
-Barnet,"392,140",80,441,16.07,112.46,▲,,,0.00,➖,Level 1 - Medium
-Bexley,"247,258",25,173,10.00,69.97,▲,,,0.00,➖,Level 1 - Medium
-Brent,"330,795",55,316,13.65,95.53,▲,,,0.00,➖,Level 1 - Medium
-Bromley,"331,096",54,239,10.31,72.18,▲,,,0.00,➖,Level 1 - Medium
-Camden,"262,226",55,287,15.64,109.45,▲,,,0.00,➖,Level 1 - Medium
-Croydon,"385,346",61,283,10.49,73.44,▲,,,0.00,➖,Level 1 - Medium
-Ealing,"341,982",95,502,20.97,146.79,▲,,,0.00,➖,Level 1 - Medium
-Enfield,"333,869",87,334,14.29,100.04,▲,,,0.00,➖,Level 1 - Medium
-Greenwich,"286,186",35,224,11.18,78.27,▲,,,0.00,➖,Level 1 - Medium
-Hackney and City of London,"288,371",86,397,19.67,137.67,▲,,,0.00,➖,Level 1 - Medium
-Hammersmith and Fulham,"185,426",41,223,17.18,120.26,▲,,,0.00,➖,Level 1 - Medium
-Haringey,"270,624",65,322,17.00,118.98,▲,,,0.00,➖,Level 1 - Medium
-Harrow,"250,149",53,307,17.53,122.73,▲,,,0.00,➖,Level 1 - Medium
-Havering,"257,810",63,273,15.13,105.89,▲,,,0.00,➖,Level 1 - Medium
-Hillingdon,"304,824",72,325,15.23,106.62,▲,,,0.00,➖,Level 1 - Medium
-Hounslow,"270,782",48,298,15.72,110.05,▲,,,0.00,➖,Level 1 - Medium
-Islington,"239,142",51,237,14.16,99.10,▲,,,0.00,➖,Level 1 - Medium
-Kensington and Chelsea,"156,197",24,143,13.08,91.55,▼,,,0.00,➖,Level 1 - Medium
-Kingston upon Thames,"175,470",31,174,14.17,99.16,▲,,,0.00,➖,Level 1 - Medium
-Lambeth,"325,917",55,295,12.93,90.51,▲,,,0.00,➖,Level 1 - Medium
-Lewisham,"303,536",51,239,11.25,78.74,▲,,,0.00,➖,Level 1 - Medium
-Merton,"206,186",38,165,11.43,80.02,▲,,,0.00,➖,Level 1 - Medium
-Newham,"352,005",89,381,15.46,108.24,▲,,,0.00,➖,Level 1 - Medium
-Redbridge,"303,858",112,417,19.61,137.24,▲,,,0.00,➖,Level 1 - Medium
-Richmond upon Thames,"196,904",56,300,21.77,152.36,▲,,,0.00,➖,Level 1 - Medium
-Southwark,"317,256",36,240,10.81,75.65,▲,,,0.00,➖,Level 1 - Medium
-Sutton,"204,525",35,168,11.73,82.14,▲,,,0.00,➖,Level 1 - Medium
-Tower Hamlets,"317,705",90,326,14.66,102.61,▲,,,0.00,➖,Level 1 - Medium
-Waltham Forest,"276,700",55,276,14.25,99.75,▲,,,0.00,➖,Level 1 - Medium
-Wandsworth,"326,474",65,331,14.48,101.39,▲,,,0.00,➖,Level 1 - Medium
-Westminster,"255,324",36,219,12.25,85.77,▲,,,0.00,➖,Level 1 - Medium
-North East,,,,,,,,,,,
-County Durham,"526,980",365,"1,994",54.05,378.38,▲,,,0.00,➖,Level 2 - High
-Darlington,"106,566",42,235,31.50,220.52,▲,,,0.00,➖,Level 2 - High
-Gateshead,"202,508",76,538,37.95,265.67,▲,,,0.00,➖,Level 2 - High
-Hartlepool,"93,242",60,296,45.35,317.45,▲,,,0.00,➖,Level 2 - High
-Middlesbrough,"140,545",85,413,41.98,293.86,▼,,,0.00,➖,Level 2 - High
-Newcastle upon Tyne,"300,196",153,"1,221",58.10,406.73,▼,,,0.00,➖,Level 2 - High
-North Tyneside,"205,985",75,492,34.12,238.85,▼,,,0.00,➖,Level 2 - High
-Northumberland,"320,274",95,558,24.89,174.23,▼,,,0.00,➖,Level 2 - High
-Redcar and Cleveland,"136,718",42,291,30.41,212.85,▲,,,0.00,➖,Level 2 - High
-South Tyneside,"150,265",55,375,35.65,249.56,▼,,,0.00,➖,Level 2 - High
-Stockton-on-Tees,"197,213",103,653,47.30,331.11,▲,,,0.00,➖,Level 2 - High
-Sunderland,"277,417",182,895,46.09,322.62,▲,,,0.00,➖,Level 2 - High
-East Midlands,,,,,,,,,,,
-Amber Valley,"126,678",30,156,17.59,123.15,▲,,,0.00,➖,Level 1 - Medium
-Ashfield,"127,151",57,222,24.94,174.60,▲,,,0.00,➖,Level 2 - High
-Bassetlaw,"116,839",33,139,17.00,118.97,▲,,,0.00,➖,Level 2 - High
-Blaby,"100,421",33,173,24.61,172.27,▲,,,0.00,➖,Level 1 - Medium
-Bolsover,"79,530",20,106,19.04,133.28,▲,,,0.00,➖,Level 1 - Medium
-Boston,"69,366",13,61,12.56,87.94,▲,,,0.00,➖,Level 1 - Medium
-Broxtowe,"113,272",86,391,49.31,345.19,▲,,,0.00,➖,Level 2 - High
-Charnwood,"182,643",87,529,41.38,289.64,▲,,,0.00,➖,Level 1 - Medium
-Chesterfield,"104,628",23,148,20.21,141.45,▲,,,0.00,➖,Level 1 - Medium
-Corby,"70,827",5,61,12.30,86.13,▲,,,0.00,➖,Level 1 - Medium
-Daventry,"84,484",13,77,13.02,91.14,▲,,,0.00,➖,Level 1 - Medium
-Derby,"257,174",87,379,21.05,147.37,▲,,,0.00,➖,Level 1 - Medium
-Derbyshire Dales,"71,977",13,70,13.89,97.25,▼,,,0.00,➖,Level 1 - Medium
-East Lindsey,"140,741",19,122,12.38,86.68,▲,,,0.00,➖,Level 1 - Medium
-East Northamptonshire,"93,906",23,91,13.84,96.91,▲,,,0.00,➖,Level 1 - Medium
-Erewash,"115,490",52,237,29.32,205.21,▲,,,0.00,➖,Level 1 - Medium
-Gedling,"117,786",99,443,53.73,376.11,▲,,,0.00,➖,Level 2 - High
-Harborough,"92,499",25,107,16.53,115.68,▼,,,0.00,➖,Level 1 - Medium
-High Peak,"92,221",33,193,29.90,209.28,▲,,,0.00,➖,Level 2 - High
-Hinckley and Bosworth,"112,423",24,138,17.54,122.75,▲,,,0.00,➖,Level 1 - Medium
-Kettering,"101,266",21,79,11.14,78.01,▲,,,0.00,➖,Level 1 - Medium
-Leicester,"355,218",135,728,29.28,204.94,▲,,,0.00,➖,Level 2 - High
-Lincoln,"99,039",30,128,18.46,129.24,▲,,,0.00,➖,Level 1 - Medium
-Mansfield,"108,841",58,172,22.58,158.03,▲,,,0.00,➖,Level 2 - High
-Melton,"51,100",15,52,14.54,101.76,▲,,,0.00,➖,Level 1 - Medium
-Newark and Sherwood,"121,566",41,239,28.09,196.60,▼,,,0.00,➖,Level 2 - High
-North East Derbyshire,"101,125",22,178,25.15,176.02,▲,,,0.00,➖,Level 1 - Medium
-North Kesteven,"115,985",27,117,14.41,100.88,▲,,,0.00,➖,Level 1 - Medium
-North West Leicestershire,"102,126",18,132,18.46,129.25,▲,,,0.00,➖,Level 1 - Medium
-Northampton,"225,146",54,282,17.89,125.25,▲,,,0.00,➖,Level 1 - Medium
-Nottingham,"331,069",555,"3,195",137.87,965.06,▲,,,0.00,➖,Level 2 - High
-Oadby and Wigston,"57,056",29,145,36.31,254.14,▲,,,0.00,➖,Level 2 - High
-Rushcliffe,"117,671",94,443,53.78,376.47,▲,,,0.00,➖,Level 2 - High
-Rutland,"39,697",4,48,17.27,120.92,▼,,,0.00,➖,Level 1 - Medium
-South Derbyshire,"104,493",26,128,17.50,122.50,▲,,,0.00,➖,Level 1 - Medium
-South Holland,"93,980",4,44,6.69,46.82,▲,,,0.00,➖,Level 1 - Medium
-South Kesteven,"141,853",30,184,18.53,129.71,▲,,,0.00,➖,Level 1 - Medium
-South Northamptonshire,"92,515",17,95,14.67,102.69,▲,,,0.00,➖,Level 1 - Medium
-Wellingborough,"79,478",25,102,18.33,128.34,▲,,,0.00,➖,Level 1 - Medium
-West Lindsey,"94,869",19,137,20.63,144.41,▲,,,0.00,➖,Level 1 - Medium
-East of England,,,,,,,,,,,
-Babergh,"91,401",11,57,8.91,62.36,▲,,,0.00,➖,Level 1 - Medium
-Basildon,"185,862",37,164,12.61,88.24,▲,,,0.00,➖,Level 1 - Medium
-Bedford,"171,623",30,144,11.99,83.90,▼,,,0.00,➖,Level 1 - Medium
-Braintree,"151,561",16,65,6.13,42.89,▼,,,0.00,➖,Level 1 - Medium
-Breckland,"139,329",12,63,6.46,45.22,▲,,,0.00,➖,Level 1 - Medium
-Brentwood,"76,550",16,60,11.20,78.38,▲,,,0.00,➖,Level 1 - Medium
-Broadland,"129,464",9,46,5.08,35.53,▲,,,0.00,➖,Level 1 - Medium
-Broxbourne,"96,876",17,98,14.45,101.16,▲,,,0.00,➖,Level 1 - Medium
-Cambridge,"125,758",28,128,14.54,101.78,▲,,,0.00,➖,Level 1 - Medium
-Castle Point,"90,070",13,65,10.31,72.17,▲,,,0.00,➖,Level 1 - Medium
-Central Bedfordshire,"283,606",39,153,7.71,53.95,▲,,,0.00,➖,Level 1 - Medium
-Chelmsford,"177,079",33,130,10.49,73.41,▲,,,0.00,➖,Level 1 - Medium
-Colchester,"192,523",34,131,9.72,68.04,▲,,,0.00,➖,Level 1 - Medium
-Dacorum,"154,280",20,142,13.15,92.04,▲,,,0.00,➖,Level 1 - Medium
-East Cambridgeshire,"89,362",10,55,8.79,61.55,▲,,,0.00,➖,Level 1 - Medium
-East Hertfordshire,"148,105",32,145,13.99,97.90,▲,,,0.00,➖,Level 1 - Medium
-East Suffolk,"248,249",24,100,5.75,40.28,▲,,,0.00,➖,Level 1 - Medium
-Epping Forest,"131,137",33,127,13.84,96.85,▲,,,0.00,➖,Level 1 - Medium
-Fenland,"101,491",9,36,5.07,35.47,▼,,,0.00,➖,Level 1 - Medium
-Great Yarmouth,"99,370",11,58,8.34,58.37,▼,,,0.00,➖,Level 1 - Medium
-Harlow,"86,594",19,58,9.57,66.98,▲,,,0.00,➖,Level 1 - Medium
-Hertsmere,"104,205",24,127,17.41,121.88,▲,,,0.00,➖,Level 1 - Medium
-Huntingdonshire,"177,352",17,99,7.97,55.82,▲,,,0.00,➖,Level 1 - Medium
-Ipswich,"137,532",17,65,6.75,47.26,▲,,,0.00,➖,Level 1 - Medium
-King's Lynn and West Norfolk,"151,811",6,67,6.30,44.13,▲,,,0.00,➖,Level 1 - Medium
-Luton,"214,109",64,226,15.08,105.55,▲,,,0.00,➖,Level 1 - Medium
-Maldon,"64,425",7,35,7.76,54.33,▲,,,0.00,➖,Level 1 - Medium
-Mid Suffolk,"102,493",11,55,7.67,53.66,▲,,,0.00,➖,Level 1 - Medium
-North Hertfordshire,"133,214",12,76,8.15,57.05,▼,,,0.00,➖,Level 1 - Medium
-North Norfolk,"104,552",4,34,4.65,32.52,▲,,,0.00,➖,Level 1 - Medium
-Norwich,"141,137",29,128,12.96,90.69,▲,,,0.00,➖,Level 1 - Medium
-Peterborough,"201,041",43,174,12.36,86.55,▲,,,0.00,➖,Level 1 - Medium
-Rochford,"86,981",7,54,8.87,62.08,▲,,,0.00,➖,Level 1 - Medium
-South Cambridgeshire,"157,519",17,109,9.89,69.20,▼,,,0.00,➖,Level 1 - Medium
-South Norfolk,"138,017",8,54,5.59,39.13,▲,,,0.00,➖,Level 1 - Medium
-Southend-On-Sea,"182,463",20,91,7.12,49.87,▲,,,0.00,➖,Level 1 - Medium
-St Albans,"147,373",11,114,11.05,77.35,▼,,,0.00,➖,Level 1 - Medium
-Stevenage,"87,754",8,33,5.37,37.61,▼,,,0.00,➖,Level 1 - Medium
-Tendring,"145,803",41,148,14.50,101.51,▲,,,0.00,➖,Level 1 - Medium
-Three Rivers,"93,045",15,116,17.81,124.67,▲,,,0.00,➖,Level 1 - Medium
-Thurrock,"172,525",29,148,12.25,85.78,▲,,,0.00,➖,Level 1 - Medium
-Uttlesford,"89,179",20,77,12.33,86.34,▲,,,0.00,➖,Level 1 - Medium
-Watford,"96,767",16,104,15.35,107.47,▲,,,0.00,➖,Level 1 - Medium
-Welwyn Hatfield,"122,746",23,90,10.47,73.32,▲,,,0.00,➖,Level 1 - Medium
-West Suffolk,"178,881",19,86,6.87,48.08,▲,,,0.00,➖,Level 1 - Medium
-South East,,,,,,,,,,,
-Adur,"63,869",2,19,4.25,29.75,▲,,,0.00,➖,Level 1 - Medium
-Arun,"159,827",9,43,3.84,26.90,▲,,,0.00,➖,Level 1 - Medium
-Ashford,"129,281",11,54,5.97,41.77,▲,,,0.00,➖,Level 1 - Medium
-Aylesbury Vale,"199,448",26,138,9.88,69.19,▲,,,0.00,➖,Level 1 - Medium
-Basingstoke and Deane,"175,729",9,88,7.15,50.08,▲,,,0.00,➖,Level 1 - Medium
-Bracknell Forest,"121,676",16,71,8.34,58.35,▲,,,0.00,➖,Level 1 - Medium
-Brighton and Hove,"290,395",28,224,11.02,77.14,▲,,,0.00,➖,Level 1 - Medium
-Canterbury,"164,553",15,86,7.47,52.26,▲,,,0.00,➖,Level 1 - Medium
-Cherwell,"149,161",25,137,13.12,91.85,▲,,,0.00,➖,Level 1 - Medium
-Chichester,"120,750",10,65,7.69,53.83,▲,,,0.00,➖,Level 1 - Medium
-Chiltern,"95,927",13,108,16.08,112.59,▲,,,0.00,➖,Level 1 - Medium
-Crawley,"112,448",13,56,7.11,49.80,▲,,,0.00,➖,Level 1 - Medium
-Dartford,"109,709",10,54,7.03,49.22,▲,,,0.00,➖,Level 1 - Medium
-Dover,"116,969",6,50,6.11,42.75,▲,,,0.00,➖,Level 1 - Medium
-East Hampshire,"120,681",11,78,9.23,64.63,▲,,,0.00,➖,Level 1 - Medium
-Eastbourne,"103,160",9,26,3.60,25.20,▲,,,0.00,➖,Level 1 - Medium
-Eastleigh,"131,819",12,67,7.26,50.83,▲,,,0.00,➖,Level 1 - Medium
-Elmbridge,"136,626",34,180,18.82,131.75,▲,,,0.00,➖,Level 1 - Medium
-Epsom and Ewell,"79,928",12,72,12.87,90.08,▲,,,0.00,➖,Level 1 - Medium
-Fareham,"116,339",7,46,5.65,39.54,▲,,,0.00,➖,Level 1 - Medium
-Folkestone and Hythe,"112,578",3,16,2.03,14.21,▼,,,0.00,➖,Level 1 - Medium
-Gosport,"85,283",5,31,5.19,36.35,▲,,,0.00,➖,Level 1 - Medium
-Gravesham,"106,385",6,61,8.19,57.34,▲,,,0.00,➖,Level 1 - Medium
-Guildford,"147,889",29,129,12.46,87.23,▲,,,0.00,➖,Level 1 - Medium
-Hart,"96,293",15,50,7.42,51.92,▲,,,0.00,➖,Level 1 - Medium
-Hastings,"92,855",2,37,5.69,39.85,▼,,,0.00,➖,Level 1 - Medium
-Havant,"125,813",12,48,5.45,38.15,▲,,,0.00,➖,Level 1 - Medium
-Horsham,"142,217",11,82,8.24,57.66,▼,,,0.00,➖,Level 1 - Medium
-Isle of Wight,"141,538",10,30,3.03,21.20,➖,,,0.00,➖,Level 1 - Medium
-Lewes,"102,744",5,41,5.70,39.91,▼,,,0.00,➖,Level 1 - Medium
-Maidstone,"169,955",11,82,6.89,48.25,▲,,,0.00,➖,Level 1 - Medium
-Medway,"277,855",24,111,5.71,39.95,▲,,,0.00,➖,Level 1 - Medium
-Mid Sussex,"149,716",21,81,7.73,54.10,▲,,,0.00,➖,Level 1 - Medium
-Milton Keynes,"268,607",42,186,9.89,69.25,▲,,,0.00,➖,Level 1 - Medium
-Mole Valley,"87,253",15,82,13.43,93.98,▲,,,0.00,➖,Level 1 - Medium
-New Forest,"179,753",20,94,7.47,52.29,▲,,,0.00,➖,Level 1 - Medium
-Oxford,"154,327",41,213,19.72,138.02,▲,,,0.00,➖,Level 1 - Medium
-Portsmouth,"215,133",27,205,13.61,95.29,▲,,,0.00,➖,Level 1 - Medium
-Reading,"163,203",23,126,11.03,77.20,▲,,,0.00,➖,Level 1 - Medium
-Reigate and Banstead,"147,757",19,99,9.57,67.00,▲,,,0.00,➖,Level 1 - Medium
-Rother,"95,656",6,29,4.33,30.32,▼,,,0.00,➖,Level 1 - Medium
-Runnymede,"88,000",11,60,9.74,68.18,▲,,,0.00,➖,Level 1 - Medium
-Rushmoor,"95,142",19,75,11.26,78.83,▲,,,0.00,➖,Level 1 - Medium
-Sevenoaks,"120,293",14,79,9.38,65.67,▼,,,0.00,➖,Level 1 - Medium
-Slough,"149,112",27,155,14.85,103.95,▲,,,0.00,➖,Level 1 - Medium
-South Bucks,"70,043",13,90,18.36,128.49,▲,,,0.00,➖,Level 1 - Medium
-South Oxfordshire,"140,504",28,97,9.86,69.04,▲,,,0.00,➖,Level 1 - Medium
-Southampton,"252,796",21,147,8.31,58.15,▲,,,0.00,➖,Level 1 - Medium
-Spelthorne,"99,334",14,63,9.06,63.42,▼,,,0.00,➖,Level 1 - Medium
-Surrey Heath,"88,874",14,79,12.70,88.89,▼,,,0.00,➖,Level 1 - Medium
-Swale,"148,519",27,121,11.64,81.47,▲,,,0.00,➖,Level 1 - Medium
-Tandridge,"87,496",7,46,7.51,52.57,▲,,,0.00,➖,Level 1 - Medium
-Test Valley,"125,169",22,97,11.07,77.50,▲,,,0.00,➖,Level 1 - Medium
-Thanet,"141,819",14,44,4.43,31.03,▲,,,0.00,➖,Level 1 - Medium
-Tonbridge and Malling,"130,508",9,69,7.55,52.87,▲,,,0.00,➖,Level 1 - Medium
-Tunbridge Wells,"118,054",10,72,8.71,60.99,▼,,,0.00,➖,Level 1 - Medium
-Vale of White Horse,"133,732",16,89,9.51,66.55,▲,,,0.00,➖,Level 1 - Medium
-Waverley,"125,610",26,129,14.67,102.70,▲,,,0.00,➖,Level 1 - Medium
-Wealden,"160,175",17,104,9.28,64.93,▲,,,0.00,➖,Level 1 - Medium
-West Berkshire,"158,527",12,70,6.31,44.16,▲,,,0.00,➖,Level 1 - Medium
-West Oxfordshire,"109,800",17,80,10.41,72.86,▲,,,0.00,➖,Level 1 - Medium
-Winchester,"124,295",10,86,9.88,69.19,▲,,,0.00,➖,Level 1 - Medium
-Windsor and Maidenhead,"150,906",41,177,16.76,117.29,▲,,,0.00,➖,Level 1 - Medium
-Woking,"101,167",25,79,11.16,78.09,▲,,,0.00,➖,Level 1 - Medium
-Wokingham,"167,979",22,114,9.70,67.87,▲,,,0.00,➖,Level 1 - Medium
-Worthing,"110,025",3,29,3.77,26.36,➖,,,0.00,➖,Level 1 - Medium
-Wycombe,"174,641",19,138,11.29,79.02,▲,,,0.00,➖,Level 1 - Medium
-Yorkshire and The Humber,,,,,,,,,,,
-Barnsley,"245,199",131,771,44.92,314.44,▲,,,0.00,➖,Level 2 - High
-Bradford,"537,173",355,"1,865",49.60,347.19,▲,,,0.00,➖,Level 2 - High
-Calderdale,"210,082",61,478,32.50,227.53,▼,,,0.00,➖,Level 2 - High
-Craven,"56,832",12,82,20.61,144.28,▼,,,0.00,➖,Level 1 - Medium
-Doncaster,"310,542",132,707,32.52,227.67,▲,,,0.00,➖,Level 2 - High
-East Riding of Yorkshire,"339,614",70,456,19.18,134.27,▲,,,0.00,➖,Level 1 - Medium
-Hambleton,"91,134",14,125,19.59,137.16,▲,,,0.00,➖,Level 1 - Medium
-Harrogate,"160,533",58,256,22.78,159.47,▲,,,0.00,➖,Level 1 - Medium
-"Kingston upon Hull, City of","260,645",50,276,15.13,105.89,▲,,,0.00,➖,Level 1 - Medium
-Kirklees,"438,727",166,"1,084",35.30,247.08,▲,,,0.00,➖,Level 2 - High
-Leeds,"789,194",533,"3,082",55.79,390.53,▼,,,0.00,➖,Level 2 - High
-North East Lincolnshire,"159,821",57,269,24.04,168.31,▲,,,0.00,➖,Level 1 - Medium
-North Lincolnshire,"172,005",53,265,22.01,154.07,▲,,,0.00,➖,Level 1 - Medium
-Richmondshire,"53,244",7,57,15.29,107.05,▲,,,0.00,➖,Level 1 - Medium
-Rotherham,"264,671",144,778,41.99,293.95,▲,,,0.00,➖,Level 2 - High
-Ryedale,"54,920",9,57,14.83,103.79,▲,,,0.00,➖,Level 1 - Medium
-Scarborough,"108,736",17,124,16.29,114.04,▲,,,0.00,➖,Level 1 - Medium
-Selby,"89,106",34,148,23.73,166.09,▲,,,0.00,➖,Level 1 - Medium
-Sheffield,"582,506",387,"2,562",62.83,439.82,▼,,,0.00,➖,Level 2 - High
-Wakefield,"345,038",154,864,35.77,250.41,▲,,,0.00,➖,Level 2 - High
-York,"209,893",71,561,38.18,267.28,▲,,,0.00,➖,Level 1 - Medium
-West Midlands,,,,,,,,,,,
-Birmingham,"1,141,374",314,"2,131",26.67,186.70,▲,,,0.00,➖,Level 2 - High
-Bromsgrove,"98,662",22,138,19.98,139.87,▲,,,0.00,➖,Level 1 - Medium
-Cannock Chase,"100,109",14,105,14.98,104.89,▲,,,0.00,➖,Level 1 - Medium
-Coventry,"366,785",100,643,25.04,175.31,▲,,,0.00,➖,Level 1 - Medium
-Dudley,"320,626",65,348,15.51,108.54,▲,,,0.00,➖,Level 1 - Medium
-East Staffordshire,"118,574",18,145,17.47,122.29,▲,,,0.00,➖,Level 1 - Medium
-"Herefordshire, County of","192,107",8,74,5.50,38.52,▲,,,0.00,➖,Level 1 - Medium
-Lichfield,"103,965",14,93,12.78,89.45,▲,,,0.00,➖,Level 1 - Medium
-Malvern Hills,"78,113",8,57,10.42,72.97,▲,,,0.00,➖,Level 1 - Medium
-Newcastle-under-Lyme,"129,490",28,168,18.53,129.74,▼,,,0.00,➖,Level 1 - Medium
-North Warwickshire,"64,850",10,59,13.00,90.98,▲,,,0.00,➖,Level 1 - Medium
-Nuneaton and Bedworth,"128,902",19,124,13.74,96.20,▲,,,0.00,➖,Level 1 - Medium
-Redditch,"84,989",12,89,14.96,104.72,▲,,,0.00,➖,Level 1 - Medium
-Rugby,"107,194",22,120,15.99,111.95,▲,,,0.00,➖,Level 1 - Medium
-Sandwell,"327,378",64,493,21.51,150.59,▲,,,0.00,➖,Level 2 - High
-Shropshire,"320,274",38,292,13.02,91.17,▲,,,0.00,➖,Level 1 - Medium
-Solihull,"214,909",66,383,25.46,178.21,▲,,,0.00,➖,Level 2 - High
-South Staffordshire,"112,126",22,163,20.77,145.37,▲,,,0.00,➖,Level 1 - Medium
-Stafford,"135,880",24,217,22.81,159.70,▲,,,0.00,➖,Level 1 - Medium
-Staffordshire Moorlands,"98,397",25,118,17.13,119.92,▲,,,0.00,➖,Level 1 - Medium
-Stoke-on-Trent,"255,833",60,312,17.42,121.95,▲,,,0.00,➖,Level 1 - Medium
-Stratford-on-Avon,"127,580",19,118,13.21,92.49,▼,,,0.00,➖,Level 1 - Medium
-Tamworth,"76,678",21,83,15.46,108.24,▲,,,0.00,➖,Level 1 - Medium
-Telford and Wrekin,"177,799",32,167,13.42,93.93,▲,,,0.00,➖,Level 1 - Medium
-Walsall,"283,378",61,458,23.09,161.62,▲,,,0.00,➖,Level 2 - High
-Warwick,"142,484",31,176,17.65,123.52,▲,,,0.00,➖,Level 1 - Medium
-Wolverhampton,"262,008",74,363,19.79,138.55,▲,,,0.00,➖,Level 2 - High
-Worcester,"101,891",7,74,10.38,72.63,▼,,,0.00,➖,Level 1 - Medium
-Wychavon,"127,340",18,102,11.44,80.10,▲,,,0.00,➖,Level 1 - Medium
-Wyre Forest,"101,062",24,102,14.42,100.93,▲,,,0.00,➖,Level 1 - Medium
-South West,,,,,,,,,,,
-Bath and North East Somerset,"192,106",31,225,16.73,117.12,▲,,,0.00,➖,Level 1 - Medium
-"Bournemouth, Christchurch and Poole","395,784",92,505,18.23,127.59,▲,,,0.00,➖,Level 1 - Medium
-"Bristol, City of","463,405",159,777,23.95,167.67,▲,,,0.00,➖,Level 1 - Medium
-Cheltenham,"117,090",14,86,10.49,73.45,▲,,,0.00,➖,Level 1 - Medium
-Cornwall and Isles of Scilly,"568,210",26,181,4.55,31.85,▼,,,0.00,➖,Level 1 - Medium
-Cotswold,"89,022",5,84,13.48,94.36,▲,,,0.00,➖,Level 1 - Medium
-Dorset,"426,516",42,220,7.37,51.58,▲,,,0.00,➖,Level 1 - Medium
-East Devon,"144,317",14,77,7.62,53.35,▼,,,0.00,➖,Level 1 - Medium
-Exeter,"130,428",77,414,45.35,317.42,▼,,,0.00,➖,Level 1 - Medium
-Forest of Dean,"86,543",4,41,6.77,47.38,▼,,,0.00,➖,Level 1 - Medium
-Gloucester,"129,285",14,92,10.17,71.16,▲,,,0.00,➖,Level 1 - Medium
-Mendip,"114,881",5,42,5.22,36.56,▲,,,0.00,➖,Level 1 - Medium
-Mid Devon,"81,695",5,33,5.77,40.39,▼,,,0.00,➖,Level 1 - Medium
-North Devon,"96,110",7,46,6.84,47.86,▲,,,0.00,➖,Level 1 - Medium
-North Somerset,"213,919",18,125,8.35,58.43,▲,,,0.00,➖,Level 1 - Medium
-Plymouth,"263,100",26,173,9.39,65.75,▲,,,0.00,➖,Level 1 - Medium
-Sedgemoor,"122,791",14,47,5.47,38.28,▲,,,0.00,➖,Level 1 - Medium
-Somerset West and Taunton,"153,866",19,88,8.17,57.19,▲,,,0.00,➖,Level 1 - Medium
-South Gloucestershire,"282,644",31,257,12.99,90.93,▲,,,0.00,➖,Level 1 - Medium
-South Hams,"86,221",6,47,7.79,54.51,▲,,,0.00,➖,Level 1 - Medium
-South Somerset,"167,861",7,54,4.60,32.17,▲,,,0.00,➖,Level 1 - Medium
-Stroud,"119,019",12,57,6.84,47.89,▲,,,0.00,➖,Level 1 - Medium
-Swindon,"221,996",21,103,6.63,46.40,▲,,,0.00,➖,Level 1 - Medium
-Teignbridge,"132,844",12,81,8.71,60.97,▲,,,0.00,➖,Level 1 - Medium
-Tewkesbury,"92,599",14,45,6.94,48.60,▼,,,0.00,➖,Level 1 - Medium
-Torbay,"135,780",9,99,10.42,72.91,▲,,,0.00,➖,Level 1 - Medium
-Torridge,"68,143",8,27,5.66,39.62,▲,,,0.00,➖,Level 1 - Medium
-West Devon,"55,528",3,26,6.69,46.82,▲,,,0.00,➖,Level 1 - Medium
-Wiltshire,"498,064",47,270,7.74,54.21,▲,,,0.00,➖,Level 1 - Medium
-Wales / Cymru,,,,,,,,,,,
-Isle of Anglesey,"70,046",7,47,9.59,67.10,▲,,,,,N/A
-Blaenau Gwent,"69,858",15,94,19.22,134.56,▲,,,,,N/A
-Bridgend,"147,044",46,244,23.71,165.94,▲,,,,,N/A
-Caerphilly,"181,080",32,211,16.65,116.52,▲,,,,,N/A
-Cardiff,"366,890",190,872,33.95,237.67,▲,,,,,N/A
-Carmarthenshire,"188,760",30,144,10.90,76.29,▲,,,,,N/A
-Ceredigion,"72,727",5,18,3.54,24.75,▼,,,,,N/A
-Conwy,"117,205",20,179,21.82,152.72,▲,,,,,N/A
-Denbighshire,"95,697",17,127,18.96,132.71,▲,,,,,N/A
-Flintshire,"156,105",10,238,21.78,152.46,▼,,,,,N/A
-Gwynedd,"124,549",12,135,15.48,108.39,▲,,,,,N/A
-Merthyr Tydfil,"60,326",14,121,28.65,200.58,▼,,,,,N/A
-Monmouthshire,"94,598",13,53,8.00,56.03,▲,,,,,N/A
-Neath Port Talbot,"143,305",42,210,20.93,146.54,▲,,,,,N/A
-Newport,"154,685",20,114,10.53,73.70,▲,,,,,N/A
-Pembrokeshire,"125,799",0,35,3.97,27.82,▼,,,,,N/A
-Powys,"132,450",10,71,7.66,53.61,▲,,,,,N/A
-Rhondda Cynon Taf,"241,279",61,466,27.59,193.14,▲,,,,,N/A
-Swansea,"246,985",84,378,21.86,153.05,▲,,,,,N/A
-Torfaen,"93,951",11,62,9.43,65.99,▲,,,,,N/A
-Vale of Glamorgan,"133,598",9,78,8.34,58.38,▲,,,,,N/A
-Wrexham,"135,955",34,259,27.21,190.50,▲,,,,,N/A
-Scotland,,,,,,,,,,,
-Aberdeen City,"227,560",52,278,17.45,122.17,▲,,,,,N/A
-Aberdeenshire,"261,470",17,63,3.44,24.09,▲,,,,,N/A
-Angus,"116,040",12,63,7.76,54.29,▲,,,,,N/A
-Argyll and Bute,"86,260",11,53,8.78,61.44,▲,,,,,N/A
-City of Edinburgh,"518,500",86,750,20.66,144.65,▲,,,,,N/A
-Clackmannanshire,"51,400",16,72,20.01,140.08,▲,,,,,N/A
-Dumfries and Galloway,"148,790",29,153,14.69,102.83,▲,,,,,N/A
-Dundee City,"148,750",54,249,23.91,167.39,▲,,,,,N/A
-East Ayrshire,"121,840",41,284,33.30,233.09,▲,,,,,N/A
-East Dunbartonshire,"108,330",32,205,27.03,189.24,▲,,,,,N/A
-East Lothian,"105,790",13,76,10.26,71.84,▲,,,,,N/A
-East Renfrewshire,"95,170",16,149,22.37,156.56,▲,,,,,N/A
-Falkirk,"160,340",23,164,14.61,102.28,▲,,,,,N/A
-Fife,"371,910",32,238,9.14,63.99,▲,,,,,N/A
-Glasgow City,"626,410",301,"1,853",42.26,295.81,▲,,,,,N/A
-Highland,"235,540",4,32,1.94,13.59,▼,,,,,N/A
-Inverclyde,"78,150",5,56,10.24,71.66,▲,,,,,N/A
-Midlothian,"91,340",6,74,11.57,81.02,▲,,,,,N/A
-Moray,"95,520",3,19,2.84,19.89,▲,,,,,N/A
-Na h-Eileanan Siar,"26,830",0,5,2.66,18.64,▼,,,,,N/A
-North Ayrshire,"135,280",32,194,20.49,143.41,▲,,,,,N/A
-North Lanarkshire,"340,180",175,930,39.05,273.38,▲,,,,,N/A
-Orkney Islands,"22,190",0,1,0.64,4.51,➖,,,,,N/A
-Perth and Kinross,"151,290",6,42,3.97,27.76,▼,,,,,N/A
-Renfrewshire,"177,790",70,409,32.86,230.05,▲,,,,,N/A
-Scottish Borders,"115,270",11,40,4.96,34.70,▲,,,,,N/A
-Shetland Islands,"22,990",0,3,1.86,13.05,▲,,,,,N/A
-South Ayrshire,"112,550",36,131,16.63,116.39,▲,,,,,N/A
-South Lanarkshire,"319,020",198,"1,080",48.36,338.54,▲,,,,,N/A
-Stirling,"94,330",14,94,14.24,99.65,▲,,,,,N/A
-West Dunbartonshire,"89,130",26,178,28.53,199.71,▲,,,,,N/A
-West Lothian,"182,140",55,309,24.24,169.65,▲,,,,,N/A
+name,pop,cases_day,cases_week,rate_day,rate_week,trend,last_updated,lockdown
+Allerdale,97527,5,60,8.79,61.52,▼,2020-10-16,Level 1 - Medium
+Barrow-in-Furness,67137,35,186,39.58,277.05,▲,2020-10-16,Level 2 - High
+Blackburn with Darwen,148942,91,698,66.95,468.64,▲,2020-10-16,Level 2 - High
+Blackpool,139305,65,424,43.48,304.37,▲,2020-10-16,Level 2 - High
+Bolton,285372,162,1035,51.81,362.68,▲,2020-10-16,Level 2 - High
+Burnley,88527,64,509,82.14,574.97,▼,2020-10-16,Level 2 - High
+Bury,190108,92,738,55.46,388.2,▲,2020-10-16,Level 2 - High
+Carlisle,108387,30,144,18.98,132.86,▲,2020-10-16,Level 1 - Medium
+Cheshire East,380790,103,700,26.26,183.83,▲,2020-10-16,Level 2 - High
+Cheshire West and Chester,340502,83,691,28.99,202.94,▲,2020-10-16,Level 2 - High
+Chorley,116821,40,284,34.73,243.11,▲,2020-10-16,Level 1 - Medium
+Copeland,68424,5,57,11.9,83.3,▼,2020-10-16,Level 1 - Medium
+Eden,52881,11,81,21.88,153.17,▼,2020-10-16,Level 1 - Medium
+Fylde,79770,23,182,32.59,228.16,▲,2020-10-16,Level 1 - Medium
+Halton,128432,43,459,51.06,357.39,▼,2020-10-16,Level 1 - Medium
+Hyndburn,80815,36,266,47.02,329.15,▲,2020-10-16,Level 1 - Medium
+Knowsley,149571,130,1034,98.76,691.31,▲,2020-10-16,Level 1 - Medium
+Lancaster,144246,79,482,47.74,334.15,▲,2020-10-16,Level 1 - Medium
+Liverpool,380790,297,3339,125.27,876.86,▼,2020-10-16,Level 3 - Very High
+Manchester,547627,312,2485,64.83,453.78,▲,2020-10-16,Level 2 - High
+Oldham,235623,116,898,54.45,381.12,▲,2020-10-16,Level 2 - High
+Pendle,91405,57,456,71.27,498.88,▲,2020-10-16,Level 1 - Medium
+Preston,141818,64,533,53.69,375.83,▲,2020-10-16,Level 2 - High
+Ribble Valley,60057,29,189,44.96,314.7,▲,2020-10-16,Level 1 - Medium
+Rochdale,220001,121,956,62.08,434.54,▲,2020-10-16,Level 2 - High
+Rossendale,70895,60,309,62.27,435.86,▲,2020-10-16,Level 1 - Medium
+Salford,254408,155,1056,59.3,415.08,▲,2020-10-16,Level 2 - High
+Sefton,275396,124,1270,65.88,461.15,▼,2020-10-16,Level 1 - Medium
+South Lakeland,104532,15,128,17.49,122.45,▼,2020-10-16,Level 1 - Medium
+South Ribble,110527,39,327,42.27,295.86,▲,2020-10-16,Level 1 - Medium
+St. Helens,180049,84,783,62.13,434.88,▲,2020-10-16,Level 1 - Medium
+Stockport,291775,95,804,39.36,275.55,▲,2020-10-16,Level 2 - High
+Tameside,225197,104,776,49.23,344.59,▲,2020-10-16,Level 2 - High
+Trafford,236370,108,759,45.87,321.11,▲,2020-10-16,Level 2 - High
+Warrington,209547,65,695,47.38,331.67,▼,2020-10-16,Level 2 - High
+West Lancashire,113949,50,553,69.33,485.3,▼,2020-10-16,Level 2 - High
+Wigan,326088,188,1412,61.86,433.01,▲,2020-10-16,Level 2 - High
+Wirral,323235,103,979,43.27,302.88,▲,2020-10-16,Level 1 - Medium
+Wyre,111223,41,253,32.5,227.47,▲,2020-10-16,Level 1 - Medium
+Barking and Dagenham,211998,25,213,14.35,100.47,▼,2020-10-16,Level 2- High
+Barnet,392140,65,426,15.52,108.63,▼,2020-10-16,Level 2- High
+Bexley,247258,28,171,9.88,69.16,▼,2020-10-16,Level 2- High
+Brent,330795,46,313,13.52,94.62,▼,2020-10-16,Level 2- High
+Bromley,331096,40,235,10.14,70.98,▼,2020-10-16,Level 2- High
+Camden,262226,84,313,17.05,119.36,▲,2020-10-16,Level 2- High
+Croydon,385346,29,277,10.27,71.88,▼,2020-10-16,Level 2- High
+Ealing,341982,72,482,20.13,140.94,▼,2020-10-16,Level 2- High
+Enfield,333869,40,326,13.95,97.64,▼,2020-10-16,Level 2- High
+Greenwich,286186,29,210,10.48,73.38,▼,2020-10-16,Level 2- High
+Hackney and City of London,288371,48,362,17.93,125.53,▼,2020-10-16,Level 2- High
+Hammersmith and Fulham,185426,38,236,18.18,127.27,▲,2020-10-16,Level 2- High
+Haringey,270624,47,314,16.58,116.03,▼,2020-10-16,Level 2- High
+Harrow,250149,63,315,17.99,125.92,▲,2020-10-16,Level 2- High
+Havering,257810,38,270,14.96,104.73,▼,2020-10-16,Level 2- High
+Hillingdon,304824,53,332,15.56,108.92,▲,2020-10-16,Level 2- High
+Hounslow,270782,49,308,16.25,113.74,▲,2020-10-16,Level 2- High
+Islington,239142,45,241,14.4,100.78,▲,2020-10-16,Level 2- High
+Kensington and Chelsea,156197,31,150,13.72,96.03,▲,2020-10-16,Level 2- High
+Kingston upon Thames,175470,25,173,14.08,98.59,▼,2020-10-16,Level 2- High
+Lambeth,325917,59,310,13.59,95.12,▲,2020-10-16,Level 2- High
+Lewisham,303536,32,235,11.06,77.42,▼,2020-10-16,Level 2- High
+Merton,206186,25,167,11.57,80.99,▲,2020-10-16,Level 2- High
+Newham,352005,61,387,15.71,109.94,▲,2020-10-16,Level 2- High
+Redbridge,303858,46,394,18.52,129.67,▼,2020-10-16,Level 2- High
+Richmond upon Thames,196904,32,275,19.95,139.66,▼,2020-10-16,Level 2- High
+Southwark,317256,31,245,11.03,77.22,▲,2020-10-16,Level 2- High
+Sutton,204525,26,167,11.66,81.65,▼,2020-10-16,Level 2- High
+Tower Hamlets,317705,51,321,14.43,101.04,▼,2020-10-16,Level 2- High
+Waltham Forest,276700,39,274,14.15,99.02,▼,2020-10-16,Level 2- High
+Wandsworth,326474,54,338,14.79,103.53,▲,2020-10-16,Level 2- High
+Westminster,255324,43,232,12.98,90.86,▲,2020-10-16,Level 2- High
+County Durham,526980,257,1975,53.54,374.78,▼,2020-10-16,Level 2 - High
+Darlington,106566,68,264,35.39,247.73,▲,2020-10-16,Level 2 - High
+Gateshead,202508,69,529,37.32,261.22,▼,2020-10-16,Level 2 - High
+Hartlepool,93242,37,310,47.5,332.47,▲,2020-10-16,Level 2 - High
+Middlesbrough,140545,50,415,42.18,295.28,▲,2020-10-16,Level 2 - High
+Newcastle upon Tyne,300196,167,1201,57.15,400.07,▼,2020-10-16,Level 2 - High
+North Tyneside,205985,57,473,32.8,229.63,▼,2020-10-16,Level 2 - High
+Northumberland,320274,98,573,25.56,178.91,▲,2020-10-16,Level 2 - High
+Redcar and Cleveland,136718,60,322,33.65,235.52,▲,2020-10-16,Level 2 - High
+South Tyneside,150265,41,371,35.27,246.9,▼,2020-10-16,Level 2 - High
+Stockton-on-Tees,197213,106,673,48.75,341.26,▲,2020-10-16,Level 2 - High
+Sunderland,277417,168,946,48.71,341,▲,2020-10-16,Level 2 - High
+Amber Valley,126678,13,152,17.14,119.99,▼,2020-10-16,Level 1 - Medium
+Ashfield,127151,10,211,23.71,165.94,▼,2020-10-16,Level 1 - Medium
+Bassetlaw,116839,22,152,18.58,130.09,▲,2020-10-16,Level 1 - Medium
+Blaby,100421,11,158,22.48,157.34,▼,2020-10-16,Level 1 - Medium
+Bolsover,79530,9,101,18.14,127,▼,2020-10-16,Level 1 - Medium
+Boston,69366,5,57,11.74,82.17,▼,2020-10-16,Level 1 - Medium
+Broxtowe,113272,22,347,43.76,306.34,▼,2020-10-16,Level 1 - Medium
+Charnwood,182643,22,491,38.4,268.83,▼,2020-10-16,Level 1 - Medium
+Chesterfield,104628,13,139,18.98,132.85,▼,2020-10-16,Level 2 - High
+Corby,70827,5,52,10.49,73.42,▼,2020-10-16,Level 1 - Medium
+Daventry,84484,5,72,12.17,85.22,▼,2020-10-16,Level 1 - Medium
+Derby,257174,30,369,20.5,143.48,▼,2020-10-16,Level 1 - Medium
+Derbyshire Dales,71977,9,70,13.89,97.25,➖,2020-10-16,Level 1 - Medium
+East Lindsey,140741,16,114,11.57,81,▼,2020-10-16,Level 1 - Medium
+East Northamptonshire,93906,5,84,12.78,89.45,▼,2020-10-16,Level 1 - Medium
+Erewash,115490,16,225,27.83,194.82,▼,2020-10-16,Level 2 - High
+Gedling,117786,34,434,52.64,368.46,▼,2020-10-16,Level 1 - Medium
+Harborough,92499,3,96,14.83,103.78,▼,2020-10-16,Level 1 - Medium
+High Peak,92221,36,213,33,230.97,▲,2020-10-16,Level 2 - High
+Hinckley and Bosworth,112423,15,127,16.14,112.97,▼,2020-10-16,Level 1 - Medium
+Kettering,101266,12,82,11.57,80.97,▲,2020-10-16,Level 1 - Medium
+Leicester,355218,56,679,27.31,191.15,▼,2020-10-16,Level 2 - High
+Lincoln,99039,8,129,18.61,130.25,▲,2020-10-16,Level 1 - Medium
+Mansfield,108841,10,162,21.26,148.84,▼,2020-10-16,Level 1 - Medium
+Melton,51100,1,46,12.86,90.02,▼,2020-10-16,Level 1 - Medium
+Newark and Sherwood,121566,12,216,25.38,177.68,▼,2020-10-16,Level 1 - Medium
+North East Derbyshire,101125,11,159,22.46,157.23,▼,2020-10-16,Level 2 - High
+North Kesteven,115985,5,115,14.16,99.15,▼,2020-10-16,Level 1 - Medium
+North West Leicestershire,102126,5,109,15.25,106.73,▼,2020-10-16,Level 1 - Medium
+Northampton,225146,36,281,17.83,124.81,▼,2020-10-16,Level 1 - Medium
+Nottingham,331069,109,2842,122.63,858.43,▼,2020-10-16,Level 2 - High
+Oadby and Wigston,57056,15,140,35.05,245.37,▼,2020-10-16,Level 2 - High
+Rushcliffe,117671,23,404,49.05,343.33,▼,2020-10-16,Level 1 - Medium
+Rutland,39697,6,45,16.19,113.36,▼,2020-10-16,Level 1 - Medium
+South Derbyshire,104493,10,127,17.36,121.54,▼,2020-10-16,Level 1 - Medium
+South Holland,93980,5,40,6.08,42.56,▼,2020-10-16,Level 1 - Medium
+South Kesteven,141853,15,176,17.72,124.07,▼,2020-10-16,Level 1 - Medium
+South Northamptonshire,92515,3,87,13.43,94.04,▼,2020-10-16,Level 1 - Medium
+Wellingborough,79478,4,92,16.54,115.76,▼,2020-10-16,Level 1 - Medium
+West Lindsey,94869,11,137,20.63,144.41,➖,2020-10-16,Level 1 - Medium
+Babergh,91401,3,55,8.6,60.17,▼,2020-10-16,Level 1 - Medium
+Basildon,185862,21,174,13.37,93.62,▲,2020-10-16,Level 1 - Medium
+Bedford,171623,9,123,10.24,71.67,▼,2020-10-16,Level 1 - Medium
+Braintree,151561,12,75,7.07,49.49,▲,2020-10-16,Level 1 - Medium
+Breckland,139329,11,59,6.05,42.35,▼,2020-10-16,Level 1 - Medium
+Brentwood,76550,5,54,10.08,70.54,▼,2020-10-16,Level 1 - Medium
+Broadland,129464,7,45,4.97,34.76,▼,2020-10-16,Level 1 - Medium
+Broxbourne,96876,18,99,14.6,102.19,▲,2020-10-16,Level 1 - Medium
+Cambridge,125758,43,151,17.15,120.07,▲,2020-10-16,Level 1 - Medium
+Castle Point,90070,9,65,10.31,72.17,➖,2020-10-16,Level 1 - Medium
+Central Bedfordshire,283606,16,153,7.71,53.95,➖,2020-10-16,Level 1 - Medium
+Chelmsford,177079,12,127,10.25,71.72,▼,2020-10-16,Level 1 - Medium
+Colchester,192523,21,131,9.72,68.04,➖,2020-10-16,Level 1 - Medium
+Dacorum,154280,11,135,12.5,87.5,▼,2020-10-16,Level 1 - Medium
+East Cambridgeshire,89362,3,50,7.99,55.95,▼,2020-10-16,Level 1 - Medium
+East Hertfordshire,148105,21,146,14.08,98.58,▲,2020-10-16,Level 1 - Medium
+East Suffolk,248249,11,98,5.64,39.48,▼,2020-10-16,Level 1 - Medium
+Epping Forest,131137,13,123,13.4,93.8,▼,2020-10-16,Level 1 - Medium
+Fenland,101491,11,38,5.35,37.44,▲,2020-10-16,Level 1 - Medium
+Great Yarmouth,99370,13,56,8.05,56.36,▼,2020-10-16,Level 1 - Medium
+Harlow,86594,8,58,9.57,66.98,➖,2020-10-16,Level 1 - Medium
+Hertsmere,104205,15,123,16.86,118.04,▼,2020-10-16,Level 1 - Medium
+Huntingdonshire,177352,8,88,7.09,49.62,▼,2020-10-16,Level 1 - Medium
+Ipswich,137532,6,58,6.02,42.17,▼,2020-10-16,Level 1 - Medium
+King's Lynn and West Norfolk,151811,8,58,5.46,38.21,▼,2020-10-16,Level 1 - Medium
+Luton,214109,13,207,13.81,96.68,▼,2020-10-16,Level 1 - Medium
+Maldon,64425,1,30,6.65,46.57,▼,2020-10-16,Level 1 - Medium
+Mid Suffolk,102493,12,59,8.22,57.56,▲,2020-10-16,Level 1 - Medium
+North Hertfordshire,133214,5,62,6.65,46.54,▼,2020-10-16,Level 1 - Medium
+North Norfolk,104552,10,37,5.06,35.39,▲,2020-10-16,Level 1 - Medium
+Norwich,141137,21,116,11.74,82.19,▼,2020-10-16,Level 1 - Medium
+Peterborough,201041,20,175,12.44,87.05,▲,2020-10-16,Level 1 - Medium
+Rochford,86981,5,50,8.21,57.48,▼,2020-10-16,Level 1 - Medium
+South Cambridgeshire,157519,16,108,9.79,68.56,▼,2020-10-16,Level 1 - Medium
+South Norfolk,138017,8,58,6,42.02,▲,2020-10-16,Level 1 - Medium
+Southend-On-Sea,182463,18,98,7.67,53.71,▲,2020-10-16,Level 1 - Medium
+St Albans,147373,5,104,10.08,70.57,▼,2020-10-16,Level 1 - Medium
+Stevenage,87754,7,33,5.37,37.61,➖,2020-10-16,Level 1 - Medium
+Tendring,145803,28,163,15.97,111.79,▲,2020-10-16,Level 1 - Medium
+Three Rivers,93045,17,112,17.2,120.37,▼,2020-10-16,Level 1 - Medium
+Thurrock,172525,18,140,11.59,81.15,▼,2020-10-16,Level 1 - Medium
+Uttlesford,89179,7,76,12.17,85.22,▼,2020-10-16,Level 1 - Medium
+Watford,96767,17,103,15.21,106.44,▼,2020-10-16,Level 1 - Medium
+Welwyn Hatfield,122746,20,89,10.36,72.51,▼,2020-10-16,Level 1 - Medium
+West Suffolk,178881,14,83,6.63,46.4,▼,2020-10-16,Level 1 - Medium
+Adur,63869,2,20,4.47,31.31,▲,2020-10-16,Level 1 - Medium
+Arun,159827,2,38,3.4,23.78,▼,2020-10-16,Level 1 - Medium
+Ashford,129281,5,51,5.64,39.45,▼,2020-10-16,Level 1 - Medium
+Aylesbury Vale,199448,9,130,9.31,65.18,▼,2020-10-16,Level 1 - Medium
+Basingstoke and Deane,175729,20,94,7.64,53.49,▲,2020-10-16,Level 1 - Medium
+Bracknell Forest,121676,13,74,8.69,60.82,▲,2020-10-16,Level 1 - Medium
+Brighton and Hove,290395,48,242,11.9,83.33,▲,2020-10-16,Level 1 - Medium
+Canterbury,164553,6,74,6.42,44.97,▼,2020-10-16,Level 1 - Medium
+Cherwell,149161,8,122,11.68,81.79,▼,2020-10-16,Level 1 - Medium
+Chichester,120750,5,61,7.22,50.52,▼,2020-10-16,Level 1 - Medium
+Chiltern,95927,18,105,15.64,109.46,▼,2020-10-16,Level 1 - Medium
+Crawley,112448,5,57,7.24,50.69,▲,2020-10-16,Level 1 - Medium
+Dartford,109709,10,57,7.42,51.96,▲,2020-10-16,Level 1 - Medium
+Dover,116969,7,43,5.25,36.76,▼,2020-10-16,Level 1 - Medium
+East Hampshire,120681,9,70,8.29,58,▼,2020-10-16,Level 1 - Medium
+Eastbourne,103160,4,26,3.6,25.2,➖,2020-10-16,Level 1 - Medium
+Eastleigh,131819,18,74,8.02,56.14,▲,2020-10-16,Level 1 - Medium
+Elmbridge,136626,21,168,17.57,122.96,▼,2020-10-16,Level 2 - High
+Epsom and Ewell,79928,10,75,13.4,93.83,▲,2020-10-16,Level 1 - Medium
+Fareham,116339,14,56,6.88,48.14,▲,2020-10-16,Level 1 - Medium
+Folkestone and Hythe,112578,9,22,2.79,19.54,▲,2020-10-16,Level 1 - Medium
+Gosport,85283,2,30,5.03,35.18,▼,2020-10-16,Level 1 - Medium
+Gravesham,106385,8,53,7.12,49.82,▼,2020-10-16,Level 1 - Medium
+Guildford,147889,7,116,11.21,78.44,▼,2020-10-16,Level 1 - Medium
+Hart,96293,5,47,6.97,48.81,▼,2020-10-16,Level 1 - Medium
+Hastings,92855,6,32,4.92,34.46,▼,2020-10-16,Level 1 - Medium
+Havant,125813,10,53,6.02,42.13,▲,2020-10-16,Level 1 - Medium
+Horsham,142217,15,82,8.24,57.66,➖,2020-10-16,Level 1 - Medium
+Isle of Wight,141538,6,34,3.43,24.02,▲,2020-10-16,Level 1 - Medium
+Lewes,102744,11,47,6.53,45.74,▲,2020-10-16,Level 1 - Medium
+Maidstone,169955,8,81,6.81,47.66,▼,2020-10-16,Level 1 - Medium
+Medway,277855,14,113,5.81,40.67,▲,2020-10-16,Level 1 - Medium
+Mid Sussex,149716,8,76,7.25,50.76,▼,2020-10-16,Level 1 - Medium
+Milton Keynes,268607,12,170,9.04,63.29,▼,2020-10-16,Level 1 - Medium
+Mole Valley,87253,8,75,12.28,85.96,▼,2020-10-16,Level 1 - Medium
+New Forest,179753,12,96,7.63,53.41,▲,2020-10-16,Level 1 - Medium
+Oxford,154327,26,208,19.25,134.78,▼,2020-10-16,Level 1 - Medium
+Portsmouth,215133,53,237,15.74,110.16,▲,2020-10-16,Level 1 - Medium
+Reading,163203,15,118,10.33,72.3,▼,2020-10-16,Level 1 - Medium
+Reigate and Banstead,147757,16,98,9.48,66.33,▼,2020-10-16,Level 1 - Medium
+Rother,95656,4,26,3.88,27.18,▼,2020-10-16,Level 1 - Medium
+Runnymede,88000,13,61,9.9,69.32,▲,2020-10-16,Level 1 - Medium
+Rushmoor,95142,7,68,10.21,71.47,▼,2020-10-16,Level 1 - Medium
+Sevenoaks,120293,11,78,9.26,64.84,▼,2020-10-16,Level 1 - Medium
+Slough,149112,34,154,14.75,103.28,▼,2020-10-16,Level 1 - Medium
+South Bucks,70043,22,98,19.99,139.91,▲,2020-10-16,Level 1 - Medium
+South Oxfordshire,140504,6,87,8.85,61.92,▼,2020-10-16,Level 1 - Medium
+Southampton,252796,23,144,8.14,56.96,▼,2020-10-16,Level 1 - Medium
+Spelthorne,99334,8,57,8.2,57.38,▼,2020-10-16,Level 1 - Medium
+Surrey Heath,88874,6,72,11.57,81.01,▼,2020-10-16,Level 1 - Medium
+Swale,148519,16,121,11.64,81.47,➖,2020-10-16,Level 1 - Medium
+Tandridge,87496,12,54,8.82,61.72,▲,2020-10-16,Level 1 - Medium
+Test Valley,125169,10,88,10.04,70.3,▼,2020-10-16,Level 1 - Medium
+Thanet,141819,7,43,4.33,30.32,▼,2020-10-16,Level 1 - Medium
+Tonbridge and Malling,130508,11,65,7.12,49.81,▼,2020-10-16,Level 1 - Medium
+Tunbridge Wells,118054,9,65,7.87,55.06,▼,2020-10-16,Level 1 - Medium
+Vale of White Horse,133732,9,86,9.19,64.31,▼,2020-10-16,Level 1 - Medium
+Waverley,125610,11,120,13.65,95.53,▼,2020-10-16,Level 1 - Medium
+Wealden,160175,16,100,8.92,62.43,▼,2020-10-16,Level 1 - Medium
+West Berkshire,158527,12,69,6.22,43.53,▼,2020-10-16,Level 1 - Medium
+West Oxfordshire,109800,7,80,10.41,72.86,➖,2020-10-16,Level 1 - Medium
+Winchester,124295,9,85,9.77,68.39,▼,2020-10-16,Level 1 - Medium
+Windsor and Maidenhead,150906,25,170,16.09,112.65,▼,2020-10-16,Level 1 - Medium
+Woking,101167,3,72,10.17,71.17,▼,2020-10-16,Level 1 - Medium
+Wokingham,167979,12,106,9.01,63.1,▼,2020-10-16,Level 1 - Medium
+Worthing,110025,8,32,4.15,29.08,▲,2020-10-16,Level 1 - Medium
+Wycombe,174641,18,140,11.45,80.16,▲,2020-10-16,Level 1 - Medium
+Barnsley,245199,111,831,48.42,338.91,▲,2020-10-16,Level 2 - High
+Bradford,537173,203,1935,51.46,360.22,▲,2020-10-16,Level 2 - High
+Calderdale,210082,78,523,35.56,248.95,▲,2020-10-16,Level 2 - High
+Craven,56832,10,85,21.37,149.56,▲,2020-10-16,Level 1 - Medium
+Doncaster,310542,107,761,35.01,245.06,▲,2020-10-16,Level 2 - High
+East Riding of Yorkshire,339614,68,486,20.44,143.1,▲,2020-10-16,Level 1 - Medium
+Hambleton,91134,17,130,20.38,142.65,▲,2020-10-16,Level 1 - Medium
+Harrogate,160533,40,261,23.23,162.58,▲,2020-10-16,Level 1 - Medium
+"Kingston upon Hull, City of",260645,38,295,16.17,113.18,▲,2020-10-16,Level 1 - Medium
+Kirklees,438727,139,1141,37.15,260.07,▲,2020-10-16,Level 2 - High
+Leeds,789194,306,3170,57.38,401.68,▲,2020-10-16,Level 2 - High
+North East Lincolnshire,159821,54,298,26.64,186.46,▲,2020-10-16,Level 1 - Medium
+North Lincolnshire,172005,26,267,22.18,155.23,▲,2020-10-16,Level 1 - Medium
+Richmondshire,53244,8,61,16.37,114.57,▲,2020-10-16,Level 1 - Medium
+Rotherham,264671,98,820,44.26,309.82,▲,2020-10-16,Level 2 - High
+Ryedale,54920,9,58,15.09,105.61,▲,2020-10-16,Level 1 - Medium
+Scarborough,108736,14,124,16.29,114.04,➖,2020-10-16,Level 1 - Medium
+Selby,89106,17,153,24.53,171.71,▲,2020-10-16,Level 1 - Medium
+Sheffield,582506,242,2557,62.71,438.97,▼,2020-10-16,Level 2 - High
+Wakefield,345038,95,916,37.93,265.48,▲,2020-10-16,Level 2 - High
+York,209893,75,590,40.16,281.1,▲,2020-10-16,Level 2 - High
+Birmingham,1141374,516,2465,30.85,215.97,▲,2020-10-16,Level 2 - High
+Bromsgrove,98662,33,160,23.17,162.17,▲,2020-10-16,Level 1 - Medium
+Cannock Chase,100109,48,146,20.83,145.84,▲,2020-10-16,Level 1 - Medium
+Coventry,366785,108,683,26.6,186.21,▲,2020-10-16,Level 1 - Medium
+Dudley,320626,64,380,16.93,118.52,▲,2020-10-16,Level 1 - Medium
+East Staffordshire,118574,14,144,17.35,121.44,▼,2020-10-16,Level 1 - Medium
+"Herefordshire, County of",192107,14,76,5.65,39.56,▲,2020-10-16,Level 1 - Medium
+Lichfield,103965,25,105,14.43,101,▲,2020-10-16,Level 1 - Medium
+Malvern Hills,78113,9,59,10.79,75.53,▲,2020-10-16,Level 1 - Medium
+Newcastle-under-Lyme,129490,40,181,19.97,139.78,▲,2020-10-16,Level 1 - Medium
+North Warwickshire,64850,13,64,14.1,98.69,▲,2020-10-16,Level 1 - Medium
+Nuneaton and Bedworth,128902,18,130,14.41,100.85,▲,2020-10-16,Level 1 - Medium
+Redditch,84989,17,94,15.8,110.6,▲,2020-10-16,Level 1 - Medium
+Rugby,107194,18,122,16.26,113.81,▲,2020-10-16,Level 1 - Medium
+Sandwell,327378,129,583,25.44,178.08,▲,2020-10-16,Level 2 - High
+Shropshire,320274,29,283,12.62,88.36,▼,2020-10-16,Level 1 - Medium
+Solihull,214909,69,416,27.65,193.57,▲,2020-10-16,Level 2 - High
+South Staffordshire,112126,40,185,23.57,164.99,▲,2020-10-16,Level 1 - Medium
+Stafford,135880,37,221,23.23,162.64,▲,2020-10-16,Level 1 - Medium
+Staffordshire Moorlands,98397,30,139,20.18,141.26,▲,2020-10-16,Level 1 - Medium
+Stoke-on-Trent,255833,77,364,20.33,142.28,▲,2020-10-16,Level 1 - Medium
+Stratford-on-Avon,127580,20,121,13.55,94.84,▲,2020-10-16,Level 1 - Medium
+Tamworth,76678,13,92,17.14,119.98,▲,2020-10-16,Level 1 - Medium
+Telford and Wrekin,177799,43,191,15.35,107.42,▲,2020-10-16,Level 1 - Medium
+Walsall,283378,97,505,25.46,178.21,▲,2020-10-16,Level 2 - High
+Warwick,142484,27,182,18.25,127.73,▲,2020-10-16,Level 1 - Medium
+Wolverhampton,262008,108,435,23.72,166.03,▲,2020-10-16,Level 2 - High
+Worcester,101891,12,76,10.66,74.59,▲,2020-10-16,Level 1 - Medium
+Wychavon,127340,16,104,11.67,81.67,▲,2020-10-16,Level 1 - Medium
+Wyre Forest,101062,12,100,14.14,98.95,▼,2020-10-16,Level 1 - Medium
+Bath and North East Somerset,192106,23,224,16.66,116.6,▼,2020-10-16,Level 1 - Medium
+"Bournemouth, Christchurch and Poole",395784,31,471,17,119,▼,2020-10-16,Level 1 - Medium
+"Bristol, City of",463405,164,833,25.68,179.76,▲,2020-10-16,Level 1 - Medium
+Cheltenham,117090,4,75,9.15,64.05,▼,2020-10-16,Level 1 - Medium
+Cornwall and Isles of Scilly,568210,29,170,4.27,29.92,▼,2020-10-16,Level 1 - Medium
+Cotswold,89022,9,84,13.48,94.36,➖,2020-10-16,Level 1 - Medium
+Dorset,426516,25,224,7.5,52.52,▲,2020-10-16,Level 1 - Medium
+East Devon,144317,8,69,6.83,47.81,▼,2020-10-16,Level 1 - Medium
+Exeter,130428,39,379,41.51,290.58,▼,2020-10-16,Level 1 - Medium
+Forest of Dean,86543,8,42,6.93,48.53,▲,2020-10-16,Level 1 - Medium
+Gloucester,129285,9,82,9.06,63.43,▼,2020-10-16,Level 1 - Medium
+Mendip,114881,9,45,5.6,39.17,▲,2020-10-16,Level 1 - Medium
+Mid Devon,81695,8,39,6.82,47.74,▲,2020-10-16,Level 1 - Medium
+North Devon,96110,10,50,7.43,52.02,▲,2020-10-16,Level 1 - Medium
+North Somerset,213919,14,120,8.01,56.1,▼,2020-10-16,Level 1 - Medium
+Plymouth,263100,25,176,9.56,66.89,▲,2020-10-16,Level 1 - Medium
+Sedgemoor,122791,11,54,6.28,43.98,▲,2020-10-16,Level 1 - Medium
+Somerset West and Taunton,153866,10,91,8.45,59.14,▲,2020-10-16,Level 1 - Medium
+South Gloucestershire,282644,23,250,12.64,88.45,▼,2020-10-16,Level 1 - Medium
+South Hams,86221,3,41,6.79,47.55,▼,2020-10-16,Level 1 - Medium
+South Somerset,167861,10,56,4.77,33.36,▲,2020-10-16,Level 1 - Medium
+Stroud,119019,13,63,7.56,52.93,▲,2020-10-16,Level 1 - Medium
+Swindon,221996,14,88,5.66,39.64,▼,2020-10-16,Level 1 - Medium
+Teignbridge,132844,2,71,7.64,53.45,▼,2020-10-16,Level 1 - Medium
+Tewkesbury,92599,7,45,6.94,48.6,➖,2020-10-16,Level 1 - Medium
+Torbay,135780,11,88,9.26,64.81,▼,2020-10-16,Level 1 - Medium
+Torridge,68143,1,23,4.82,33.75,▼,2020-10-16,Level 1 - Medium
+West Devon,55528,5,27,6.95,48.62,▲,2020-10-16,Level 1 - Medium
+Wiltshire,498064,52,275,7.89,55.21,▲,2020-10-16,Level 1 - Medium
+Isle of Anglesey,70046,0,16,3.26,22.84,▼,2020-10-16,Level 1 - Medium
+Blaenau Gwent,69858,0,53,10.84,75.87,▼,2020-10-16,Level 1 - Medium
+Bridgend,147044,0,133,12.92,90.45,▼,2020-10-16,Level 1 - Medium
+Caerphilly,181080,0,90,7.1,49.7,▼,2020-10-16,Level 1 - Medium
+Cardiff,366890,0,523,20.36,142.55,▼,2020-10-16,Level 1 - Medium
+Carmarthenshire,188760,0,60,4.54,31.79,▼,2020-10-16,Level 1 - Medium
+Ceredigion,72727,0,12,2.36,16.5,▼,2020-10-16,Level 1 - Medium
+Conwy,117205,0,82,9.99,69.96,▼,2020-10-16,Level 1 - Medium
+Denbighshire,95697,0,54,8.06,56.43,▼,2020-10-16,Level 1 - Medium
+Flintshire,156105,0,105,9.61,67.26,▼,2020-10-16,Level 1 - Medium
+Gwynedd,124549,0,52,5.96,41.75,▼,2020-10-16,Level 1 - Medium
+Merthyr Tydfil,60326,0,43,10.18,71.28,▼,2020-10-16,Level 1 - Medium
+Monmouthshire,94598,0,33,4.98,34.88,▼,2020-10-16,Level 1 - Medium
+Neath Port Talbot,143305,0,95,9.47,66.29,▼,2020-10-16,Level 1 - Medium
+Newport,154685,0,56,5.17,36.2,▼,2020-10-16,Level 1 - Medium
+Pembrokeshire,125799,0,20,2.27,15.9,▼,2020-10-16,Level 1 - Medium
+Powys,132450,0,26,2.8,19.63,▼,2020-10-16,Level 1 - Medium
+Rhondda Cynon Taf,241279,0,190,11.25,78.75,▼,2020-10-16,Level 1 - Medium
+Swansea,246985,0,174,10.06,70.45,▼,2020-10-16,Level 1 - Medium
+Torfaen,93951,0,37,5.63,39.38,▼,2020-10-16,Level 1 - Medium
+Vale of Glamorgan,133598,0,33,3.53,24.7,▼,2020-10-16,Level 1 - Medium
+Wrexham,135955,0,104,10.93,76.5,▼,2020-10-16,Level 1 - Medium
+Aberdeen City,227560,19,203,12.74,89.21,▼,2020-10-16,Level 1 - Medium
+Aberdeenshire,261470,13,60,3.28,22.95,▲,2020-10-16,Level 1 - Medium
+Angus,116040,7,62,7.63,53.43,▼,2020-10-16,Level 1 - Medium
+Argyll and Bute,86260,7,50,8.28,57.96,▼,2020-10-16,Level 1 - Medium
+City of Edinburgh,518500,93,719,19.81,138.67,▼,2020-10-16,Level 1 - Medium
+Clackmannanshire,51400,11,70,19.46,136.19,▼,2020-10-16,Level 1 - Medium
+Dumfries and Galloway,148790,29,169,16.23,113.58,▲,2020-10-16,Level 1 - Medium
+Dundee City,148750,53,276,26.51,185.55,▲,2020-10-16,Level 1 - Medium
+East Ayrshire,121840,41,280,32.83,229.81,▼,2020-10-16,Level 1 - Medium
+East Dunbartonshire,108330,37,208,27.43,192.01,▲,2020-10-16,Level 1 - Medium
+East Lothian,105790,6,73,9.86,69,▼,2020-10-16,Level 1 - Medium
+East Renfrewshire,95170,23,153,22.97,160.76,▲,2020-10-16,Level 1 - Medium
+Falkirk,160340,10,149,13.28,92.93,▼,2020-10-16,Level 1 - Medium
+Fife,371910,27,238,9.14,63.99,➖,2020-10-16,Level 1 - Medium
+Glasgow City,626410,241,1799,41.03,287.19,▼,2020-10-16,Level 1 - Medium
+Highland,235540,7,34,2.06,14.43,▲,2020-10-16,Level 1 - Medium
+Inverclyde,78150,6,57,10.42,72.94,▲,2020-10-16,Level 1 - Medium
+Midlothian,91340,12,70,10.95,76.64,▼,2020-10-16,Level 1 - Medium
+Moray,95520,0,15,2.24,15.7,▼,2020-10-16,Level 1 - Medium
+Na h-Eileanan Siar,26830,1,3,1.6,11.18,▼,2020-10-16,Level 1 - Medium
+North Ayrshire,135280,36,204,21.54,150.8,▲,2020-10-16,Level 1 - Medium
+North Lanarkshire,340180,159,954,40.06,280.44,▲,2020-10-16,Level 1 - Medium
+Orkney Islands,22190,2,3,1.93,13.52,▲,2020-10-16,Level 1 - Medium
+Perth and Kinross,151290,5,39,3.68,25.78,▼,2020-10-16,Level 1 - Medium
+Renfrewshire,177790,68,415,33.35,233.42,▲,2020-10-16,Level 1 - Medium
+Scottish Borders,115270,5,41,5.08,35.57,▲,2020-10-16,Level 1 - Medium
+Shetland Islands,22990,0,3,1.86,13.05,➖,2020-10-16,Level 1 - Medium
+South Ayrshire,112550,26,145,18.4,128.83,▲,2020-10-16,Level 1 - Medium
+South Lanarkshire,319020,150,1061,47.51,332.58,▼,2020-10-16,Level 1 - Medium
+Stirling,94330,9,88,13.33,93.29,▼,2020-10-16,Level 1 - Medium
+West Dunbartonshire,89130,37,191,30.61,214.29,▲,2020-10-16,Level 1 - Medium
+West Lothian,182140,45,314,24.63,172.39,▲,2020-10-16,Level 1 - Medium
+England Total,55913186,11973,92320,23.58758707,165.1131095,,,
+Scotland Total,5438100,1185,8146,21.39928074,149.7949652,,,
+Wales Total,3152892,0,1991,9.021196141,63.14837299,,,
