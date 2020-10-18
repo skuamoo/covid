@@ -194,6 +194,7 @@ function process_data(all_data) {
   all_data.forEach(function(d) {
     data.set(d.name, [+d.rate_day, d.lockdown, d.cases_day, d.rate_week, d.trend, d.cases_week]);
   });
+  build_table(all_data);
 d3.queue()
   .defer(d3.json, "uk_la.geojson")
   .await(ready);
@@ -396,8 +397,8 @@ function zoomed() {
         .attr('transform', d3.event.transform);
     }
 */
+function build_table(data) {
 
-d3.csv("data.csv", function(data){
   /* calculate total cases from data
   var totalSum = d3.sum(data.map(function(d){ return d.cases_day}));
   svg2.append("text").attr("x", 10).attr("y", 45).attr("font-weight", "bold").text("Total New Daily Cases (N. Irl not included): "+ totalSum);
