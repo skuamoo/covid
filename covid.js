@@ -495,4 +495,4 @@ function build_table(data) {
         .style("font-size", 14+ mobile_font + "px");
   }
   drawTable(data, "#container_list", { width: table_width, height: table_height}, valueFunc, textFunc, columns);
-});
+}
