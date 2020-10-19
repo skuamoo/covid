@@ -255,15 +255,15 @@ function popup(d){
   }   
   else {
     mouseover_txt = mouseover_txt + "Daily cases per 100k: " + d.total + "<br/>" + "Weekly cases per 100k: " + d.weekly ;
-    if(d.trend == "▲") {
+    if(d.trend == "") { //"▲") {
       mouseover_txt = mouseover_txt + "<label style='color:red'>" + d.trend + "</label>";
     }
-    else if (d.trend == "▼") {
+    else if (d.trend == "") { // "▼") {
       mouseover_txt = mouseover_txt + "<label style='color:green'>" + d.trend + "</label>";
     }
-    else {
-      mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";
-    }
+//    else {
+//      mouseover_txt = mouseover_txt + "<label>" + d.trend + "</label>";
+//    }
     mouseover_txt = mouseover_txt + "<br/>New cases today: " + d.cases + "<br/>New cases past week: " + d.cases_week + "<br/><i>" + d.lockdown + "<br/><span style='background-color:" + risk_color + "'>" + risk_text1 + "</span><br/><span style='background-color:" + risk_color + "'>" + risk_text + "</span>";
     //Add link to PHE page"<br/><a href='https://coronavirus.data.gov.uk/cases?areaType=ltla&areaName=" + d.properties.lad18nm +"' target='_blank'>details</a>";
   }  
