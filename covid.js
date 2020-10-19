@@ -127,7 +127,7 @@ $.ajax({
         dataType: 'json',
         success: function(result){
             latest_date_data = result.data[0].date;
-            d3.select("#updated_date").text("(updated " + latest_date_data + ")");
+            d3.select("#updated_date").text("(" + latest_date_data + ")");
             get_data(Last7Days(result.data[0].date));
             //d3.select("#new_cases").append("label").text("New cases " + result.data[0].date + ": " + result.data[0].value).style("font-weight", "bold");          
             d3.select("#new_cases").append("label").text("New cases " + result.data[0].date + ": " + result.data[0].value).style("font-weight", "bold");          
