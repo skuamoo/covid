@@ -289,10 +289,10 @@ function ready(error, topo) {
       .attr("class", "map_area")
       .attr("stroke", function(d) {
       	d.lockdown = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[1];
-      	if (d.lockdown == "Level 3 – Very High") {
+      	if (d.lockdown == "Level 3 - Very High") {
       		return "black";
       	}
-      	else if (d.lockdown == "Level 2 – High") {
+      	else if (d.lockdown == "Level 2 - High") {
       		return "blue";
       	}
       	else {
@@ -301,7 +301,7 @@ function ready(error, topo) {
       })
       .attr("stroke-opacity", function(d) {
         d.lockdown = (typeof data.get(d.properties.lad18nm) == "undefined") ? "unavailable":data.get(d.properties.lad18nm)[1];
-        if (d.lockdown == "Level 1 - Medium") {
+        if (d.lockdown == "Level 1 - Medium" || d.lockdown == "N/A") {
           return 0.3;
         }
         else {
