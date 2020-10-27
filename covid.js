@@ -131,7 +131,7 @@ $.ajax({
             d3.select("#updated_date").text("(" + latest_date_data + ")");
             get_data(Last7Days(result.data[0].date));
             //d3.select("#new_cases").append("label").text("New cases " + result.data[0].date + ": " + result.data[0].value).style("font-weight", "bold");          
-            d3.select("#new_cases").append("label").text("Total New cases: " + result.data[0].value + ", Deaths: " + result.data[0].deaths).style("font-weight", "bold");          
+            d3.select("#new_cases").append("label").text("New cases: " + result.data[0].value + ", Deaths: " + result.data[0].deaths).style("font-weight", "bold");          
         }
     })
 //set up map
