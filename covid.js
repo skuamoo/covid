@@ -165,13 +165,15 @@ function calculate(all_data){
   //var grouped_data = d3.nest().key(function(d) { return d.name;}).entries(all_data);
   //{key:name, values:[{name:name, value:value, date:date}]}
   var grouped_data = d3.nest().key(function(d) { return d.area;}).rollup(function(v) { 
-    var cases_week = d3.sum(v, function(d) { return d.value; });
-    var cases_day = v.filter(function(dt) { return dt.date === latest_date_data; })[0]["value"];
+  	var cases_week = d3.sum(v, function(d) { return d.value; });
+    //var cases_day = v.filter(function(dt) { return dt.date === latest_date_data; })[0]["value"];
+    var cases_day = (v.filter(function(dt) { return dt.date === latest_date_data; })[0]) ? (v.filter(function(dt) { return dt.date === latest_date_data; })[0]["value"]) : "unreported";
     var area_name = v[0]["area"];
     var area_pop = (populations[area_name]) ? populations[area_name] : 100000;
     var trend = (cases_day > d3.mean(v, function(d) {return d.value;})) ? "▲" : ((cases_day < d3.mean(v, function(d) {return d.value;})) ? "▼" : "➖")
     var lockdown = (tiers[area_name]) ? tiers[area_name] : 'N/A';
-    var deaths_day = v.filter(function(dt) { return dt.date === latest_date_data; })[0]["newDeaths"];
+    //var deaths_day = v.filter(function(dt) { return dt.date === latest_date_data; })[0]["newDeaths"];
+    var deaths_day = (v.filter(function(dt) { return dt.date === latest_date_data; })[0]) ? (v.filter(function(dt) { return dt.date === latest_date_data; })[0]["newDeaths"]) : "unreported";
     var deaths_week = d3.sum(v, function(d) { return d.newDeaths; });
     return {
       cases_week: cases_week,
@@ -305,7 +307,8 @@ function ready(error, topo) {
       		return "blue";
       	}
       	else {
-      		return "grey";
+//      		return "grey";
+			return "black";
       	}
       })
       .attr("stroke-opacity", function(d) {
@@ -379,9 +382,9 @@ svg2.append("circle").attr("cx",20).attr("cy",20).attr("r", 6).style("fill", "gr
 svg2.append("circle").attr("cx",20).attr("cy",55).attr("r", 6).style("fill", "yellow").style("stroke", "black").attr("class", "legend");
 svg2.append("circle").attr("cx",20).attr("cy",90).attr("r", 6).style("fill", "orange").style("stroke", "black").attr("class", "legend");;
 svg2.append("circle").attr("cx",20).attr("cy",125).attr("r", 6).style("fill", "red").style("stroke", "black").attr("class", "legend");
-svg2.append("rect").attr("x",20).attr("y",160).attr("width", 10).attr("height", 2).style("fill", "black").attr("class", "legend");
-svg2.append("rect").attr("x",20).attr("y",180).attr("width", 10).attr("height", 2).style("fill", "blue").attr("class", "legend");
-svg2.append("rect").attr("x",20).attr("y",200).attr("width", 10).attr("height", 2).style("fill", "grey").style("opacity", 0.3).attr("class", "legend");
+//svg2.append("rect").attr("x",20).attr("y",160).attr("width", 10).attr("height", 2).style("fill", "black").attr("class", "legend");
+//svg2.append("rect").attr("x",20).attr("y",180).attr("width", 10).attr("height", 2).style("fill", "blue").attr("class", "legend");
+//svg2.append("rect").attr("x",20).attr("y",200).attr("width", 10).attr("height", 2).style("fill", "grey").style("opacity", 0.3).attr("class", "legend");
 
 svg2.append("text").attr("x", 40).attr("y", 20).text("On Track for Containment (<1 daily case per 100k)").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend");
 svg2.append("text").attr("x", 40).attr("y", 35).text("Monitor with test and trace").style("font-size", legend_font + "px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
@@ -395,9 +398,9 @@ svg2.append("text").attr("x", 40).attr("y", 105).text("Stay-at-home orders advis
 svg2.append("text").attr("x", 40).attr("y", 125).text("Tipping Point (25+ daily cases per 100k)").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend");
 svg2.append("text").attr("x", 40).attr("y", 140).text("Stay-at-home orders necessary").style("font-size", legend_font + "px").style("font-style", "italic").attr("alignment-baseline","middle").attr("class", "legend");
 
-svg2.append("text").attr("x", 40).attr("y", 160).text("Tier 3 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
-svg2.append("text").attr("x", 40).attr("y", 180).text("Tier 2 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
-svg2.append("text").attr("x", 40).attr("y", 200).text("Tier 1 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
+//svg2.append("text").attr("x", 40).attr("y", 160).text("Tier 3 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
+//svg2.append("text").attr("x", 40).attr("y", 180).text("Tier 2 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
+//svg2.append("text").attr("x", 40).attr("y", 200).text("Tier 1 Restrictions").style("font-size", legend_font + "px").attr("alignment-baseline","middle").attr("class", "legend")
 
 /* zoom function (disabled)
 svg.call(zoom);
